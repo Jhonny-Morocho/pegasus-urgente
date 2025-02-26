@@ -1,0 +1,58 @@
+{
+  "antecedentesEspecificos": [
+    {
+      "idAntecedente": 1,
+      "descripcionAntecedente": "Registro de vehículos motorizados por RUT",
+      "descripcionOrigen": "Servicio de Registro Civil",
+      "idOrigen": 1
+    },
+    {
+      "idAntecedente": 2,
+      "descripcionAntecedente": "Informe de Parentesco",
+      "descripcionOrigen": "Servicio de Registro Civil",
+      "idOrigen": 1
+    },
+    {
+      "idAntecedente": 3,
+      "descripcionAntecedente": "Identificación de individuo",
+      "descripcionOrigen": "Servicio de Registro Civil",
+      "idOrigen": 1
+    },
+    {
+      "idAntecedente": 4,
+      "descripcionAntecedente": "Informe de impuestos",
+      "descripcionOrigen": "Servicio de Impuestos Internos",
+      "idOrigen": 2
+    },
+    {
+      "idAntecedente": 5,
+      "descripcionAntecedente": "Registro de sentencia",
+      "descripcionOrigen": "Poder Judicial",
+      "idOrigen": 3
+    },
+    {
+      "idAntecedente": 6,
+      "descripcionAntecedente": "Informe de movimientos financieros",
+      "descripcionOrigen": "Superintendencia de Bancos e Inst. Financieras",
+      "idOrigen": 4
+    }
+  ],
+  "origenes": [
+    {
+      "idOrigen": 1,
+      "descripcionOrigen": "Servicio de Registro Civil"
+    },
+    {
+      "idOrigen": 2,
+      "descripcionOrigen": "Servicio de Impuestos Internos"
+    },
+    {
+      "idOrigen": 3,
+      "descripcionOrigen": "Poder Judicial"
+    },
+    {
+      "idOrigen": 4,
+      "descripcionOrigen": "Superintendencia de Bancos e Inst. Financieras"
+    }
+  ]
+}

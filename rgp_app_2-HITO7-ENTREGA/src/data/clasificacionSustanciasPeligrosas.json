@@ -1,0 +1,364 @@
+{
+  "data": [
+    {
+      "especie": "Vaina (cartucho percutado)",
+      "clase": "1",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Bombas caseras",
+      "clase": "1",
+      "subclase": "3",
+      "riesgo": ""
+    },
+    {
+      "especie": "Bombas de humo",
+      "clase": "1",
+      "subclase": "4",
+      "riesgo": ""
+    },
+    {
+      "especie": "Punta proyectil",
+      "clase": "1",
+      "subclase": "4",
+      "riesgo": ""
+    },
+    {
+      "especie": "Cilindros de gas",
+      "clase": "2",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Encendedores y/o recarga de encendedores",
+      "clase": "2",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Gas butano",
+      "clase": "2",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Pintura en aerosol",
+      "clase": "2",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Cilindros de acetileno",
+      "clase": "2",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Cilindros de oxígeno",
+      "clase": "2",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Desodorante ambiental en aerosol",
+      "clase": "2",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Desodorante en aerosol",
+      "clase": "2",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Gases para aire acondicionado",
+      "clase": "2",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Otros aerosoles",
+      "clase": "2",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Productos para el cabello (spray)",
+      "clase": "2",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Insecticidas en spray",
+      "clase": "2",
+      "subclase": "3",
+      "riesgo": ""
+    },
+    {
+      "especie": "Lavalozas",
+      "clase": "3",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Aceites comestibles",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Aceites industriales",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Acelerantes",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Acetonas",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Adhesivos líquidos",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Bebidas ",
+      "clase": "alcohólicas",
+      "subclase": "3",
+      "riesgo": ""
+    },
+    {
+      "especie": "Bencina",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Ceras domesticas",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Éter (liquido)",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Kerosene",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Lubricantes sintéticos",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Perfumes (con y sin atomizador)",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Pintura (liquida)",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Siliconas industriales",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Alcohol gel ",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Tinturas (producto para cabello)",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Tóner",
+      "clase": "3",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Azufre",
+      "clase": "4",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Caucho en polvo",
+      "clase": "4",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Fósforos de seguridad (palos de fosforo)",
+      "clase": "4",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Carbón animal o vegetal",
+      "clase": "4",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Prendas con grasa y/o aceites",
+      "clase": "4",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Calcio",
+      "clase": "4",
+      "subclase": "3",
+      "riesgo": ""
+    },
+    {
+      "especie": "Magnesio en polvo",
+      "clase": "4",
+      "subclase": "3",
+      "riesgo": ""
+    },
+    {
+      "especie": "Abonos",
+      "clase": "5",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Cosméticos",
+      "clase": "6",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Desinfectantes líquidos",
+      "clase": "6",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Insecticidas líquidos",
+      "clase": "6",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Insecticidas en polvo",
+      "clase": "6",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Plaguicidas en diferentes formatos",
+      "clase": "6",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Termómetro (mercurio)",
+      "clase": "6",
+      "subclase": "1",
+      "riesgo": ""
+    },
+    {
+      "especie": "Muestras orgánicas",
+      "clase": "6",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Objetos con fluidos corporales",
+      "clase": "6",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Osamentas",
+      "clase": "6",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Prendas con fluidos corporales",
+      "clase": "6",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Restos animales o vegetales",
+      "clase": "6",
+      "subclase": "2",
+      "riesgo": ""
+    },
+    {
+      "especie": "Ácidos en general",
+      "clase": "8",
+      "subclase": "-",
+      "riesgo": "6.1"
+    },
+    {
+      "especie": "Cloro",
+      "clase": "8",
+      "subclase": "-",
+      "riesgo": "6.1"
+    },
+    {
+      "especie": "Soda caustica",
+      "clase": "8",
+      "subclase": "-",
+      "riesgo": "6.1"
+    },
+    {
+      "especie": "Baterías de autos",
+      "clase": "9",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Botellas y otros contendores con contenido desconocido",
+      "clase": "9",
+      "subclase": "-",
+      "riesgo": ""
+    },
+    {
+      "especie": "Motor de combustión",
+      "clase": "9",
+      "subclase": "",
+      "riesgo": ""
+    },
+    {
+      "especie": "Pilas",
+      "clase": "9",
+      "subclase": "",
+      "riesgo": ""
+    }
+  ]
+}

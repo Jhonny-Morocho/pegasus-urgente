@@ -1,0 +1,108 @@
+{
+    "causas": [
+        {
+            "judicializada": true,
+            "fueTomadaDesicionDePropuesta": false,
+            "estado": "EN_CURSO",
+            "prioritario": false,
+            "nombreDeLaTarea": "Preclasificar Causa",
+            "ruc": "3489324-8",
+            "nombreCausa": "Caso Coimas",
+            "nombreImputado": "Jose Cabrera",
+            "rutImputado": "9.683.543-4",
+            "imputadoEnOtraCausa": "SI",
+            "delito": "HURTOS - HURTO SIMPLE POR UN VALOR DE 4 A 40 UTM",
+            "alerta": "VIF",
+            "fechaHoraRecepcion": "2019-07-23T15:13:00.000",
+            "tiempoDeEspera": "17:00",
+            "masInformacion": {
+                "origenDenuncia": "origenDenuncia",
+                "imputados": 0,
+                "victimas": 0,
+                "estadoTarea": "estadoTarea",
+                "urgente": false,
+                "codigoTarea": "codigoTarea",
+                "fechaHoraAsignacion": "fechaHoraAsignacion"
+            },
+            "esCausaPrincipal": "Causa a Agrupar"
+        },
+        {
+            "judicializada": true,
+            "fueTomadaDesicionDePropuesta": false,
+            "estado": "EN_CURSO",
+            "prioritario": false,
+            "nombreDeLaTarea": "Preclasificar Causa",
+            "ruc": "3489334-8",
+            "nombreCausa": "Los quesitos",
+            "nombreImputado": "Judit Varela",
+            "rutImputado": "7.343.452 1",
+            "imputadoEnOtraCausa": "SI",
+            "delito": "ROBO - ROBO CON INTIMIDACIÓN . ART. 433, 436 INC 1º 438.",
+            "alerta": "RPA",
+            "fechaHoraRecepcion": "2022-01-23T15:13:00.000",
+            "tiempoDeEspera": "03:00",
+            "masInformacion": {
+                "origenDenuncia": "origenDenuncia",
+                "imputados": 0,
+                "victimas": 0,
+                "estadoTarea": "estadoTarea",
+                "urgente": false,
+                "codigoTarea": "codigoTarea",
+                "fechaHoraAsignacion": "fechaHoraAsignacion"
+            },
+            "esCausaPrincipal": "Causa a Agrupar"
+        },
+        {
+            "judicializada": false,
+            "fueTomadaDesicionDePropuesta": false,
+            "estado": "EN_CURSO",
+            "prioritario": false,
+            "nombreDeLaTarea": "Preclasificar Causa",
+            "ruc": "3489344-8",
+            "nombreCausa": "Caso Coimas",
+            "nombreImputado": "Jacinta Simon",
+            "rutImputado": "23.128.125-8",
+            "imputadoEnOtraCausa": "SI",
+            "delito": "ROBO - ROBO CON INTIMIDACIÓN",
+            "alerta": "RPA",
+            "fechaHoraRecepcion": "2022-02-12T15:10:00.000",
+            "tiempoDeEspera": "24:00",
+            "masInformacion": {
+                "origenDenuncia": "origenDenuncia",
+                "imputados": 0,
+                "victimas": 0,
+                "estadoTarea": "estadoTarea",
+                "urgente": false,
+                "codigoTarea": "codigoTarea",
+                "fechaHoraAsignacion": "fechaHoraAsignacion"
+            },
+            "esCausaPrincipal": "Causa a Agrupar"
+        },
+        {
+            "judicializada": false,
+            "fueTomadaDesicionDePropuesta": false,
+            "estado": "POR_VENCER",
+            "prioritario": false,
+            "nombreDeLaTarea": "Preclasificar Causa",
+            "ruc": "3489354-8",
+            "nombreCausa": "Caso Coimas",
+            "nombreImputado": "Roger Lucena",
+            "rutImputado": "18.128.239-8",
+            "imputadoEnOtraCausa": "SI",
+            "delito": "HURTOS - HURTO SIMPLE POR UN VALOR DE 4 A 40 UTM",
+            "alerta": "VIF",
+            "fechaHoraRecepcion": "2021-10-17T15:13:00.000",
+            "tiempoDeEspera": "16:00",
+            "masInformacion": {
+                "origenDenuncia": "origenDenuncia",
+                "imputados": 0,
+                "victimas": 0,
+                "estadoTarea": "estadoTarea",
+                "urgente": true,
+                "codigoTarea": "codigoTarea",
+                "fechaHoraAsignacion": "fechaHoraAsignacion"
+            },
+            "esCausaPrincipal": "Causa a Agrupar"
+        }
+    ]
+}

@@ -1,0 +1,307 @@
+{
+  "causa": {
+    "ruc": "20000001992-6",
+    "rit": "23898-2019",
+    "nombreCausa": "Caso los Quesitos",
+    "directriz": "Directriz de la causa",
+    "esReservada": false,
+    "nombreFiscalAsignado": "Samuel Nuñez Parga",
+    "nombreFiscaliaLocal": "Casa Blanca",
+    "descripcionEstado": "Vigente",
+    "descripcionProceso": "En Tramitación",
+    "descripcionEstadoRelacion": "Vigente-Formalizada",
+    "fechaCreacion": "2019-09-18T11:00:00",
+    "fechaAsignacion": "2019-06-26",
+    "fechaFormalizacion": "2019-11-15",
+    "fechaPrescripcion": "2021-09-30",
+    "plazoInvestigacionDias": 180,
+    "delito": "OTROS HECHOS",
+    "alertas": [
+      {
+        "nombre": "ACU",
+        "descripcion": "Vencimiento de Plazo Limite de Acusación"
+      }
+    ],
+    "antecedentesAudiencia":{
+      "tipo": "Control de Detención",
+      "juez": "Gisella Martinez",
+      "defensor": "Carolina Alvarado",
+      "fiscal": "Samuel Núñez Parga",
+      "fecha": "18-03-2020",
+      "tribunal": "Juzgado de Garantía de Casablanca",
+      "sala": "Edificio A, Piso 2, Sala 201",
+      "bloque": "Mañana"
+    },
+    "etapaRelacionesCausa": "Revisando Causa Asignada",
+    "fechaTerminoOSuspension": "2019-11-15",
+    "fechaDelito": "2020-06-13",
+    "imputados": [
+      "José Ramírez Delgado",
+      "Marcelo Callado Rodríguez"
+    ],
+    "victimas": 2,
+    "estadoProcesal": "Estado procesal",
+    "direccionDelito": "Comuna, Calle y Número",
+    "condiciones": [
+      "Someterse a tratamiento",
+      "Abandono del hogar"
+    ],
+    "tipoSuspension": "Suspensión Condicional del Procedimiento"
+  },
+  "antecedentesAudiencia":{
+    "tipo": "Control de Detención",
+    "juez": "Gisella Martinez",
+    "defensor": "Carolina Alvarado",
+    "fiscal": "Samuel Núñez Parga",
+    "fecha": "18-03-2020",
+    "tribunal": "Juzgado de Garantía de Casablanca",
+    "sala": "Edificio A, Piso 2, Sala 201",
+    "bloque": "Mañana",
+    "medidasCautelares": [
+      {
+        "medida": "1259D199-F0DA-48F0-A7C0-A21B0307C932",
+        "imputado": "Gustavo Sebastian Henríquez",
+        "vigencia": "23-11-2018 al 24-12-2018",
+        "descripcionMedidaCautelar":"Descripcion de la medida"
+      },
+      {
+        "medida": "50BED9BD-3FA9-43B4-B871-0402614E54DE",
+        "imputado": "Gustavo Sebastian Henríquez ",
+        "vigencia": "23-11-2018 al 24-12-2018",
+        "descripcionMedidaCautelar":"Descripcion de la medida"
+      }
+    ],
+    "apercibimiento":[
+      {
+        "tipoSujeto": "Victima",
+        "sujeto": "Jaime Carrasco Tapia",
+        "apercibimiento": true
+      },
+      {
+        "tipoSujeto": "Imputado",
+        "sujeto": "Gustavo Sebastian Henríquez ",
+        "apercibimiento": false
+      }
+    ]
+  },
+  "resultadosAudiencia": [
+    {
+      "id":1,
+      "label": "Admite Responsabilidad"
+    },
+    {
+      "id":2,
+      "label": "Juicio Efectivo"
+    },
+    {
+      "id":3,
+      "label": "Condena"
+    },
+    {
+      "id":4,
+      "label": "Absolución"
+    }
+  ],
+  "resultadosSentencia": [
+    {
+      "id":1,
+      "descripcion":"Sentencia Definitiva Condenatoria"
+    },
+    {
+      "id":2,
+      "descripcion":"Sentencia Definitiva Absolutoria"
+    },
+    {
+      "id":3,
+      "descripcion":"Suspensión Condicional del Procedimiento"
+    },
+    {
+      "id":4,
+      "descripcion":"Sobreseimiento Definitivo"
+    }
+  ],
+  "preparacionAudiencia":[
+    {
+      "id":1,
+      "descripcion":"Preparación de Juicio Oral"
+    },
+    {
+      "id":2,
+      "descripcion":"Sustituye a Simplificado"
+    },
+    {
+      "id":3,
+      "descripcion":"Prepara en Ausencia de Imputado"
+    },
+    {
+      "id":4,
+      "descripcion":"Acusación verbal"
+    }
+  ],
+  "procedimientosAudiencia":[
+    {
+      "id":1,
+      "descripcion":"Ordinario"
+    },
+    {
+      "id":2,
+      "descripcion":"Abreviado"
+    },
+    {
+      "id":3,
+      "descripcion":"Simplificado"
+    },
+    {
+      "id":4,
+      "descripcion":"Monitorio"
+    },
+    {
+      "id":5,
+      "descripcion":"Absolución"
+    },
+    {
+      "id":6,
+      "descripcion":"Sustituye a Simplificado"
+    }
+  ],
+  "salidasAlternativasAudiencia":[
+    {
+      "id":1,
+      "descripcion":"Suspensión Condicional"
+    },
+    {
+      "id":2,
+      "descripcion":"Acuerdo Reparatorio"
+    }
+  ],
+  "listaMedidasCautelares":[
+    {
+      "COD_MEDCAUTELAR":1,
+      "GLS_MEDCAUTELAR": "Medida cautelar personal 155 a)"
+    },
+    {
+      "COD_MEDCAUTELAR":2,
+      "GLS_MEDCAUTELAR": "Medida cautelar personal 155 b)"
+    },
+    {
+      "COD_MEDCAUTELAR":3,
+      "GLS_MEDCAUTELAR": "Medida cautelar personal 155 c)"
+    },
+    {
+      "COD_MEDCAUTELAR":4,
+      "GLS_MEDCAUTELAR": "Medida cautelar personal 155 d)"
+    },
+    {
+      "COD_MEDCAUTELAR":5,
+      "GLS_MEDCAUTELAR": "Medida cautelar personal 155 e)"
+    },
+    {
+      "COD_MEDCAUTELAR":6,
+      "GLS_MEDCAUTELAR": "Medida cautelar personal 155 f)"
+    },
+    {
+      "COD_MEDCAUTELAR":7,
+      "GLS_MEDCAUTELAR": "Medida cautelar personal 155 g)"
+    },
+    {
+      "COD_MEDCAUTELAR":8,
+      "GLS_MEDCAUTELAR": "Otro"
+    },
+    {
+      "COD_MEDCAUTELAR":9,
+      "GLS_MEDCAUTELAR": "Prisión Preventiva"
+    }
+  ],
+  "tiposAudiencia":[
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"Formalización"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"Control de detención (art. 132)"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"Cierre de la investigación (art. 248)"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"Autoriza diligencias"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"Comunica Cierre en Audiencia"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"Suspensión condicional del procedimiento"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"Acuerdos reparatorios"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"Sobreseimiento temporal"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"Sobreseimiento definitivo"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"Decisión de No Perseverar"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"etc...Esto es un mock"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0b",
+      "descripcion":"Seleccionar listado (otras audiencias)"
+    }
+  ],
+  "otrosTiposAudiencia": [
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"Revisión de la prisión preventiva (art. 144)"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"Audiencia para resolver la continuación del procedimiento o el sobreseimiento temporal en el caso del art. 10"
+    },
+    {
+      "id":"f0a0a0a0-a0a0-0a0a-0a0a-0a0a0a0a0a0a",
+      "descripcion":"etc...Esto es un mock"
+    }
+  ],
+  "audiosMock": [
+    { 
+      "name": "Registro de Audiencia 23/02/2020", 
+      "duration": 0, 
+      "filePath": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3" 
+    },
+    { 
+      "name": "Declaración Imputado", 
+      "duration": 0, 
+      "filePath": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3" 
+    }
+  ],
+  "nominaMock":[
+    {
+      "folio":"1235-3",
+      "ruc": "20000001992-6",
+      "numeroDocumento":"21.415.792-6",
+      "nombreCompleto": "Joaquín Sepúlveda Rodríguez",
+      "tipoDetencion": "",
+      "delito": "Hurto Simple",
+      "fechaDetencion": "12-06-22",
+      "lugarDetencion": "Talca, Maule",
+      "pasarACD":"",
+      "juzgado": "Fiscalía Casablanca",
+      "fechaPresentacion": "24-06-22",
+      "bloque":"Mañana"
+    }
+  ]
+}

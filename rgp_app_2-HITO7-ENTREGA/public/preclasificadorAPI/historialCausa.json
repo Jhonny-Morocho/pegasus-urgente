@@ -1,0 +1,62 @@
+{
+  "ingreso": [
+    {
+      "fechaActualizacion": "2022-01-01T00:00:00.000",
+      "tipoActividad": "Eliminación",
+      "usuario": "fiscal-1"
+    },
+    {
+      "fechaActualizacion": "2022-01-01T00:00:00.000",
+      "tipoActividad": "Creación",
+      "usuario": "fiscal-3"
+    }
+  ],
+  "preclasificacion": [
+    {
+      "fechaActualizacion": "2022-01-01T00:00:00.000",
+      "tipoActividad": "Modificación",
+      "usuario": "preclasificador-2"
+    },
+    {
+      "fechaActualizacion": "2022-01-01T00:00:00.000",
+      "tipoActividad": "Creación",
+      "usuario": "preclasificador-1"
+    }
+  ],
+  "asignacion": [
+    {
+      "fechaActualizacion": "2022-01-01T00:00:00.000",
+      "tipoActividad": "Creación",
+      "usuario": "preclasificador-1"
+    },
+    {
+      "fechaActualizacion": "2022-01-01T00:00:00.000",
+      "tipoActividad": "Creación",
+      "usuario": "preclasificador-3"
+    }
+  ],
+  "tramitacion": [
+    {
+      "fechaActualizacion": "2022-01-01T00:00:00.000",
+      "tipoActividad": "Eliminación",
+      "usuario": "fiscal-4"
+    },
+    {
+      "fechaActualizacion": "2022-01-01T00:00:00.000",
+      "tipoActividad": "Modificación",
+      "usuario": "fiscal-6"
+    }
+  ],
+  "anotaciones": [
+    {
+      "fechaActualizacion": "2022-01-01T00:00:00.000",
+      "tipoActividad": "Creación",
+      "usuario": "fiscal-9"
+    },
+    {
+      "fechaActualizacion": "2022-01-01T00:00:00.000",
+      "tipoActividad": "Creación",
+      "usuario": "fiscal-0"
+    }
+  ]
+}

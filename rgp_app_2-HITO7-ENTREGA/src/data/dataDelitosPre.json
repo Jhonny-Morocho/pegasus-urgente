@@ -1,0 +1,572 @@
+{
+    "delitos": [
+        {
+            "nombreCompleto": "Jose Cabrera Pardo",
+            "ruc": "3489324-8",
+            "idDenuncia": "string",
+            "idDetalleHechoDelictual": "",
+            "numeroDenuncia": "string",
+            "esVIF": false,
+            "informacionAnonima": {
+                "idDenuncia": "string",
+                "esInformacionAnonima": false,
+                "programaRazonAnonimato": "",
+                "viaInformacionAportada": ""
+            },
+            "fechaHoraRango": false,
+            "fechaOcurrencia": "2022-03-14T17:26:41.000",
+            "fechaHoraDelitoInicio": "1900-01-01T00:00:00.000",
+            "fechaHoraDelitoFin": "1900-01-01T00:00:00.000",
+            "esFlagrante": false,
+            "lugarDelito": {
+                "idDelito": "string",
+                "zonaDelito": null,
+                "tipoLugarOcurrencia": null,
+                "viaIngreso": null,
+                "lugarOcurrencia": null,
+                "lugarEspecificoOcurrencia": null
+            },
+            "elementoUsado": {
+                "idDenuncia": "string",
+                "tipoElementoUsado": null,
+                "elementoUsadoComisionDelito": true,
+                "elementoUsado": null
+            },
+            "clasificacionDelito": {
+                "idDenuncia": "string",
+                "gradoEjecucionDelito": null,
+                "problemaDelictualFenomenoCriminal": null,
+                "patronCriminal": null,
+                "modusOperandi": null,
+                "subModusOperandi": null
+            },
+            "mediosTransporte": [
+                {
+                    "idMedioTransporteImputado": "2022-03-14T20:32:18.918Z",
+                    "idDenuncia": null,
+                    "medioTransporteImputado": "string",
+                    "ruta": "Ambos",
+                    "tipoMedioTransporteImputado": "No sabe",
+                    "detalleMedioTransporte": "La víctima no sabe como llegó el imputado a su hogar",
+                    "datoVehiculoUtilizadoImputado": {
+                        "idMedioTransporteImputado": null,
+                        "idDatosVehiculoUtilizadoImputado": null,
+                        "datosVehiculo": {
+                            "idDatosVehiculoUtilizadoImputado": null,
+                            "idDatoVehiculo": null,
+                            "tipoVehiculo": "Otros Vehículos",
+                            "patente": "",
+                            "marca": "",
+                            "modelo": "",
+                            "color": "",
+                            "vin": "",
+                            "numeroMotor": "",
+                            "tieneSeguro": "",
+                            "estaEncargadoPorRobo": "",
+                            "informacionAutopista": "",
+                            "informacionPeajes": ""
+                        },
+                        "numeroEncargos": "",
+                        "observacion": ""
+                    },
+                    "portaPlacaOption": "",
+                    "incautadoOption": ""
+                }
+            ],
+            "existenLesionados": "No",
+            "existenMuertos": "No",
+            "existenDetenidos": "No",
+            "informacionCamara": {
+                "idDenuncia": "string",
+                "camaraNoInformado": "string",
+                "incautaronImagenesNoInformado": "string",
+                "existeCamara": "",
+                "lugarCamara": "",
+                "contenidoCamara": "",
+                "incautaronImagenes": "",
+                "observacionAdicionalCamara": ""
+            },
+            "vigilancia": {
+                "idDenuncia": "string",
+                "tipoVigilancia": null,
+                "medidasSeguridad": null
+            },
+            "sujeto": {
+                "idDenuncia": "string",
+                "cantidadSujetosCometieronHechoDelictual": null,
+                "modalidadGrupo": null
+            },
+            "ambtoNNA": {
+                "idDenuncia": "string",
+                "nnaSeNiegaSepararAdulto": false,
+                "describirConductasNNA": "",
+                "nombreArchivo": "",
+                "descArchivo": "",
+                "extensionArchivo": "",
+                "tamanoArchivo": ""
+            },
+            "esHallazgo": false,
+            "tipoHallazgo": "string",
+            "hallazgoDe": null,
+            "entregaDetenidosPorCiviles": false,
+            "entregaDetenidosOption": false,
+            "esAccidenteTransito": false,
+            "accidenteTransitoOption": false,
+            "esIncendio": false,
+            "esIncendioOption": false,
+            "direccionDelito": {
+                "calle": "Mapocho",
+                "numero": "6360",
+                "departamentoOficina": "",
+                "block": "",
+                "poblacionVilla": "",
+                "sector": "",
+                "ciudad": "string",
+                "comuna": "Cerro Navia",
+                "region": "Región Metropolitana",
+                "interseccion": "",
+                "cuadrante": "",
+                "observacionReferencia": "",
+                "lugarEspecifico": "",
+                "latitud": -33.4241563,
+                "longitud": -70.722464,
+                "esPrincipal": true,
+                "ubicacionRural": false
+            },
+            "vifOptions": "string",
+            "relacionSujeto": {
+                "idDenuncia": "string",
+                "idTipoSujetoDenunciante": "string",
+                "idTipoSujetoVictima": "string",
+                "idTipoSujetoImputado": "string"
+            },
+            "delito": {
+                "idDenuncia": "string",
+                "tipoElementoUsado": null,
+                "elementoUsadoComisionDelito": true,
+                "familiaDelito": 11,
+                "delitoDenunciado": 847,
+                "codigoDelitoCarabineros": "1312",
+                "descripcionDelito": "El imputado hurta un cilindro de gas desde el domicilio de la victima"
+            }
+        },
+        {
+            "nombreCompleto": "Judith Varela Pardo",
+            "ruc": "3489334-8",
+            "idDenuncia": "string",
+            "idDetalleHechoDelictual": "",
+            "numeroDenuncia": "string",
+            "esVIF": false,
+            "informacionAnonima": {
+                "idDenuncia": "string",
+                "esInformacionAnonima": false,
+                "programaRazonAnonimato": "",
+                "viaInformacionAportada": ""
+            },
+            "fechaHoraRango": false,
+            "fechaOcurrencia": "2022-03-14T17:26:41.000",
+            "fechaHoraDelitoInicio": "1900-01-01T00:00:00.000",
+            "fechaHoraDelitoFin": "1900-01-01T00:00:00.000",
+            "esFlagrante": false,
+            "lugarDelito": {
+                "idDelito": "string",
+                "zonaDelito": null,
+                "tipoLugarOcurrencia": null,
+                "viaIngreso": null,
+                "lugarOcurrencia": null,
+                "lugarEspecificoOcurrencia": null
+            },
+            "elementoUsado": {
+                "idDenuncia": "string",
+                "tipoElementoUsado": null,
+                "elementoUsadoComisionDelito": true,
+                "elementoUsado": null
+            },
+            "clasificacionDelito": {
+                "idDenuncia": "string",
+                "gradoEjecucionDelito": null,
+                "problemaDelictualFenomenoCriminal": null,
+                "patronCriminal": null,
+                "modusOperandi": null,
+                "subModusOperandi": null
+            },
+            "mediosTransporte": [
+                {
+                    "idMedioTransporteImputado": "2022-03-14T20:37:42.487Z",
+                    "idDenuncia": null,
+                    "medioTransporteImputado": "string",
+                    "ruta": "Huida",
+                    "tipoMedioTransporteImputado": "Pie",
+                    "detalleMedioTransporte": "El imputado huye corriendo",
+                    "datoVehiculoUtilizadoImputado": {
+                        "idMedioTransporteImputado": null,
+                        "idDatosVehiculoUtilizadoImputado": null,
+                        "datosVehiculo": {
+                            "idDatosVehiculoUtilizadoImputado": null,
+                            "idDatoVehiculo": null,
+                            "tipoVehiculo": "",
+                            "patente": "",
+                            "marca": "",
+                            "modelo": "",
+                            "color": "",
+                            "vin": "",
+                            "numeroMotor": "",
+                            "tieneSeguro": "",
+                            "estaEncargadoPorRobo": "",
+                            "informacionAutopista": "",
+                            "informacionPeajes": ""
+                        },
+                        "numeroEncargos": "",
+                        "observacion": ""
+                    },
+                    "portaPlacaOption": "",
+                    "incautadoOption": ""
+                }
+            ],
+            "existenLesionados": "No",
+            "existenMuertos": "No",
+            "existenDetenidos": "No",
+            "informacionCamara": {
+                "idDenuncia": "string",
+                "camaraNoInformado": "string",
+                "incautaronImagenesNoInformado": "string",
+                "existeCamara": "",
+                "lugarCamara": "",
+                "contenidoCamara": "",
+                "incautaronImagenes": "",
+                "observacionAdicionalCamara": ""
+            },
+            "vigilancia": {
+                "idDenuncia": "string",
+                "tipoVigilancia": null,
+                "medidasSeguridad": null
+            },
+            "sujeto": {
+                "idDenuncia": "string",
+                "cantidadSujetosCometieronHechoDelictual": null,
+                "modalidadGrupo": null
+            },
+            "ambtoNNA": {
+                "idDenuncia": "string",
+                "nnaSeNiegaSepararAdulto": false,
+                "describirConductasNNA": "",
+                "nombreArchivo": "",
+                "descArchivo": "",
+                "extensionArchivo": "",
+                "tamanoArchivo": ""
+            },
+            "esHallazgo": false,
+            "tipoHallazgo": "string",
+            "hallazgoDe": null,
+            "entregaDetenidosPorCiviles": false,
+            "entregaDetenidosOption": false,
+            "esAccidenteTransito": false,
+            "accidenteTransitoOption": false,
+            "esIncendio": false,
+            "esIncendioOption": false,
+            "direccionDelito": {
+                "calle": "Mapocho",
+                "numero": "6360",
+                "departamentoOficina": "",
+                "block": "",
+                "poblacionVilla": "",
+                "sector": "",
+                "ciudad": "string",
+                "comuna": "Cerro Navia",
+                "region": "Región Metropolitana",
+                "interseccion": "",
+                "cuadrante": "",
+                "observacionReferencia": "",
+                "lugarEspecifico": "",
+                "latitud": -33.4241563,
+                "longitud": -70.722464,
+                "esPrincipal": true,
+                "ubicacionRural": false
+            },
+            "vifOptions": "string",
+            "relacionSujeto": {
+                "idDenuncia": "string",
+                "idTipoSujetoDenunciante": "string",
+                "idTipoSujetoVictima": "string",
+                "idTipoSujetoImputado": "string"
+            },
+            "delito": {
+                "idDenuncia": "string",
+                "tipoElementoUsado": null,
+                "elementoUsadoComisionDelito": true,
+                "familiaDelito": 1,
+                "delitoDenunciado": 802,
+                "codigoDelitoCarabineros": "1312",
+                "descripcionDelito": "El imputado amenaza con un arma a la víctima por detras, logrando hacerse con las pertenencias de esta"
+            }
+        },
+        {
+            "ruc": "3489344-8",
+            "nombreCompleto": "Jacinta Simon Pardo",
+            "idDenuncia": "string",
+            "idDetalleHechoDelictual": "",
+            "numeroDenuncia": "string",
+            "esVIF": false,
+            "informacionAnonima": {
+                "idDenuncia": "string",
+                "esInformacionAnonima": false,
+                "programaRazonAnonimato": "",
+                "viaInformacionAportada": ""
+            },
+            "fechaHoraRango": false,
+            "fechaOcurrencia": "2022-03-14T17:26:41.000",
+            "fechaHoraDelitoInicio": "1900-01-01T00:00:00.000",
+            "fechaHoraDelitoFin": "1900-01-01T00:00:00.000",
+            "esFlagrante": false,
+            "lugarDelito": {
+                "idDelito": "string",
+                "zonaDelito": null,
+                "tipoLugarOcurrencia": null,
+                "viaIngreso": null,
+                "lugarOcurrencia": null,
+                "lugarEspecificoOcurrencia": null
+            },
+            "elementoUsado": {
+                "idDenuncia": "string",
+                "tipoElementoUsado": null,
+                "elementoUsadoComisionDelito": true,
+                "elementoUsado": null
+            },
+            "clasificacionDelito": {
+                "idDenuncia": "string",
+                "gradoEjecucionDelito": null,
+                "problemaDelictualFenomenoCriminal": null,
+                "patronCriminal": null,
+                "modusOperandi": null,
+                "subModusOperandi": null
+            },
+            "mediosTransporte": [
+                {
+                    "idMedioTransporteImputado": "2022-03-14T20:37:42.487Z",
+                    "idDenuncia": null,
+                    "medioTransporteImputado": "string",
+                    "ruta": "Huida",
+                    "tipoMedioTransporteImputado": "Pie",
+                    "detalleMedioTransporte": "El imputado huye corriendo",
+                    "datoVehiculoUtilizadoImputado": {
+                        "idMedioTransporteImputado": null,
+                        "idDatosVehiculoUtilizadoImputado": null,
+                        "datosVehiculo": {
+                            "idDatosVehiculoUtilizadoImputado": null,
+                            "idDatoVehiculo": null,
+                            "tipoVehiculo": "",
+                            "patente": "",
+                            "marca": "",
+                            "modelo": "",
+                            "color": "",
+                            "vin": "",
+                            "numeroMotor": "",
+                            "tieneSeguro": "",
+                            "estaEncargadoPorRobo": "",
+                            "informacionAutopista": "",
+                            "informacionPeajes": ""
+                        },
+                        "numeroEncargos": "",
+                        "observacion": ""
+                    },
+                    "portaPlacaOption": "",
+                    "incautadoOption": ""
+                }
+            ],
+            "existenLesionados": "No",
+            "existenMuertos": "No",
+            "existenDetenidos": "No",
+            "informacionCamara": {
+                "idDenuncia": "string",
+                "camaraNoInformado": "string",
+                "incautaronImagenesNoInformado": "string",
+                "existeCamara": "",
+                "lugarCamara": "",
+                "contenidoCamara": "",
+                "incautaronImagenes": "",
+                "observacionAdicionalCamara": ""
+            },
+            "vigilancia": {
+                "idDenuncia": "string",
+                "tipoVigilancia": null,
+                "medidasSeguridad": null
+            },
+            "sujeto": {
+                "idDenuncia": "string",
+                "cantidadSujetosCometieronHechoDelictual": null,
+                "modalidadGrupo": null
+            },
+            "ambtoNNA": {
+                "idDenuncia": "string",
+                "nnaSeNiegaSepararAdulto": false,
+                "describirConductasNNA": "",
+                "nombreArchivo": "",
+                "descArchivo": "",
+                "extensionArchivo": "",
+                "tamanoArchivo": ""
+            },
+            "esHallazgo": false,
+            "tipoHallazgo": "string",
+            "hallazgoDe": null,
+            "entregaDetenidosPorCiviles": false,
+            "entregaDetenidosOption": false,
+            "esAccidenteTransito": false,
+            "accidenteTransitoOption": false,
+            "esIncendio": false,
+            "esIncendioOption": false,
+            "direccionDelito": {
+                "calle": "Mapocho",
+                "numero": "6360",
+                "departamentoOficina": "",
+                "block": "",
+                "poblacionVilla": "",
+                "sector": "",
+                "ciudad": "string",
+                "comuna": "Cerro Navia",
+                "region": "Región Metropolitana",
+                "interseccion": "",
+                "cuadrante": "",
+                "observacionReferencia": "",
+                "lugarEspecifico": "",
+                "latitud": -33.4241563,
+                "longitud": -70.722464,
+                "esPrincipal": true,
+                "ubicacionRural": false
+            },
+            "vifOptions": "string",
+            "relacionSujeto": {
+                "idDenuncia": "string",
+                "idTipoSujetoDenunciante": "string",
+                "idTipoSujetoVictima": "string",
+                "idTipoSujetoImputado": "string"
+            },
+            "delito": {
+                "idDenuncia": "string",
+                "tipoElementoUsado": null,
+                "elementoUsadoComisionDelito": true,
+                "familiaDelito": 1,
+                "delitoDenunciado": 802,
+                "codigoDelitoCarabineros": "1312",
+                "descripcionDelito": "El imputado amenaza con un arma blanca a la victima logrando que esta le entregue sus pertenencias"
+            }
+        },
+        {
+            "nombreCompleto": "Roger Lucena Pardo",
+            "ruc": "3489354-8",
+            "idDenuncia": "string",
+            "idDetalleHechoDelictual": "",
+            "numeroDenuncia": "string",
+            "esVIF": false,
+            "informacionAnonima": {
+                "idDenuncia": "string",
+                "esInformacionAnonima": false,
+                "programaRazonAnonimato": "",
+                "viaInformacionAportada": ""
+            },
+            "fechaHoraRango": false,
+            "fechaOcurrencia": "2022-03-14T17:26:41.000",
+            "fechaHoraDelitoInicio": "1900-01-01T00:00:00.000",
+            "fechaHoraDelitoFin": "1900-01-01T00:00:00.000",
+            "esFlagrante": false,
+            "lugarDelito": {
+                "idDelito": "string",
+                "zonaDelito": null,
+                "tipoLugarOcurrencia": null,
+                "viaIngreso": null,
+                "lugarOcurrencia": null,
+                "lugarEspecificoOcurrencia": null
+            },
+            "elementoUsado": {
+                "idDenuncia": "string",
+                "tipoElementoUsado": null,
+                "elementoUsadoComisionDelito": true,
+                "elementoUsado": null
+            },
+            "clasificacionDelito": {
+                "idDenuncia": "string",
+                "gradoEjecucionDelito": null,
+                "problemaDelictualFenomenoCriminal": null,
+                "patronCriminal": null,
+                "modusOperandi": null,
+                "subModusOperandi": null
+            },
+            "mediosTransporte": [],
+            "existenLesionados": "No",
+            "existenMuertos": "No",
+            "existenDetenidos": "No",
+            "informacionCamara": {
+                "idDenuncia": "string",
+                "camaraNoInformado": "string",
+                "incautaronImagenesNoInformado": "string",
+                "existeCamara": "",
+                "lugarCamara": "",
+                "contenidoCamara": "",
+                "incautaronImagenes": "",
+                "observacionAdicionalCamara": ""
+            },
+            "vigilancia": {
+                "idDenuncia": "string",
+                "tipoVigilancia": null,
+                "medidasSeguridad": null
+            },
+            "sujeto": {
+                "idDenuncia": "string",
+                "cantidadSujetosCometieronHechoDelictual": null,
+                "modalidadGrupo": null
+            },
+            "ambtoNNA": {
+                "idDenuncia": "string",
+                "nnaSeNiegaSepararAdulto": false,
+                "describirConductasNNA": "",
+                "nombreArchivo": "",
+                "descArchivo": "",
+                "extensionArchivo": "",
+                "tamanoArchivo": ""
+            },
+            "esHallazgo": false,
+            "tipoHallazgo": "string",
+            "hallazgoDe": null,
+            "entregaDetenidosPorCiviles": false,
+            "entregaDetenidosOption": false,
+            "esAccidenteTransito": false,
+            "accidenteTransitoOption": false,
+            "esIncendio": false,
+            "esIncendioOption": false,
+            "direccionDelito": {
+                "calle": "Mapocho",
+                "numero": "6360",
+                "departamentoOficina": "",
+                "block": "",
+                "poblacionVilla": "",
+                "sector": "",
+                "ciudad": "string",
+                "comuna": "Cerro Navia",
+                "region": "Región Metropolitana",
+                "interseccion": "",
+                "cuadrante": "",
+                "observacionReferencia": "",
+                "lugarEspecifico": "",
+                "latitud": -33.4241563,
+                "longitud": -70.722464,
+                "esPrincipal": true,
+                "ubicacionRural": false
+            },
+            "vifOptions": "string",
+            "relacionSujeto": {
+                "idDenuncia": "string",
+                "idTipoSujetoDenunciante": "string",
+                "idTipoSujetoVictima": "string",
+                "idTipoSujetoImputado": "string"
+            },
+            "delito": {
+                "idDenuncia": "string",
+                "tipoElementoUsado": null,
+                "elementoUsadoComisionDelito": true,
+                "familiaDelito": 11,
+                "delitoDenunciado": 821,
+                "codigoDelitoCarabineros": "1312",
+                "descripcionDelito": "El imputado encuentra la billetera de la victima en su lugar de trabajo, la que no entrega en objetos perdidos, luego la victima se percata de que el imputado tiene su billetera al reconocer un sticker que esta tiene"
+            }
+        }
+    ]
+}

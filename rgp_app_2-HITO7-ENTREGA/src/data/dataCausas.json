@@ -1,0 +1,942 @@
+{
+    "causa": [
+        {
+            "antecedentes": {
+                "ruc": "3489324-8",
+                "rit": 1,
+                "folio": 1,
+                "identificadorUnicoDenuncia": "b2b2e36e-cfe3-4494-953f-7c013fb79e94",
+                "tipoDenuncia": "Parte/Denuncia",
+                "numeroParteDenuncia": 54939,
+                "fechaHoraDenuncia": "2021-12-21T15:13:36.000",
+                "fechaHoraRecepcion": "2021-12-21T15:13:36.000",
+                "formaEnvio": "Manual",
+                "estado": "Preclasificador",
+                "nombreCausa": "Caso Coimas",
+                "medioRecepcion": "Electrónico",
+                "nombreDigitador": "Rosa Pérez",
+                "funcionarioCargoProcedimiento": "María Beltrán",
+                "fiscalAsignado": "Sin asignar",
+                "judicializada": false
+            },
+            "fiscaliaLocal": {
+                "tipoFiscalia": "Nacional",
+                "region": "Región Metropolitana Oriente (MP)",
+                "nombreFiscalia": "Fiscalía Local de Pelotillehue",
+                "numeroFiscalia": 239612,
+                "rutAtendedor": "6.066.874-4",
+                "nombreAtendedor": "Pablo Solar",
+                "comuna": "Macul",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "institucionDenunciante": {
+                "unidadPoliciaOrganismo": "Carabineros de Chile",
+                "prefecturaDependenciaUP": "I Zona Arica",
+                "comisaria": "1RA. COM. LA SERENA",
+                "destacamento": "R. LA HIGUERA 1A. SERENA",
+                "region": "Región Metropolitana",
+                "comuna": "Casablanca",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "informacionDelictual": {
+                "unidadPoliciaOrganismo": null,
+                "prefecturaDependenciaUP": null,
+                "comisaria": null,
+                "destacamento": null,
+                "region": null,
+                "comuna": null,
+                "calle": null,
+                "numero": null,
+                "telefonoContacto": null,
+                "correoElectronicoContacto": null
+            },
+            "informacionImputado": {
+                "rutImputado": null,
+                "nombreImputado": null,
+                "numeroDocumento": null,
+                "numeroSerie": null,
+                "tieneOrdenDetencion": null
+            },
+            "causasAsociadas": {
+                "ruc": null,
+                "nombre": null,
+                "vif": null,
+                "rpa": null,
+                "fechaAgrupacion": null,
+                "estado": null
+            },
+            "ordenesDetencion": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "delito": null,
+                "estadoCausa": null,
+                "fechaOrden": null,
+                "estadoOrden": null
+            },
+            "formalizacionImputado": {
+                "ruc": null,
+                "audiencia": null,
+                "fechaFormalizacion": null,
+                "delito": null,
+                "fiscalia": null,
+                "detalle": null
+            },
+            "medidasCautelares": {
+                "ruc": null,
+                "nombre": null,
+                "medida": null,
+                "vif": null,
+                "rpa": null,
+                "estado": null,
+                "detalleMedida": null
+            },
+            "sentencias": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "vif": null,
+                "rpa": null,
+                "termino": null,
+                "delito": null,
+                "procedimiento": null
+            },
+            "intervinientesRelacionados": {
+                "tipo": null,
+                "numeroDocumento": null,
+                "nombreCompleto": null,
+                "tipoPersona": null,
+                "edad": null,
+                "genero": null,
+                "fechaNacimiento": null
+            },
+            "audienciasProgramados": {
+                "ruc": null,
+                "tipoSujeto": null,
+                "tipoAudienciaCitacion": null,
+                "fecha": null,
+                "tribunal": null,
+                "numeroSala": null,
+                "documento": null
+            },
+            "detencionesAnteriores": {
+                "ruc": null,
+                "delito": null,
+                "detencionLegal": null,
+                "fechaDetencion": null,
+                "fiscalia": null,
+                "detalle": null
+            }
+        },
+        {
+            "antecedentes": {
+                "ruc": "3489334-8",
+                "rit": 2,
+                "folio": 2,
+                "identificadorUnicoDenuncia": "2fb3cca6-e60f-40a5-b002-c78fa94efedf",
+                "tipoDenuncia": "Parte/Denuncia",
+                "numeroParteDenuncia": 63883,
+                "fechaHoraDenuncia": "2021-11-27T14:39:58.000",
+                "fechaHoraRecepcion": "2021-11-27T14:39:58.000",
+                "formaEnvio": "Manual",
+                "estado": "Preclasificador",
+                "nombreCausa": "Los Quesitos",
+                "medioRecepcion": "Electrónico",
+                "nombreDigitador": "Rosa Pérez",
+                "funcionarioCargoProcedimiento": "María Beltrán",
+                "fiscalAsignado": "Sin asignar",
+                "judicializada": false
+            },
+            "fiscaliaLocal": {
+                "tipoFiscalia": "Nacional",
+                "region": "Región Metropolitana Oriente (MP)",
+                "nombreFiscalia": "Fiscalía Local de Pelotillehue",
+                "numeroFiscalia": 239612,
+                "rutAtendedor": "6.066.874-4",
+                "nombreAtendedor": "Pablo Solar",
+                "comuna": "Macul",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "institucionDenunciante": {
+                "unidadPoliciaOrganismo": "Carabineros de Chile",
+                "prefecturaDependenciaUP": "I Zona Arica",
+                "comisaria": "1RA. COM. LA SERENA",
+                "destacamento": "R. LA HIGUERA 1A. SERENA",
+                "region": "Región Metropolitana",
+                "comuna": "Casablanca",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "informacionDelictual": {
+                "unidadPoliciaOrganismo": null,
+                "prefecturaDependenciaUP": null,
+                "comisaria": null,
+                "destacamento": null,
+                "region": null,
+                "comuna": null,
+                "calle": null,
+                "numero": null,
+                "telefonoContacto": null,
+                "correoElectronicoContacto": null
+            },
+            "informacionImputado": {
+                "rutImputado": null,
+                "nombreImputado": null,
+                "numeroDocumento": null,
+                "numeroSerie": null,
+                "tieneOrdenDetencion": null
+            },
+            "causasAsociadas": {
+                "ruc": null,
+                "nombre": null,
+                "vif": null,
+                "rpa": null,
+                "fechaAgrupacion": null,
+                "estado": null
+            },
+            "ordenesDetencion": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "delito": null,
+                "estadoCausa": null,
+                "fechaOrden": null,
+                "estadoOrden": null
+            },
+            "formalizacionImputado": {
+                "ruc": null,
+                "audiencia": null,
+                "fechaFormalizacion": null,
+                "delito": null,
+                "fiscalia": null,
+                "detalle": null
+            },
+            "medidasCautelares": {
+                "ruc": null,
+                "nombre": null,
+                "medida": null,
+                "vif": null,
+                "rpa": null,
+                "estado": null,
+                "detalleMedida": null
+            },
+            "sentencias": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "vif": null,
+                "rpa": null,
+                "termino": null,
+                "delito": null,
+                "procedimiento": null
+            },
+            "intervinientesRelacionados": {
+                "tipo": null,
+                "numeroDocumento": null,
+                "nombreCompleto": null,
+                "tipoPersona": null,
+                "edad": null,
+                "genero": null,
+                "fechaNacimiento": null
+            },
+            "audienciasProgramados": {
+                "ruc": null,
+                "tipoSujeto": null,
+                "tipoAudienciaCitacion": null,
+                "fecha": null,
+                "tribunal": null,
+                "numeroSala": null,
+                "documento": null
+            },
+            "detencionesAnteriores": {
+                "ruc": null,
+                "delito": null,
+                "detencionLegal": null,
+                "fechaDetencion": null,
+                "fiscalia": null,
+                "detalle": null
+            }
+        },
+        {
+            "antecedentes": {
+                "ruc": "3489344-8",
+                "rit": 3,
+                "folio": 3,
+                "identificadorUnicoDenuncia": "4690b198-b414-4e38-b83c-bd73d6c15b32",
+                "tipoDenuncia": "Parte/Denuncia",
+                "numeroParteDenuncia": 65345,
+                "fechaHoraDenuncia": "2021-08-09T11:35:33.000",
+                "fechaHoraRecepcion": "2021-08-09T11:35:33.000",
+                "formaEnvio": "Manual",
+                "estado": "Preclasificador",
+                "nombreCausa": "Caso Coimas",
+                "medioRecepcion": "Electrónico",
+                "nombreDigitador": "Rosa Pérez",
+                "funcionarioCargoProcedimiento": "María Beltrán",
+                "fiscalAsignado": "Sin asignar",
+                "judicializada": false
+            },
+            "fiscaliaLocal": {
+                "tipoFiscalia": "Nacional",
+                "region": "Región Metropolitana Oriente (MP)",
+                "nombreFiscalia": "Fiscalía Local de Pelotillehue",
+                "numeroFiscalia": 239612,
+                "rutAtendedor": "6.066.874-4",
+                "nombreAtendedor": "Pablo Solar",
+                "comuna": "Macul",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "institucionDenunciante": {
+                "unidadPoliciaOrganismo": "Carabineros de Chile",
+                "prefecturaDependenciaUP": "I Zona Arica",
+                "comisaria": "1RA. COM. LA SERENA",
+                "destacamento": "R. LA HIGUERA 1A. SERENA",
+                "region": "Región Metropolitana",
+                "comuna": "Casablanca",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "informacionDelictual": {
+                "unidadPoliciaOrganismo": null,
+                "prefecturaDependenciaUP": null,
+                "comisaria": null,
+                "destacamento": null,
+                "region": null,
+                "comuna": null,
+                "calle": null,
+                "numero": null,
+                "telefonoContacto": null,
+                "correoElectronicoContacto": null
+            },
+            "informacionImputado": {
+                "rutImputado": null,
+                "nombreImputado": null,
+                "numeroDocumento": null,
+                "numeroSerie": null,
+                "tieneOrdenDetencion": null
+            },
+            "causasAsociadas": {
+                "ruc": null,
+                "nombre": null,
+                "vif": null,
+                "rpa": null,
+                "fechaAgrupacion": null,
+                "estado": null
+            },
+            "ordenesDetencion": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "delito": null,
+                "estadoCausa": null,
+                "fechaOrden": null,
+                "estadoOrden": null
+            },
+            "formalizacionImputado": {
+                "ruc": null,
+                "audiencia": null,
+                "fechaFormalizacion": null,
+                "delito": null,
+                "fiscalia": null,
+                "detalle": null
+            },
+            "medidasCautelares": {
+                "ruc": null,
+                "nombre": null,
+                "medida": null,
+                "vif": null,
+                "rpa": null,
+                "estado": null,
+                "detalleMedida": null
+            },
+            "sentencias": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "vif": null,
+                "rpa": null,
+                "termino": null,
+                "delito": null,
+                "procedimiento": null
+            },
+            "intervinientesRelacionados": {
+                "tipo": null,
+                "numeroDocumento": null,
+                "nombreCompleto": null,
+                "tipoPersona": null,
+                "edad": null,
+                "genero": null,
+                "fechaNacimiento": null
+            },
+            "audienciasProgramados": {
+                "ruc": null,
+                "tipoSujeto": null,
+                "tipoAudienciaCitacion": null,
+                "fecha": null,
+                "tribunal": null,
+                "numeroSala": null,
+                "documento": null
+            },
+            "detencionesAnteriores": {
+                "ruc": null,
+                "delito": null,
+                "detencionLegal": null,
+                "fechaDetencion": null,
+                "fiscalia": null,
+                "detalle": null
+            }
+        },
+        {
+            "antecedentes": {
+                "ruc": "3489354-8",
+                "rit": 4,
+                "folio": 4,
+                "identificadorUnicoDenuncia": "df4a4239-d3fb-4075-879e-92aaed6a786f",
+                "tipoDenuncia": "Parte/Denuncia",
+                "numeroParteDenuncia": 39319,
+                "fechaHoraDenuncia": "2021-05-21T18:06:58.000",
+                "fechaHoraRecepcion": "2021-05-21T18:06:58.000",
+                "formaEnvio": "Manual",
+                "estado": "Preclasificador",
+                "nombreCausa": "Caso Coimas",
+                "medioRecepcion": "Electrónico",
+                "nombreDigitador": "Rosa Pérez",
+                "funcionarioCargoProcedimiento": "María Beltrán",
+                "fiscalAsignado": "Sin asignar",
+                "judicializada": true
+            },
+            "fiscaliaLocal": {
+                "tipoFiscalia": "Nacional",
+                "region": "Región Metropolitana Oriente (MP)",
+                "nombreFiscalia": "Fiscalía Local de Pelotillehue",
+                "numeroFiscalia": 239612,
+                "rutAtendedor": "6.066.874-4",
+                "nombreAtendedor": "Pablo Solar",
+                "comuna": "Macul",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "institucionDenunciante": {
+                "unidadPoliciaOrganismo": "Carabineros de Chile",
+                "prefecturaDependenciaUP": "I Zona Arica",
+                "comisaria": "1RA. COM. LA SERENA",
+                "destacamento": "R. LA HIGUERA 1A. SERENA",
+                "region": "Región Metropolitana",
+                "comuna": "Casablanca",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "informacionDelictual": {
+                "unidadPoliciaOrganismo": null,
+                "prefecturaDependenciaUP": null,
+                "comisaria": null,
+                "destacamento": null,
+                "region": null,
+                "comuna": null,
+                "calle": null,
+                "numero": null,
+                "telefonoContacto": null,
+                "correoElectronicoContacto": null
+            },
+            "informacionImputado": {
+                "rutImputado": null,
+                "nombreImputado": null,
+                "numeroDocumento": null,
+                "numeroSerie": null,
+                "tieneOrdenDetencion": null
+            },
+            "causasAsociadas": {
+                "ruc": null,
+                "nombre": null,
+                "vif": null,
+                "rpa": null,
+                "fechaAgrupacion": null,
+                "estado": null
+            },
+            "ordenesDetencion": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "delito": null,
+                "estadoCausa": null,
+                "fechaOrden": null,
+                "estadoOrden": null
+            },
+            "formalizacionImputado": {
+                "ruc": null,
+                "audiencia": null,
+                "fechaFormalizacion": null,
+                "delito": null,
+                "fiscalia": null,
+                "detalle": null
+            },
+            "medidasCautelares": {
+                "ruc": null,
+                "nombre": null,
+                "medida": null,
+                "vif": null,
+                "rpa": null,
+                "estado": null,
+                "detalleMedida": null
+            },
+            "sentencias": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "vif": null,
+                "rpa": null,
+                "termino": null,
+                "delito": null,
+                "procedimiento": null
+            },
+            "intervinientesRelacionados": {
+                "tipo": null,
+                "numeroDocumento": null,
+                "nombreCompleto": null,
+                "tipoPersona": null,
+                "edad": null,
+                "genero": null,
+                "fechaNacimiento": null
+            },
+            "audienciasProgramados": {
+                "ruc": null,
+                "tipoSujeto": null,
+                "tipoAudienciaCitacion": null,
+                "fecha": null,
+                "tribunal": null,
+                "numeroSala": null,
+                "documento": null
+            },
+            "detencionesAnteriores": {
+                "ruc": null,
+                "delito": null,
+                "detencionLegal": null,
+                "fechaDetencion": null,
+                "fiscalia": null,
+                "detalle": null
+            }
+        },
+        {
+            "antecedentes": {
+                "ruc": "3489364-8",
+                "rit": 5,
+                "folio": 5,
+                "identificadorUnicoDenuncia": "4c024356-f6ce-45bd-9d7d-cb24ed57cb65",
+                "tipoDenuncia": "Parte/Denuncia",
+                "numeroParteDenuncia": 61780,
+                "fechaHoraDenuncia": "2022-01-18T12:38:11.000",
+                "fechaHoraRecepcion": "2022-01-18T12:38:11.000",
+                "formaEnvio": "Manual",
+                "estado": "Preclasificador",
+                "nombreCausa": "Las Arañitas",
+                "medioRecepcion": "Electrónico",
+                "nombreDigitador": "Rosa Pérez",
+                "funcionarioCargoProcedimiento": "María Beltrán",
+                "fiscalAsignado": "Sin asignar",
+                "judicializada": true
+            },
+            "fiscaliaLocal": {
+                "tipoFiscalia": "Nacional",
+                "region": "Región Metropolitana Oriente (MP)",
+                "nombreFiscalia": "Fiscalía Local de Pelotillehue",
+                "numeroFiscalia": 239612,
+                "rutAtendedor": "6.066.874-4",
+                "nombreAtendedor": "Pablo Solar",
+                "comuna": "Macul",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "institucionDenunciante": {
+                "unidadPoliciaOrganismo": "Carabineros de Chile",
+                "prefecturaDependenciaUP": "I Zona Arica",
+                "comisaria": "1RA. COM. LA SERENA",
+                "destacamento": "R. LA HIGUERA 1A. SERENA",
+                "region": "Región Metropolitana",
+                "comuna": "Casablanca",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "informacionDelictual": {
+                "unidadPoliciaOrganismo": null,
+                "prefecturaDependenciaUP": null,
+                "comisaria": null,
+                "destacamento": null,
+                "region": null,
+                "comuna": null,
+                "calle": null,
+                "numero": null,
+                "telefonoContacto": null,
+                "correoElectronicoContacto": null
+            },
+            "informacionImputado": {
+                "rutImputado": null,
+                "nombreImputado": null,
+                "numeroDocumento": null,
+                "numeroSerie": null,
+                "tieneOrdenDetencion": null
+            },
+            "causasAsociadas": {
+                "ruc": null,
+                "nombre": null,
+                "vif": null,
+                "rpa": null,
+                "fechaAgrupacion": null,
+                "estado": null
+            },
+            "ordenesDetencion": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "delito": null,
+                "estadoCausa": null,
+                "fechaOrden": null,
+                "estadoOrden": null
+            },
+            "formalizacionImputado": {
+                "ruc": null,
+                "audiencia": null,
+                "fechaFormalizacion": null,
+                "delito": null,
+                "fiscalia": null,
+                "detalle": null
+            },
+            "medidasCautelares": {
+                "ruc": null,
+                "nombre": null,
+                "medida": null,
+                "vif": null,
+                "rpa": null,
+                "estado": null,
+                "detalleMedida": null
+            },
+            "sentencias": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "vif": null,
+                "rpa": null,
+                "termino": null,
+                "delito": null,
+                "procedimiento": null
+            },
+            "intervinientesRelacionados": {
+                "tipo": null,
+                "numeroDocumento": null,
+                "nombreCompleto": null,
+                "tipoPersona": null,
+                "edad": null,
+                "genero": null,
+                "fechaNacimiento": null
+            },
+            "audienciasProgramados": {
+                "ruc": null,
+                "tipoSujeto": null,
+                "tipoAudienciaCitacion": null,
+                "fecha": null,
+                "tribunal": null,
+                "numeroSala": null,
+                "documento": null
+            },
+            "detencionesAnteriores": {
+                "ruc": null,
+                "delito": null,
+                "detencionLegal": null,
+                "fechaDetencion": null,
+                "fiscalia": null,
+                "detalle": null
+            }
+        },
+        {
+            "antecedentes": {
+                "ruc": "3489374-8",
+                "rit": 6,
+                "folio": 6,
+                "identificadorUnicoDenuncia": "7f38cfc2-2cc6-4a7f-9531-e7b409480b42",
+                "tipoDenuncia": "Parte/Denuncia",
+                "numeroParteDenuncia": 46591,
+                "fechaHoraDenuncia": "2021-11-01T13:49:28000Z",
+                "fechaHoraRecepcion": "2021-11-01T13:49:28000Z",
+                "formaEnvio": "Manual",
+                "estado": "Preclasificador",
+                "nombreCausa": "Las Arañitas",
+                "medioRecepcion": "Electrónico",
+                "nombreDigitador": "Rosa Pérez",
+                "funcionarioCargoProcedimiento": "María Beltrán",
+                "fiscalAsignado": "Sin asignar",
+                "judicializada": true
+            },
+            "fiscaliaLocal": {
+                "tipoFiscalia": "Nacional",
+                "region": "Región Metropolitana Oriente (MP)",
+                "nombreFiscalia": "Fiscalía Local de Pelotillehue",
+                "numeroFiscalia": 239612,
+                "rutAtendedor": "6.066.874-4",
+                "nombreAtendedor": "Pablo Solar",
+                "comuna": "Macul",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "institucionDenunciante": {
+                "unidadPoliciaOrganismo": "Carabineros de Chile",
+                "prefecturaDependenciaUP": "I Zona Arica",
+                "comisaria": "1RA. COM. LA SERENA",
+                "destacamento": "R. LA HIGUERA 1A. SERENA",
+                "region": "Región Metropolitana",
+                "comuna": "Casablanca",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "informacionDelictual": {
+                "unidadPoliciaOrganismo": null,
+                "prefecturaDependenciaUP": null,
+                "comisaria": null,
+                "destacamento": null,
+                "region": null,
+                "comuna": null,
+                "calle": null,
+                "numero": null,
+                "telefonoContacto": null,
+                "correoElectronicoContacto": null
+            },
+            "informacionImputado": {
+                "rutImputado": null,
+                "nombreImputado": null,
+                "numeroDocumento": null,
+                "numeroSerie": null,
+                "tieneOrdenDetencion": null
+            },
+            "causasAsociadas": {
+                "ruc": null,
+                "nombre": null,
+                "vif": null,
+                "rpa": null,
+                "fechaAgrupacion": null,
+                "estado": null
+            },
+            "ordenesDetencion": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "delito": null,
+                "estadoCausa": null,
+                "fechaOrden": null,
+                "estadoOrden": null
+            },
+            "formalizacionImputado": {
+                "ruc": null,
+                "audiencia": null,
+                "fechaFormalizacion": null,
+                "delito": null,
+                "fiscalia": null,
+                "detalle": null
+            },
+            "medidasCautelares": {
+                "ruc": null,
+                "nombre": null,
+                "medida": null,
+                "vif": null,
+                "rpa": null,
+                "estado": null,
+                "detalleMedida": null
+            },
+            "sentencias": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "vif": null,
+                "rpa": null,
+                "termino": null,
+                "delito": null,
+                "procedimiento": null
+            },
+            "intervinientesRelacionados": {
+                "tipo": null,
+                "numeroDocumento": null,
+                "nombreCompleto": null,
+                "tipoPersona": null,
+                "edad": null,
+                "genero": null,
+                "fechaNacimiento": null
+            },
+            "audienciasProgramados": {
+                "ruc": null,
+                "tipoSujeto": null,
+                "tipoAudienciaCitacion": null,
+                "fecha": null,
+                "tribunal": null,
+                "numeroSala": null,
+                "documento": null
+            },
+            "detencionesAnteriores": {
+                "ruc": null,
+                "delito": null,
+                "detencionLegal": null,
+                "fechaDetencion": null,
+                "fiscalia": null,
+                "detalle": null
+            }
+        },
+        {
+            "antecedentes": {
+                "ruc": "3489384-8",
+                "rit": 7,
+                "folio": 7,
+                "identificadorUnicoDenuncia": "87e53a55-0f70-40df-bc7b-8c4bf077ffe6",
+                "tipoDenuncia": "Parte/Denuncia",
+                "numeroParteDenuncia": 57741,
+                "fechaHoraDenuncia": "2021-05-11T10:14:23.000",
+                "fechaHoraRecepcion": "2021-05-11T10:14:23.000",
+                "formaEnvio": "Manual",
+                "estado": "Preclasificador",
+                "nombreCausa": "Las Arañitas",
+                "medioRecepcion": "Electrónico",
+                "nombreDigitador": "Rosa Pérez",
+                "funcionarioCargoProcedimiento": "María Beltrán",
+                "fiscalAsignado": "Sin asignar",
+                "judicializada": true
+            },
+            "fiscaliaLocal": {
+                "tipoFiscalia": "Nacional",
+                "region": "Región Metropolitana Oriente (MP)",
+                "nombreFiscalia": "Fiscalía Local de Pelotillehue",
+                "numeroFiscalia": 239612,
+                "rutAtendedor": "6.066.874-4",
+                "nombreAtendedor": "Pablo Solar",
+                "comuna": "Macul",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "institucionDenunciante": {
+                "unidadPoliciaOrganismo": "Carabineros de Chile",
+                "prefecturaDependenciaUP": "I Zona Arica",
+                "comisaria": "1RA. COM. LA SERENA",
+                "destacamento": "R. LA HIGUERA 1A. SERENA",
+                "region": "Región Metropolitana",
+                "comuna": "Casablanca",
+                "calle": "Mar Hebreo",
+                "numero": 342,
+                "telefonoContacto": "+569 9786 3029",
+                "correoElectronicoContacto": "contacto@carabinerosdechile.cl"
+            },
+            "informacionDelictual": {
+                "unidadPoliciaOrganismo": null,
+                "prefecturaDependenciaUP": null,
+                "comisaria": null,
+                "destacamento": null,
+                "region": null,
+                "comuna": null,
+                "calle": null,
+                "numero": null,
+                "telefonoContacto": null,
+                "correoElectronicoContacto": null
+            },
+            "informacionImputado": {
+                "rutImputado": null,
+                "nombreImputado": null,
+                "numeroDocumento": null,
+                "numeroSerie": null,
+                "tieneOrdenDetencion": null
+            },
+            "causasAsociadas": {
+                "ruc": null,
+                "nombre": null,
+                "vif": null,
+                "rpa": null,
+                "fechaAgrupacion": null,
+                "estado": null
+            },
+            "ordenesDetencion": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "delito": null,
+                "estadoCausa": null,
+                "fechaOrden": null,
+                "estadoOrden": null
+            },
+            "formalizacionImputado": {
+                "ruc": null,
+                "audiencia": null,
+                "fechaFormalizacion": null,
+                "delito": null,
+                "fiscalia": null,
+                "detalle": null
+            },
+            "medidasCautelares": {
+                "ruc": null,
+                "nombre": null,
+                "medida": null,
+                "vif": null,
+                "rpa": null,
+                "estado": null,
+                "detalleMedida": null
+            },
+            "sentencias": {
+                "ruc": null,
+                "fiscalia": null,
+                "fiscal": null,
+                "vif": null,
+                "rpa": null,
+                "termino": null,
+                "delito": null,
+                "procedimiento": null
+            },
+            "intervinientesRelacionados": {
+                "tipo": null,
+                "numeroDocumento": null,
+                "nombreCompleto": null,
+                "tipoPersona": null,
+                "edad": null,
+                "genero": null,
+                "fechaNacimiento": null
+            },
+            "audienciasProgramados": {
+                "ruc": null,
+                "tipoSujeto": null,
+                "tipoAudienciaCitacion": null,
+                "fecha": null,
+                "tribunal": null,
+                "numeroSala": null,
+                "documento": null
+            },
+            "detencionesAnteriores": {
+                "ruc": null,
+                "delito": null,
+                "detencionLegal": null,
+                "fechaDetencion": null,
+                "fiscalia": null,
+                "detalle": null
+            }
+        }
+    ]
+}

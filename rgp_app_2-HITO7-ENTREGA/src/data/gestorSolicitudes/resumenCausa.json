@@ -1,0 +1,31 @@
+{
+    "resumenCausa": {
+      "ruc": "20000001992-6",
+      "nombreCausa": "Caso los Quesitos",
+      "esReservada": false,
+      "nombreFiscalAsignado": "Samuel Nuñez Parga",
+      "nombreFiscaliaLocal": "Casa Blanca",
+      "descripcionEstado": "Vigente",
+      "descripcionProceso": "En Tramitación",
+      "descripcionEstadoRelacion": "Vigente-Formalizada",
+      "fechaCreacion": "2019-09-18T11:00:00",
+      "fechaAsignacion": "2019-06-26",
+      "fechaFormalizacion": "2019-11-15",
+      "fechaPrescripcion": "2021-09-30",
+      "plazoInvestigacionDias": 180,
+      "delito": "OTROS HECHOS",
+      "alertas": [
+        {
+          "nombre": "ACU",
+          "descripcion": "Vencimiento de Plazo Limite de Acusación"
+        }
+      ],
+      "etapaRelacionesCausa": "Revisando Causa Asignada",
+      "fechaTerminoOSuspension": "2019-11-15",
+      "fechaDelito": "2020-06-13",
+      "imputados": 3,
+      "victimas": 2,
+      "estadoProcesal": "Estado procesal",
+      "direccionDelito": "Comuna, Calle y Número"
+    }
+  }

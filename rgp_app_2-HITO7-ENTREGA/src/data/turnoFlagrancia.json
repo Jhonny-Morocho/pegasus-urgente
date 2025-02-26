@@ -1,0 +1,230 @@
+[
+  {
+    "fiscaliaLocal": {
+      "nombre": "1° Fiscalía Puente Alto",
+      "fiscalDeTurno": "Felipe Castro"
+    },
+    "registroContacto": {
+      "folio": "1111-1",
+      "fechaHora": "21-08-2021 14:05",
+      "glosaContacto": "Aquí va el comentario 1",
+      "canalComunicacion": {
+        "telefonico": false,
+        "aplicacion": true
+      }
+    },
+    "informacionInstitucion": {
+      "prefecturaDependencia": 1
+    },
+    "dataRegistroFuncionario": [
+      {
+        "tipoFuncionario": "Digitador",
+        "rut": "12.345.678-9",
+        "nombre": "Rocío 1 Hurtado",
+        "grado": "teniente",
+        "numeroDePlaca": "987979787",
+        "esTestigo": false
+      },
+      {
+        "tipoFuncionario": "Procedimiento",
+        "rut": "16.193.983-8",
+        "nombre": "Pablo 1 Solra",
+        "grado": "cabo segundo",
+        "numeroDePlaca": "2323232",
+        "esTestigo": true
+      },
+      {
+        "tipoFuncionario": "A Cargo",
+        "rut": "8.573.555-1",
+        "nombre": "Jose Luis 1 Quiroz",
+        "grado": "Teniente",
+        "numeroDePlaca": "33333",
+        "esTestigo": false
+      }
+    ],
+    "masInfoFolioModal": {
+      "origen": "APP",
+      "ruc": "123456",
+      "rpa": "Sin RPA",
+      "detAcd": 2,
+      "detPend": 1,
+      "imputados": 3,
+      "grabacion": true,
+      "documentos": true,
+      "unidadPolicial": "Carabineros",
+      "prefecturaDependencia": "2da Puente Alto",
+      "funcionarioResponsable": "Alejandra Matamala"
+    }
+  },
+  {
+    "fiscaliaLocal": {
+      "nombre": "1° Fiscalía Puente Alto",
+      "fiscalDeTurno": "José Manuel Peréz"
+    },
+    "registroContacto": {
+      "folio": "2222-2",
+      "fechaHora": "01-01-2022 11:05",
+      "glosaContacto": "Aquí va el comentario 2",
+      "canalComunicacion": {
+        "telefonico": false,
+        "aplicacion": true
+      }
+    },
+    "informacionInstitucion": {
+      "prefecturaDependencia": 2
+    },
+    "dataRegistroFuncionario": [
+      {
+        "tipoFuncionario": "Digitador",
+        "rut": "12.345.678-9",
+        "nombre": "Rocío 2 Hurtado",
+        "grado": "teniente",
+        "numeroDePlaca": "987979787",
+        "esTestigo": false
+      },
+      {
+        "tipoFuncionario": "Procedimiento",
+        "rut": "16.193.983-8",
+        "nombre": "Pablo 2 Solra",
+        "grado": "cabo segundo",
+        "numeroDePlaca": "2323232",
+        "esTestigo": false
+      },
+      {
+        "tipoFuncionario": "A Cargo",
+        "rut": "8.573.555-1",
+        "nombre": "Jose Luis 2 Quiroz",
+        "grado": "Teniente",
+        "numeroDePlaca": "33333",
+        "esTestigo": false
+      }
+    ],
+    "masInfoFolioModal": {
+      "origen": "APP",
+      "ruc": "345678",
+      "rpa": "Sin RPA",
+      "detAcd": 4,
+      "detPend": 2,
+      "imputados": 2,
+      "grabacion": true,
+      "documentos": true,
+      "unidadPolicial": "PDI",
+      "prefecturaDependencia": "Esa prefecturaDependencia de la PDI",
+      "funcionarioResponsable": "Alejandra Matamala"
+    }
+  },
+  {
+    "fiscaliaLocal": {
+      "nombre": "1° Fiscalía Puente Alto",
+      "fiscalDeTurno": "Ximena Rodríguez"
+    },
+    "registroContacto": {
+      "folio": "3333-3",
+      "fechaHora": "11-10-2021 16:01",
+      "glosaContacto": "Aquí va el comentario 3",
+      "canalComunicacion": {
+        "telefonico": false,
+        "aplicacion": true
+      }
+    },
+    "informacionInstitucion": {
+      "prefecturaDependencia": 3
+    },
+    "dataRegistroFuncionario": [
+      {
+        "tipoFuncionario": "Digitador",
+        "rut": "12.345.678-9",
+        "nombre": "Rocío Hurtado",
+        "grado": "teniente",
+        "numeroDePlaca": "987979787",
+        "esTestigo": false
+      },
+      {
+        "tipoFuncionario": "Procedimiento",
+        "rut": "16.193.983-8",
+        "nombre": "Pablo Solra",
+        "grado": "cabo segundo",
+        "numeroDePlaca": "2323232",
+        "esTestigo": false
+      },
+      {
+        "tipoFuncionario": "A Cargo",
+        "rut": "8.573.555-1",
+        "nombre": "Jose Luis Quiroz",
+        "grado": "Teniente",
+        "numeroDePlaca": "33333",
+        "esTestigo": false
+      }
+    ],
+    "masInfoFolioModal": {
+      "origen": "APP",
+      "ruc": "6789123",
+      "rpa": "Sin RPA",
+      "detAcd": 3,
+      "detPend": 1,
+      "imputados": 4,
+      "grabacion": true,
+      "documentos": false,
+      "unidadPolicial": "Carabineros",
+      "prefecturaDependencia": "2da Puente Alto",
+      "funcionarioResponsable": "Alejandra Matamala"
+    }
+  },
+  {
+    "fiscaliaLocal": {
+      "nombre": "1° Fiscalía Puente Alto",
+      "fiscalDeTurno": "Juan Falcón"
+    },
+    "registroContacto": {
+      "folio": "4444-4",
+      "fechaHora": "27-12-2021 12:15",
+      "glosaContacto": "Aquí va el comentario 4",
+      "canalComunicacion": {
+        "telefonico": false,
+        "aplicacion": true
+      }
+    },
+    "informacionInstitucion": {
+      "prefecturaDependencia": 4
+    },
+    "dataRegistroFuncionario": [
+      {
+        "tipoFuncionario": "Digitador",
+        "rut": "12.345.678-9",
+        "nombre": "Rocío Hurtado",
+        "grado": "teniente",
+        "numeroDePlaca": "987979787",
+        "esTestigo": false
+      },
+      {
+        "tipoFuncionario": "Procedimiento",
+        "rut": "16.193.983-8",
+        "nombre": "Pablo Solra",
+        "grado": "cabo segundo",
+        "numeroDePlaca": "2323232",
+        "esTestigo": false
+      },
+      {
+        "tipoFuncionario": "A Cargo",
+        "rut": "8.573.555-1",
+        "nombre": "Jose Luis Quiroz",
+        "grado": "Teniente",
+        "numeroDePlaca": "33333",
+        "esTestigo": false
+      }
+    ],
+    "masInfoFolioModal": {
+      "origen": "APP",
+      "ruc": "3333333",
+      "rpa": "Sin RPA",
+      "detAcd": 5,
+      "detPend": 2,
+      "imputados": 3,
+      "grabacion": true,
+      "documentos": false,
+      "unidadPolicial": "Carabineros",
+      "prefecturaDependencia": "2da Puente Alto",
+      "funcionarioResponsable": "Alejandra Matamala"
+    }
+  }
+]

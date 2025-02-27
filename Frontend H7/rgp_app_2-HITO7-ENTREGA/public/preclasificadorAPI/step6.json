@@ -1,0 +1,26 @@
+[
+  {
+    "idGlobal": "8e735531-75ba-4aef-ade7-45b09a82230c",
+    "idRelato": "",
+    "idProcedimiento": "",
+    "idDenuncia": "c35d2425-2570-4f8a-bc14-4de3f4e6eca6",
+    "relato": "El día   <strong> 2022-05-08 </strong>   los funcionarios policiales de la sección de investigación Policial de la fiscalia receptor de la denuncia siendo las   <strong> 10:31:18 </strong>   horas aproximadamente recepcionaron un llamado telefónico de   <strong> Denunciante Sujeto Interviniente </strong>   domiciliado en   <strong> LUGAR_OCURRENCIA </strong>  . Solicitando la presencia de una unidad policial en el domicilio antes mencionado, ya que, en el lugar se produjo el delito de   <strong> MALVERSACIÓN DE CAUDALES PÚBLICOS. ARTS. 233, 234, y 235. </strong>  . El Sr.(a)   <strong> Denunciante Sujeto Interviniente </strong>   identificó al autor material del hecho como   <strong> Rodrigo Peñailillo Briceño </strong>   cédula nacional de identidad:   <strong> 12.918.341-1 </strong>   señalando que alrededor de las   <strong> 10:31:18 </strong>   horas el imputado forzó la puerta del domicilio antes mencionado procediendo a ingresar y sustraer   <strong>  </strong>  . Personal policial se hizo parte en el lugar de los hechos y constató las declaraciones de las   <strong> Victima Sujeto Interviniente </strong>   y los   <strong> NOMBRE_TESTIGO </strong>  , para luego proceder a la detención por el personal Policial a las   <strong> 10:31:18 </strong>   horas dando lectura de sus derechos e informándole el motivo de su detención trasladándolo posteriormente hasta la unidad Policial prestando declaración.",
+    "idPlantilla": 1,
+    "idFuncionarioRol": "gEgasNHjLQrni9JgQUyl",
+    "esPrincipal": true,
+    "contenidoPredefinido": "",
+    "palabraClave": ""
+  },
+  {
+    "idGlobal": "3ba94a4a-f9dd-470a-99fa-a5d589632faa",
+    "idRelato": "",
+    "idProcedimiento": "",
+    "idDenuncia": "628a0818-a174-4b71-93fd-fd2732800eab",
+    "relato": "El día   <strong> 2022-05-08 </strong>   los funcionarios policiales de la sección de investigación Policial de la fiscalia receptor de la denuncia siendo las   <strong> 10:31:18 </strong>   horas aproximadamente recepcionaron un llamado telefónico de   <strong> Denunciante Sujeto Interviniente </strong>   domiciliado en   <strong> LUGAR_OCURRENCIA </strong>  . Solicitando la presencia de una unidad policial en el domicilio antes mencionado, ya que, en el lugar se produjo el delito de   <strong> ROBO EN LUGAR NO HABITADO. ART. 442. </strong>  . El Sr.(a)   <strong> Denunciante Sujeto Interviniente </strong>   identificó al autor material del hecho como   <strong> Yana Enríquez Enríquez </strong>   cédula nacional de identidad:   <strong> 22.277.978-2 </strong>   señalando que alrededor de las   <strong> 10:31:18 </strong>   horas el imputado forzó la puerta del domicilio antes mencionado procediendo a ingresar y sustraer   <strong>  </strong>  . Personal policial se hizo parte en el lugar de los hechos y constató las declaraciones de las   <strong> Victima Sujeto Interviniente </strong>   y los   <strong> NOMBRE_TESTIGO </strong>  , para luego proceder a la detención por el personal Policial a las   <strong> 10:31:18 </strong>   horas dando lectura de sus derechos e informándole el motivo de su detención trasladándolo posteriormente hasta la unidad Policial prestando declaración.",
+    "idPlantilla": 1,
+    "idFuncionarioRol": "gEgasNHjLQrni9JgQUyl",
+    "esPrincipal": true,
+    "contenidoPredefinido": "",
+    "palabraClave": ""
+  }
+]

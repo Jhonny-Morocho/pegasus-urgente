@@ -1,0 +1,179 @@
+{
+  "causas": [
+    {
+      "idProceso": "27001",
+      "ruc": "1986242-2",
+      "nombreCausa": "Caso Los Quesitos",
+      "nombreCompletoImputado": "Jose Cabrera",
+      "rutImputado": "11.111.111-1",
+      "imputadoEnOtraCausa": "false",
+      "delitoCompleto": "HURTO - HURTO BIENES",
+      "esVIF": "false",
+      "esNNA": "false",
+      "fechaHoraRecepcion": "23-07-2019 15:13",
+      "origenDenuncia": "DIRECTA",
+      "totalImputados": "1",
+      "totalVictimas": "1",
+      "estadoTarea": "Pendiente",
+      "esUrgente": "false",
+      "codigoTarea": "27003",
+      "fechaHoraAsignacion": "13-10-2019 11:04",
+      "esCausaReservada": "false",
+      "procesoCausa": "Tramitacion",
+      "fechaHoraFormalizacion": "13-10-2019 11:04",
+      "fechaHoraPrescripcion": "13-10-2019 11:04",
+      "fechaHoraCreacionCausa": "22-07-2019 13:23",
+      "estadoRelacionesCausa": "VIGENTE-FORMALIZADA",
+      "plazoInvestigacion": "180 DIAS",
+      "antecedentesCausa": {
+        "ruc": "1986242-2",
+        "rit": "rit",
+        "folio": "folio",
+        "identificadorUnicoDenuncia": "identificadorUnicoDenuncia",
+        "tipoDenuncia": "tipoDenuncia",
+        "nroParteDenuncia": "nroParteDenuncia",
+        "fechaHoraDenuncia": "fechaHoraDenuncia",
+        "fechaHoraRecepcionDenuncia": "fechaHoraRecepcionDenuncia",
+        "formaEnvio": "formaEnvio",
+        "estado": "estado",
+        "nombreCausa": "Caso Los Quesitos",
+        "medioRecepcion": "medioRecepcion",
+        "nombreDigitador": "nombreDigitador",
+        "funcionarioACargoProcedimiento": "funcionarioACargoProcedimiento",
+        "fiscalAsignado": "fiscalAsignado"
+      },
+      "fiscaliaLocal": {
+        "tipoFiscalia": "tipoFiscalia",
+        "region": "region",
+        "nombreFiscalia": "nombreFiscalia",
+        "nroFiscalia": "nroFiscalia",
+        "rutAtendedor": "rutAtendedor",
+        "nombreAtendedor": "nombreAtendedor",
+        "comuna": "comuna",
+        "calle": "calle",
+        "numero": "numero",
+        "telefonoContacto": "telefonoContacto",
+        "correoElectronicoContacto": "correoElectronicoContacto"
+      },
+      "informacionInstitucion": {
+        "unidadPolicial": "unidadPolicial",
+        "prefecturaDependencia": "prefecturaDependencia",
+        "comisaria": "comisaria",
+        "destacamento": "destacamento",
+        "region": "region",
+        "comuna": "comuna",
+        "calle": "calle",
+        "numero": "numero",
+        "telefonoContacto": "telefonoContacto",
+        "correcoElectronicoContacto": "correcoElectronicoContacto"
+      },
+      "sujetosIntervinientes": [
+        {
+          "tipoInterviniente": "DENUNCIANTE",
+          "nroDocumento": "17.214.116-1",
+          "nombreCompletoInterviniente": "Camilo Henrique Olivares",
+          "esVIF": "false",
+          "esNNA": "false",
+          "esRPA": "false",
+          "tieneInformacionDelictual": "false"
+        },
+        {
+          "tipoInterviniente": "VICTIMA",
+          "nroDocumento": "22.631.006-1",
+          "nombreCompletoInterviniente": "Daniel Fuentealba Socias",
+          "esVIF": "false",
+          "esNNA": "false",
+          "esRPA": "false",
+          "tieneInformacionDelictual": "false"
+        },
+        {
+          "tipoInterviniente": "IMPUTADO",
+          "nroDocumento": "20.461.861-5",
+          "nombreCompletoInterviniente": "Mauricio Carrera Santos",
+          "esVIF": "false",
+          "esNNA": "false",
+          "esRPA": "false",
+          "tieneInformacionDelictual": "false"
+        }
+      ],
+      "delitos": [
+        {
+          "familiaDelito": "LESIONES",
+          "tipoDelito": "LESIONES GRAVES",
+          "esVIF": "false",
+          "direccionDelito": "Santiago 1111, R.M.",
+          "fechaDelito": "21-03-2022 16:41"
+        }
+      ],
+      "relaciones": [
+        {
+          "nombreCompletoVictima": "Daniel Fuentealba Socias",
+          "nombreCompletoImputado": "Mauricio Carrera Santos",
+          "nombreCompletoDelito": "LESIONES - LESIONES GRAVES"
+        }
+      ],
+      "especies": [
+        {
+          "familiaEspecie": "VESTUARIO",
+          "tipoEspecie": "ROPA INTERIOR",
+          "descripcion": "Sunga de terciopelo",
+          "estado": "Ingresada",
+          "rue": "111",
+          "nue": "333",
+          "cantidadTotal": "1",
+          "nombreCompletoDelitoAsociado": "LESIONES - LESIONES GRAVES",
+          "lugarAlmacenamiento": "Comisaria",
+          "solicitudes": [],
+          "indicadores": [
+            {
+              "tipoIndicador": "CUSTODIA",
+              "nombreIndicador": "Indicador de Custodia Policial"
+            }
+          ]
+        }
+      ],
+      "relato": {
+        "textoCompleto": "lorem ipsum dolor sit amet concectitures..."
+      },
+      "documentos": [
+        {
+          "nombreArchivo": "huella-digital-imputado",
+          "descripcionArchivo": "La huella digital del imputado",
+          "tipoArchivo": "FOTO",
+          "tamaño": "4096"
+        }
+      ],
+      "diligencias": {
+        "realizadasInstruidas": [
+          {
+            "fechaInstruccion": "fechaInstruccion",
+            "tipoDiligencia": "tipoDiligencia",
+            "subtipoDiligencia": "subtipoDiligencia",
+            "solicitante": "solicitante",
+            "estado": "estado",
+            "institucionEjecutora": "institucionEjecutora",
+            "diligenciasInstruccion": "diligenciasInstruccion",
+            "documento": "documento",
+            "grabacion": "grabacion",
+            "chat": "chat"
+          }
+        ],
+        "sugeridas": [
+          {
+            "codigoDiligencia": "codigoDiligencia",
+            "tipoDiligencia": "tipoDiligencia",
+            "subtipoDiligencia": "subtipoDiligencia",
+            "estado": "estado",
+            "observacion": "observacion"
+          }
+        ]
+      },
+      "historialCausa": {
+        "ingreso": [],
+        "preclasificacion": [],
+        "asignacion": [],
+        "tramitacion": []
+      }
+    }
+  ]
+}

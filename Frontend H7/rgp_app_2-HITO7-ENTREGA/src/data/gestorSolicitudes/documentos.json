@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Nombre",
+        "descripcion": "Descripción",
+        "tipo": "Tipo",
+        "tamaño": "tamaño"
+    },
+    {
+        "nombre": "Nombre2",
+        "descripcion": "Descripción",
+        "tipo": "Tipo",
+        "tamaño": "tamaño"
+    }
+]

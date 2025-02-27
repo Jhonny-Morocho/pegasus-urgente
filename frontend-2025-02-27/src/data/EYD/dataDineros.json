@@ -1,0 +1,52 @@
+{
+  "dineros": [
+    {  
+      "nue": "2315779",
+      "idFamiliaEspecie": "68C47D52-FF30-41AD-ADE1-63417F62E2DA",
+      "idTipoEspecie": "B104B9AB-55C9-48DD-894D-FC3F400EFED9",
+      "alerta": "Dinero",
+      "tipoMoneda" : 1,
+      "cantidadMonto": 250000,
+      "descripcion": "10 billetes de $20.0000, 4 billetes de $5.000, 4 billetes de $2.000 y 2 billetes de $1.000",
+      "observaciones": "",
+      "resultadoReglaDeNegocio": "",
+      "desglose": [
+        {
+          "denominacion": "10",
+          "tipoDinero": "1",
+          "cantidad": 10,
+          "total": 200000
+        },
+        {
+          "denominacion": "8",
+          "tipoDinero": "1",
+          "cantidad": 4,
+          "total": 40000
+        },
+        {
+          "denominacion": "7",
+          "tipoDinero": "1",
+          "cantidad": 4,
+          "total": 8000
+        },
+        {
+          "denominacion": "6",
+          "tipoDinero": "1",
+          "cantidad": 2,
+          "total": 2000
+        }
+      ],
+      "entregadoPor": [
+        {
+          "run": "",
+          "nombre": "",
+          "grado": "",
+          "institucion": "",
+          "unidad": "",
+          "destacamiento": ""
+        }
+      ] 
+
+    }
+  ]
+}

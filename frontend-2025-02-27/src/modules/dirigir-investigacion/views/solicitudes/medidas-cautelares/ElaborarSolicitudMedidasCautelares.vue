@@ -1,0 +1,200 @@
+<template>
+<section>
+  <AppForm
+    id="enviarsolicitud"
+    :form-submitted="formSubmitted"
+    validation-scope="enviarsolicitud"
+  >
+    <div class="my-2 col-12 md:col-6 lg:col-4">
+      <p class="text-center">
+        ¿Desea derivar la Materialización al Equipo Jurídico?
+      </p>
+      <AppSelectButton
+        id="deriva-a-juridico"
+        v-model="formData.derivaMaterializacionEquipoJuridico"
+        option-label="name"
+        option-value="value"
+        :options="[
+          { name: 'Si', value: true },
+          { name: 'No', value: false }
+        ]"
+      />
+    </div>
+
+    <AppFieldset
+      class="w-full"
+      :collapsed="formData.derivaMaterializacionEquipoJuridico === null"
+      legend="Materializa Fiscal"
+    >
+      <p class="col-12 md:col-4">
+        <span style="font-weight: bold">Fiscalía:</span>
+        {{ resumenCausa?.nombreFiscaliaLocal }}
+      </p>
+      <p class="col-12 md:col-4">
+        <span style="font-weight: bold">Fiscal Asignado:</span>
+        {{ resumenCausa?.nombreFiscalAsignado }}
+      </p>
+      <div class="col-12 p-0 my-2">
+        <AppDropdown
+          id="medida-cautelar"
+          v-model="formData.nombreTribunal"
+          class="col-12 md:col-4"
+          label="Tribunales"
+          :options="['Tribunal-1', 'Tribunal-2', 'Tribunal-3']"
+          :rules="{
+            required
+          }"
+          show-clear
+        />
+      </div>
+
+      <EscritoMaterializaFiscal
+        v-if="!formData.derivaMaterializacionEquipoJuridico"
+        v-model="formData"
+        :institucion-options="null"
+        :plantilla-diligencias-options="plantillasDiligencia"
+        :unidad-policial-options="null"
+        @get-plantilla-instruccion="getPlantilla"
+      />
+      <InstruccionEquipoJuridico
+        v-else
+        v-model="formData"
+        :has-revisa-escrito="true"
+        :institucion-options="null"
+        :unidad-policial-options="null"
+        @vista-previa-instruccion="vistaPrevia"
+      />
+    </AppFieldset>
+
+    <AppFieldset
+      class="w-full mt-6"
+      collapsed
+      legend="¿Desea agregar un documento a la solicitud?"
+      :toggleable="false"
+    >
+      <h3 class="text-center w-full my-6">
+        Agregar un documento 😅
+      </h3>
+    </AppFieldset>
+
+    <AppBtnNextTeleported
+      class="mr-2"
+      icon="pi pi-send"
+      icon-pos="right"
+      label="Enviar Solicitud"
+      @click="handleEnviarSolicitud()"
+    />
+  </AppForm>
+</section>
+</template>
+
+<script setup>
+import { ref, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
+import { requestUtil } from '@/utils'
+import { useDirigirInvestigacionStore } from '@/modules/dirigir-investigacion/composables'
+import { useAppDialog, useAppToast, useConfirmDialog, useFormValidation } from '@/modules/common/composables'
+import { useMantenedorStore, useDiligenciaStore } from '@/modules/global/composables'
+import ModalVerEscrito from '@/modules/dirigir-investigacion/components/modals/ModalVerEscrito.vue'
+import AppBtnNextTeleported from '@/modules/common/components/buttons/AppBtnNextTeleported.vue'
+import EscritoMaterializaFiscal from '@/modules/dirigir-investigacion/components/EscritoMaterializaFiscal.vue'
+import InstruccionEquipoJuridico from '@/modules/dirigir-investigacion/components/InstruccionEquipoJuridico.vue'
+
+const { launchConfirmDialog } = useConfirmDialog()
+const { launchDialog } = useAppDialog()
+// eslint-disable-next-line no-unused-vars
+const { toastError, TOAST_MESSAGES, toastSuccess } = useAppToast()
+const {
+  resumenCausa,
+  ruc
+  //   dirigirInvestigacion_postCrearSolicitudMedidaCautelar
+} = useDirigirInvestigacionStore()
+const { diligencia_getEscritoMaterializacionDiligencia } = useDiligenciaStore()
+const { plantillasDiligencia, mantenedor_getPlantillasDiligencia, mantenedor_getInstituciones } = useMantenedorStore()
+
+onMounted(async () => {
+  requestUtil({ action: mantenedor_getPlantillasDiligencia })
+  requestUtil({ action: mantenedor_getInstituciones })
+})
+
+const formData = ref({
+  derivaMaterializacionEquipoJuridico: null, // inicia en null siempre - bool
+  idTribunal: 'uuid', // tribunal - uuid,
+  nombreTribunal: null, // tribunal - string,
+  agregaUnidadPolicial: null, // bool
+  idPlantilla: null, // plantilla - uuid,
+  materializacionTextoFiscal: null, // plantilla - string
+  instruccionesEquipoJuridico: null, // plantilla - string
+  idInstitucion: 'uuid', // institucion - uuid,
+  institucion: null, // institucion - string,
+  idUnidadPolicial: 'uuid', // unidad policial - uuid,
+  unidadPolicial: null, // unidad policial - string,
+  archivoProvisionalConConsulta: null,
+  listaDocumentos: [], // array de documentos
+  deseaAdjuntarCDD: false // bool
+})
+
+const { formSubmitted, required, isFormValid } = useFormValidation({
+  formData,
+  validationScope: 'enviarsolicitud'
+})
+
+// eslint-disable-next-line no-unused-vars
+const router = useRouter()
+
+function vistaPrevia () {
+  launchDialog({
+    component: ModalVerEscrito,
+    header: 'Ver Escrito',
+    props: { data: formData.value },
+    width: '67%'
+  })
+}
+
+function handleEnviarSolicitud () {
+  if (!isFormValid()) {
+    toastError(TOAST_MESSAGES.formInvalid)
+    return
+  }
+
+  launchConfirmDialog({
+    header: 'Solicitar Medidas Cautelares o Intrusivas por Escrito',
+    message: '¿Está seguro de enviar la Solicitud?',
+    acceptLabel: 'Aceptar',
+    accept: async () => {
+      postCrearSolicitudMedidaCautelar()
+    }
+  })
+}
+
+async function postCrearSolicitudMedidaCautelar () {
+  toastSuccess('La solicitud ha sido enviada con éxito')
+  setTimeout(() => {
+    router.push({ name: 'DIDesarrolloInvestigacion' })
+  }, 600)
+  // requestUtil({
+  //   action: dirigirInvestigacion_postCrearSolicitudMedidaCautelar,
+  //   payload: {
+  //     ...formData.value
+  //   },
+  //   resolve: () => {
+  //     toastSuccess('La solicitud ha sido enviada con éxito')
+  //     router.push({ name: 'DIDesarrolloInvestigacion' })
+  //   }
+  // })
+}
+
+async function getPlantilla (idPlantilla) {
+  requestUtil({
+    action: diligencia_getEscritoMaterializacionDiligencia,
+    payload: {
+      ruc: ruc.value,
+      idPlantilla
+    },
+    resolve: ({ data }) => {
+      formData.value.materializacionTextoFiscal = data.texto
+      console.log(formData.value)
+    }
+  })
+}
+</script>

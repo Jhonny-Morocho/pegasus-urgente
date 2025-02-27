@@ -1,0 +1,66 @@
+{
+  "prefecturaDependencias": [
+    {
+      "name": "Prefectura A1",
+      "id": 1,
+      "idUnidadPolicial": 1,
+      "direccionContacto": {
+        "region": "Metropolitana",
+        "comuna": "Santiago",
+        "calle": "Calle PA1",
+        "numeroCalle": "11",
+        "poblacion": "Poblacion PA1",
+        "telefonoContacto": "99 999999999",
+        "correoElectronicoContacto": "correo1@gmail.com"
+      }
+    },
+    {
+      "name": "Prefectura A2",
+      "id": 2,
+      "idUnidadPolicial": 1,
+      "direccionContacto": {
+        "region": "Arica y Parinacota",
+        "comuna": "Alto Hospicio",
+        "calle": "Calle PA2",
+        "numero": "12",
+        "poblacion": "Poblacion PA2",
+        "telefonoContacto": "222222",
+        "correoContacto": "correo2@gmail.com"
+      }
+    },
+    {
+      "name": "Prefectura B1",
+      "id": 3,
+      "idUnidadPolicial": 2,
+      "direccionContacto": {
+        "region": "Coquimbo",
+        "comuna": "La Serena",
+        "calle": "Calle PB1",
+        "numero": "21",
+        "poblacion": "Poblacion PB1",
+        "telefonoContacto": "333333",
+        "correoContacto": "correo3@gmail.com"
+      }
+    },
+    {
+      "name": "Prefectura B2",
+      "id": 4,
+      "idUnidadPolicial": 2,
+      "direccionContacto": {
+        "region": "De los rios ",
+        "comuna": "Valdivia",
+        "calle": "Calle PB2",
+        "numero": "22",
+        "poblacion": "Poblacion PB2",
+        "telefonoContacto": "444444",
+        "correoContacto": "correo4@gmail.com"
+      }
+    }
+  ],
+  "unidadPolicialOptions": [
+    { "name": "Carabineros", "id": 1 },
+    { "name": "PDI", "id": 2 },
+    { "name": "Poder Judicial", "id": 3 },
+    { "name": "Gendarmería", "id": 4 }
+  ]
+}

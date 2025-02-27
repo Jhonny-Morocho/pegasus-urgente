@@ -1,0 +1,60 @@
+{
+    "paginacion": {
+        "paginaActual": 0,
+        "elementosTotales": 5,
+        "paginasTotales": 1,
+        "tamanoPagina": 10
+    },
+    "data": [
+        {   
+            "id": 1,
+            "procedencia": "SRCel",
+            "nombreArchivo": "Certificado Antedecentes",
+            "claseDocumental": "Antecedentes Imputado",
+            "formatoRecepcion": "Físico",
+            "fechaAgregacion": "2022-08-01T13:03:45.92",
+            "fechaUltActualizacion": "2022-08-03T13:03:45.92",
+            "version": "1"
+        },
+        {   
+            "id": 2,
+            "procedencia": "SRCel 2",
+            "nombreArchivo": "Certificados Antedecentes",
+            "claseDocumental": "Antecedentes Imputado",
+            "formatoRecepcion": "Físico",
+            "fechaAgregacion": "2022-08-01T13:03:45.92",
+            "fechaUltActualizacion": "2022-08-03T13:03:45.92",
+            "version": "1"
+        },
+        {   
+            "id": 3,
+            "procedencia": "SRCel",
+            "nombreArchivo": "Certificado Antedecentes v2",
+            "claseDocumental": "Antecedentes Imputado",
+            "formatoRecepcion": "Físico",
+            "fechaAgregacion": "2022-08-01T13:03:45.92",
+            "fechaUltActualizacion": "2022-08-03T13:03:45.92",
+            "version": "1"
+        },
+        {   
+            "id": 4,
+            "procedencia": "SRCel",
+            "nombreArchivo": "Información de turno",
+            "claseDocumental": "Antecedentes Imputado",
+            "formatoRecepcion": "Físico",
+            "fechaAgregacion": "2022-08-01T13:03:45.92",
+            "fechaUltActualizacion": "2022-08-03T13:03:45.92",
+            "version": "1"
+        },
+        {   
+            "id": 5,
+            "procedencia": "SRCel",
+            "nombreArchivo": "Antedecentes delito económico",
+            "claseDocumental": "Antecedentes Imputado",
+            "formatoRecepcion": "Físico",
+            "fechaAgregacion": "2022-08-01T13:03:45.92",
+            "fechaUltActualizacion": "2022-08-03T13:03:45.92",
+            "version": "1"
+        }
+    ]
+}

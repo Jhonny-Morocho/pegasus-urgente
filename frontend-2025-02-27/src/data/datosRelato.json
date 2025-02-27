@@ -1,0 +1,30 @@
+{
+    "ruc": "21012314567-1",
+    "numeroDenuncia": "222222222",
+    "rutDenunciante": "2222222-2",
+    "denuncianteEsExtranjero": true,
+    "nombreDenunciante": "Juanito Pérez",
+    "victimaEsExtranjero": false,
+    "rutVictima": "12123123-k",
+    "nombreVictima": "José José",
+    "imputadoEsExtranjero": false,
+    "rutImputado": "32132132-k",
+    "nombreImputado": "Gonzalo Gonzales",
+    "delito": "Violación de morada",
+    "fechaDelito": "01-01-2021",
+    "fechaDenuncia": "15-01-2021",
+    "horaDelito":"12:00",
+    "horaDenuncia": "15:00",
+    "horaDetencion": "15:15",
+    "region":"Región Metropolitana",
+    "ciudad":"Santiago",
+    "direccion": "Vicuña Mackenna",
+    "direccionNumero": "132344",
+    "comuna": "La Florida",
+    "especies":"01 Tv Led, 02 Laptops, 03 Smartphones",
+    "dinero":"300.000",
+    "relato": "lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+    "unidadPolicial": "Primera Comisaria de La Florida"
+}
+
+   

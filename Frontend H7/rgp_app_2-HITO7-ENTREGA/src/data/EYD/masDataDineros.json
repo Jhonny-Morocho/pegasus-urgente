@@ -1,0 +1,108 @@
+{
+  "masDineros": [
+    {  
+      "nue": "2315779",
+      "idFamiliaEspecie": "68C47D52-FF30-41AD-ADE1-63417F62E2DA",
+      "idTipoEspecie": "88A49998-B1FF-4852-960A-9602C9953A27",
+      "alerta": "Dinero",
+      "tipoMoneda" : "1",
+      "cantidadMonto": 234234,
+      "descripcion": "",
+      "observaciones": "",
+      "desglose": [
+        {
+          "denominacion": "id",
+          "tipoDinero": "saD",
+          "cantidad": 123,
+          "total": 189237
+        },
+        {
+          "denominacion": "id",
+          "tipoDinero": "saD",
+          "cantidad": 123,
+          "total": 189237
+        },
+        {
+          "denominacion": "id",
+          "tipoDinero": "saD",
+          "cantidad": 123,
+          "total": 189237
+        },
+        {
+          "denominacion": "id",
+          "tipoDinero": "saD",
+          "cantidad": 123,
+          "total": 189237
+        },
+        {
+          "denominacion": "id",
+          "tipoDinero": "saD",
+          "cantidad": 123,
+          "total": 189237
+        }
+      ],
+      "entregadoPor": [
+        {
+          "run": "",
+          "nombre": "",
+          "grado": "",
+          "institucion": "",
+          "unidad": "",
+          "destacamiento": ""
+        }
+      ] 
+    },    
+    {  
+      "nue": "2315779",
+      "idFamiliaEspecie": "68C47D52-FF30-41AD-ADE1-63417F62E2DA",
+      "idTipoEspecie": "B104B9AB-55C9-48DD-894D-FC3F400EFED9",
+      "alerta": "Dinero",
+      "tipoMoneda" : "1",
+      "cantidadMonto": 234234,
+      "descripcion": "",
+      "observaciones": "",
+      "desglose": [
+        {
+          "denominacion": "id",
+          "tipoDinero": "saD",
+          "cantidad": 123,
+          "total": 189237
+        },
+        {
+          "denominacion": "id",
+          "tipoDinero": "saD",
+          "cantidad": 123,
+          "total": 189237
+        },
+        {
+          "denominacion": "id",
+          "tipoDinero": "saD",
+          "cantidad": 123,
+          "total": 189237
+        },
+        {
+          "denominacion": "id",
+          "tipoDinero": "saD",
+          "cantidad": 123,
+          "total": 189237
+        },
+        {
+          "denominacion": "id",
+          "tipoDinero": "saD",
+          "cantidad": 123,
+          "total": 189237
+        }
+      ], 
+      "entregadoPor": [
+        {
+          "run": "",
+          "nombre": "",
+          "grado": "",
+          "institucion": "",
+          "unidad": "",
+          "destacamiento": ""
+        }
+      ]
+    }
+  ]
+}

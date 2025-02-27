@@ -1,0 +1,33 @@
+{
+  "especies": [ 
+    {
+      "nue": "123443",
+      "rue": "123443",
+      "ruc": "123443",
+      "ley": "123443",
+      "descripcion": "IPhone 7",
+      "cantidad": 5,
+      "codigoFiscalia": "902",
+      "bodega": "A1",
+      "sector": "Planta Baja",
+      "casillero": "B2",
+      "fechaSolicitud": "29-01-2023",
+      "marca": "N/A",
+      "valorComercial": "Si"
+    }
+  ],
+  "datosMuestra": {
+    "col1": [
+      { "label": "RUC: ", "value": "data example" },
+      { "label": "Fecha Solicitud: ", "value": "data example" },
+      { "label": "Fecha Creación Causa: ", "value": "data example" },
+      { "label": "Nombre Causa: ", "value": "data example" }
+    ],
+    "col2": [
+      { "label": "Fiscalía Local: ", "value": "data example"},
+      { "label": "Fiscal Asignado: ", "value": "data example" },
+      { "label": "Estado de la Causa: ", "value": "data example" },
+      { "label": "Institución de envío: ", "value": "data example" }
+    ]
+  }
+}

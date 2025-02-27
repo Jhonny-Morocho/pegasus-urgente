@@ -1,0 +1,26 @@
+{
+"identificadorUnicoDenuncia": "01Csadfasd",
+"nroParteDenuncia": "906-21200-2021",
+"fechaDenuncia": "fecha de denuncia",
+"tipoDenuncia": "DENUNCIA",
+"tiposDenuncia": [
+  { "name": "DENUNCIA" },
+  { "name": "QUERELLA" },
+  { "name": "DE OFICIO" },
+  { "name": "RECLAMO" },
+  { "name": "R.I.ASISTENCIA" },
+  { "name": "R.I.EXTRADICION" }
+],
+"formaEnvio": "MANUAL",
+"formasEnvio": [
+  { "name": "MANUAL" },
+  { "name": "FAX" },
+  { "name": "MEDIO MAGNETICO" },
+  { "name": "CORREO ELECTRONICO" }
+],
+"ruc": "1800938215-8",
+"rit": "1800938215-8",
+"folio": "001",
+"nombreFiscalia": "asdf",
+"usuarioRecepcionaDenuncia": "asdf"
+}

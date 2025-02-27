@@ -1,0 +1,92 @@
+[
+  {
+    "idGlobal": "8e735531-75ba-4aef-ade7-45b09a82230c",
+    "antecedentes": {
+      "ruc": "189258-7",
+      "rit": "rit",
+      "folio": "folio",
+      "identificadorUnicoDenuncia": "identificadorUnicoDenuncia",
+      "tipoDenuncia": "Directa",
+      "numeroParteDenuncia": "nroParteDenuncia",
+      "fechaHoraDenuncia": "2020-05-10T13:34:12.000",
+      "fechaHoraRecepcion": "2020-05-11T15:54:28.000",
+      "formaEnvio": "Digital",
+      "estado": "estado",
+      "nombreCausa": "Soquimich",
+      "medioRecepcion": "medioRecepcion",
+      "nombreDigitador": "nombreDigitador",
+      "funcionarioCargoProcedimiento": "funcionarioACargoProcedimiento",
+      "fiscalAsignado": "fiscalAsignado"
+    },
+    "fiscaliaLocal": {
+      "tipoFiscalia": "tipoFiscalia",
+      "region": "region",
+      "nombreFiscalia": "nombreFiscalia",
+      "numeroFiscalia": "nroFiscalia",
+      "rutAtendedor": "17.341.622-9",
+      "nombreAtendedor": "Federico Mancilla Claro",
+      "comuna": "comuna",
+      "calle": "calle",
+      "numero": "numero",
+      "telefonoContacto": "telefonoContacto",
+      "correoElectronicoContacto": "fiscalia1@gob.cl"
+    },
+    "institucion": {
+      "unidadPoliciaOrganismo": "unidadPolicial",
+      "prefecturaDependenciaUP": "prefecturaDependencia",
+      "comisaria": "comisaria",
+      "destacamento": "destacamento",
+      "region": "region",
+      "comuna": "comuna",
+      "calle": "calle",
+      "numero": "numero",
+      "telefonoContacto": "telefonoContacto",
+      "correoElectronicoContacto": "institucion1@gob.cl"
+    }
+  },
+  {
+    "idGlobal": "3ba94a4a-f9dd-470a-99fa-a5d589632faa",
+    "antecedentes": {
+      "ruc": "363977-6",
+      "rit": "rit",
+      "folio": "folio",
+      "identificadorUnicoDenuncia": "identificadorUnicoDenuncia",
+      "tipoDenuncia": "Directa",
+      "numeroParteDenuncia": "nroParteDenuncia",
+      "fechaHoraDenuncia": "2020-05-10T10:41:28.000",
+      "fechaHoraRecepcion": "2020-05-10T11:54:28.000",
+      "formaEnvio": "Digital",
+      "estado": "estado",
+      "nombreCausa": "Arañitas",
+      "medioRecepcion": "medioRecepcion",
+      "nombreDigitador": "nombreDigitador",
+      "funcionarioCargoProcedimiento": "funcionarioACargoProcedimiento",
+      "fiscalAsignado": "fiscalAsignado"
+    },
+    "fiscaliaLocal": {
+      "tipoFiscalia": "tipoFiscalia",
+      "region": "region",
+      "nombreFiscalia": "nombreFiscalia",
+      "numeroFiscalia": "nroFiscalia",
+      "rutAtendedor": "8.937.036-1",
+      "nombreAtendedor": "Patricia Ramirez",
+      "comuna": "comuna",
+      "calle": "calle",
+      "numero": "numero",
+      "telefonoContacto": "telefonoContacto",
+      "correoElectronicoContacto": "fiscalia2@gob.cl"
+    },
+    "institucion": {
+      "unidadPoliciaOrganismo": "unidadPolicial",
+      "prefecturaDependenciaUP": "prefecturaDependencia",
+      "comisaria": "comisaria",
+      "destacamento": "destacamento",
+      "region": "region",
+      "comuna": "comuna",
+      "calle": "calle",
+      "numero": "numero",
+      "telefonoContacto": "telefonoContacto",
+      "correoElectronicoContacto": "institucion2@gob.cl"
+    }
+  }
+]

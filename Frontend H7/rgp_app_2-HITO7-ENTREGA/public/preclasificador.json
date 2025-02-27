@@ -1,0 +1,178 @@
+{
+    "delito": [
+        {
+            "idProcedimiento": null,
+            "idDenunciaHechoDelictual": null,
+            "idDetalleDenunciaHechoDelictualDireccion": null,
+            "idTipoDenuncia": "",
+            "idOrigen": "",
+            "idDenuncia": "3623e1b9-1abf-4efc-be61-c09ea54b81be",
+            "idDetalleHechoDelictual": "86301069-be4b-49c4-ac62-e148759ad5fc",
+            "numeroDenuncia": "FI0000745",
+            "idTipo": null,
+            "idEstado": null,
+            "delito": {
+                "idDenuncia": null,
+                "familiaDelito": "2",
+                "idFamiliaDelito": 2,
+                "delitoDenunciado": "709",
+                "idTipoDelito": 709,
+                "descripcionDelito": "descripcion delito",
+                "codigoDelitoCarabineros": "1312"
+            },
+            "informacionAnonima": {
+                "idDenuncia": null,
+                "esInformacionAnonima": true,
+                "programaRazonAnonimato": "programa anonimato",
+                "viaInformacionAportada": "Oficio"
+            },
+            "lugarDelito": {
+                "idDelito": null,
+                "zonaDelito": "Rural",
+                "tipoLugarOcurrencia": "Local Comercial",
+                "viaIngreso": "Puerta Principal",
+                "lugarOcurrencia": "lugar ocurrencia",
+                "lugarEspecificoOcurrencia": "lugar especifico ocurrencia"
+            },
+            "clasificacionDelito": {
+                "idDenuncia": null,
+                "gradoEjecucionDelito": "Frustrado",
+                "problemaDelictualFenomenoCriminal": "problema delictual",
+                "patronCriminal": "patron criminal",
+                "modusOperandi": "Acciones contra Personas",
+                "subModusOperandi": "Acceso Proveedores"
+            },
+            "fechaHoraRango": false,
+            "fechaOcurrencia": "2022-03-21T16:41:36.000",
+            "fechaHoraDelitoInicio": "1900-01-01T00:00:00.000",
+            "fechaHoraDelitoFin": "1900-01-01T00:00:00.000",
+            "esFlagrante": true,
+            "elementoUsado": {
+                "idDenuncia": null,
+                "tipoElementoUsado": "Arma Blanca",
+                "elementoUsado": "Sable"
+            },
+            "esHallazgo": true,
+            "tipoHallazgo": "Vehículos",
+            "mediosTransportes": [
+                {
+                    "idDetalleHechoDelictual": "2022-03-21T19:43:11.084Z",
+                    "rutaMedioTransporte": "Llegada",
+                    "tipoMedioTransporte": "Pie",
+                    "detalleMedioTransporte": "detalle medio pie",
+                    "datoVehiculoUtilizadoImputado": {
+                        "idDetalleHechoDelictual": null,
+                        "idMedioTransporteImputado": null,
+                        "idDatosVehiculoUtilizadoImputado": null,
+                        "tieneSeguro": "",
+                        "estaEncargadoPorRobo": "",
+                        "portaPlacaPatente": null,
+                        "incautado": null,
+                        "numeroEncargos": "",
+                        "informacionAutopista": "",
+                        "informacionPeajes": "",
+                        "observacion": "",
+                        "datosVehiculo": {
+                            "idDetalleHechoDelictual": "",
+                            "idDatosVehiculoUtilizadoImputado": "",
+                            "idDatoVehiculo": "",
+                            "tipoVehiculo": "",
+                            "patente": "",
+                            "marca": "",
+                            "modelo": "",
+                            "color": "",
+                            "vin": "",
+                            "numeroMotor": ""
+                        }
+                    }
+                },
+                {
+                    "idDetalleHechoDelictual": "2022-03-21T19:43:53.499Z",
+                    "rutaMedioTransporte": "Huida",
+                    "tipoMedioTransporte": "Vehículo",
+                    "detalleMedioTransporte": "detalle medio vehiculo",
+                    "datoVehiculoUtilizadoImputado": {
+                        "idDetalleHechoDelictual": null,
+                        "idMedioTransporteImputado": null,
+                        "idDatosVehiculoUtilizadoImputado": null,
+                        "tieneSeguro": "No Se Sabe",
+                        "estaEncargadoPorRobo": "Si",
+                        "portaPlacaPatente": false,
+                        "incautado": true,
+                        "numeroEncargos": "numero encargo",
+                        "informacionAutopista": "info autopista",
+                        "informacionPeajes": "info peaje",
+                        "observacion": "observacion",
+                        "datosVehiculo": {
+                            "idDetalleHechoDelictual": "",
+                            "idDatosVehiculoUtilizadoImputado": "",
+                            "idDatoVehiculo": "",
+                            "tipoVehiculo": "Vehículos Motorizados",
+                            "patente": "patente",
+                            "marca": "marca",
+                            "modelo": "modelo",
+                            "color": "color",
+                            "vin": "vin",
+                            "numeroMotor": "numero motor"
+                        }
+                    }
+                }
+            ],
+            "medioTransporteDto": null,
+            "existenLesionados": "Si",
+            "existenMuertos": "No aplica",
+            "existenDetenidos": "No",
+            "informacionCamara": {
+                "idDenuncia": null,
+                "existeCamara": "No Informado",
+                "incautaronImagenes": "No",
+                "lugarCamara": "Cámara supermercado",
+                "contenidoCamara": "Permite identificar imputado",
+                "observacionAdicionalCamara": "observacion camaras"
+            },
+            "vigilancia": {
+                "idDenuncia": null,
+                "tipoVigilancia": "Vigilancia privada",
+                "medidasSeguridad": "Cerco eléctrico"
+            },
+            "sujeto": {
+                "idDenuncia": null,
+                "cantidadSujetosCometieronHechoDelictual": "3",
+                "modalidadGrupo": "Dos o mas hombres"
+            },
+            "ambitoNNA": {
+                "idDenuncia": null,
+                "nnaSeNiegaSepararAdulto": true,
+                "describirConductasNNA": "conductas NNA"
+            },
+            "entregaDetenidosPorCiviles": false,
+            "esAccidenteTransito": true,
+            "esIncendio": false,
+            "vif": true,
+            "direccionDelito": {
+                "idDireccion": null,
+                "idDenuncia": null,
+                "idDetalleDenunciaHechoDelictualDireccion": null,
+                "calle": "Avenida Libertador Bernardo O'Higgins",
+                "numero": "390",
+                "departamentoOficina": "depto",
+                "block": "block",
+                "poblacionVilla": "poblacion",
+                "sector": "sector",
+                "ciudad": "",
+                "comuna": "Santiago",
+                "region": "Región Metropolitana",
+                "interseccion": "interseccion",
+                "cuadrante": "cuadrante",
+                "observacionReferencia": "referencia",
+                "lugarEspecifico": "lugar especifico",
+                "latitud": "-33.4411015",
+                "longitud": "-70.64140770000002",
+                "esPrincipal": true,
+                "ubicacionRural": null
+            },
+            "relacionSujeto": null,
+            "antecedentesForm": null
+        }
+    ]
+}

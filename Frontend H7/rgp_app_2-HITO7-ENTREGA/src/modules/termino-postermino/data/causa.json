@@ -1,0 +1,221 @@
+{
+  "causa": {
+    "ruc": "20000001992-6",
+    "rit": "23898-2019",
+    "nombreCausa": "Caso los Quesitos",
+    "directriz": "Directriz de la causa",
+    "esReservada": false,
+    "nombreFiscalAsignado": "Samuel Nuñez Parga",
+    "nombreFiscaliaLocal": "Casa Blanca",
+    "descripcionEstado": "Vigente",
+    "descripcionProceso": "En Tramitación",
+    "descripcionEstadoRelacion": "Vigente-Formalizada",
+    "fechaCreacion": "2019-09-18T11:00:00",
+    "fechaAsignacion": "2019-06-26",
+    "fechaFormalizacion": "2019-11-15",
+    "fechaPrescripcion": "2021-09-30",
+    "plazoInvestigacionDias": 180,
+    "delito": "OTROS HECHOS",
+    "alertas": [
+      {
+        "nombre": "ACU",
+        "descripcion": "Vencimiento de Plazo Limite de Acusación"
+      }
+    ],
+    "etapaRelacionesCausa": "Revisando Causa Asignada",
+    "fechaTerminoOSuspension": "2019-11-15",
+    "fechaDelito": "2020-06-13",
+    "imputados": [
+      "José Ramírez Delgado",
+      "Marcelo Callado Rodríguez"
+    ],
+    "victimas": 2,
+    "estadoProcesal": "Estado procesal",
+    "direccionDelito": "Comuna, Calle y Número",
+    "condiciones": [
+      "Someterse a tratamiento",
+      "Abandono del hogar"
+    ],
+    "tipoSuspension": "Suspensión Condicional del Procedimiento  "
+  },
+
+  "decisionCausa": {
+    "decision": "Suspensión",
+    "fecha": "12/04/2022 14:24",
+    "tipo": "Suspensión Condicional del Procedimiento",
+    "subTipo": "sin subtipo",
+    "motivo": "Motivo de suspensión",
+    "causa": "20000001992-6",
+    "nivel": "nivel"
+  },
+
+  "respuestaFJ": {
+    "respuesta": "Aprobar con observaciones",
+    "observaciones": "Observaciones desde back cuando haya."
+  },
+
+  "complementoFiscal": "Complemento ingresado por fiscal.",
+  
+  "solicitudReapertura": {
+    "id": "5575756654",
+    "fechaSolicitud": "10-08-2022",
+    "nombreSolicitante": "Alfredo Morgado",
+    "correoSolicitante": "correodelsolicitante@correo.cl",
+    "telefonoSolicitante": "+56993669823"
+  },
+
+  "antecedentesAudiencia":{
+    "tipo": "Control de Detención",
+    "juez": "Gisella Martinez",
+    "defensor": "Carolina Alvarado",
+    "fiscal": "Samuel Núñez Parga",
+    "fecha": "18-03-2020",
+    "tribunal": "Juzgado de Garantía de Casablanca",
+    "sala": "Edificio A, Piso 2, Sala 201",
+    "bloque": "Mañana",
+    "medidasCautelares": [
+      {
+        "medida": "Arraigo Nacional",
+        "sujeto": "Gustavo Sebastian Henríquez",
+        "vigencia": "23-11-2018 al 24-12-2018"
+      },
+      {
+        "medida": "Entrada y registro en lugares cerrados",
+        "sujeto": "Gustavo Sebastian Henríquez ",
+        "vigencia": "23-11-2018 al 24-12-2018"
+      }
+    ],
+    "apercibimiento":[
+      {
+        "tipoSujeto": "Victima",
+        "sujeto": "Jaime Carrasco Tapia",
+        "apercibimiento": true
+      },
+      {
+        "tipoSujeto": "Imputado",
+        "sujeto": "Gustavo Sebastian Henríquez ",
+        "apercibimiento": false
+      }
+    ]
+
+  },
+
+  "listaCondiciones": [
+    {
+      "id": 1,
+      "label":"Residir o no residir en (238, a)"},
+    {
+      "id": 2,
+      "label":"Tener un trabajo o capacitación (238, d)"},
+    {
+      "id": 3,
+      "label":"Fijar e informar domicilio en fiscalía"},
+    {
+      "id": 4,
+      "label":"Prohibición de acercarse a la víctima, domicilio, trabajo o estudio (9b, VIF)"},
+    {
+      "id": 5,
+      "label":"Suspensión de licencia (196f, Ley Tto)"},
+    {
+      "id": 6,
+      "label":"Someterse a tratamiento"},
+    {
+      "id": 7,
+      "label":"Acudir a fiscalía y acreditar (238, f)"},
+    {
+      "id": 8,
+      "label":"Abstenerse a frecuentar (238, b)"},
+    {
+      "id": 9,
+      "label":"Pagar a título de indemnización (238, e)"},
+    {
+      "id": 10,
+      "label":"Otra (238, h): (ej: disponer de especie)"},
+    {
+      "id": 11,
+      "label":"Prohibición de porte o tenencia de armas (9a, VIF)"},
+    {
+      "id": 12,
+      "label":"Progama terapéutico u orientación familiar (9d, VIF)"},
+    {
+      "id": 13,
+      "label":"Abandono del hogar"}
+  ],
+
+  "condicionesRegistradas":[
+    {
+      "idImputado": "b86467da-522c-40db-909b-358ddc15c7a8",
+      "condiciones": [
+        {
+          "id": 3,
+          "estado": "Pendiente"
+        },
+        {
+          "id": 4,
+          "estado": "Pendiente"
+        },
+        {
+          "id": 7,
+          "estado": "Pendiente"
+        },
+        {
+          "id": 8,
+          "estado": "Pendiente"
+        },
+        {
+          "id": 10,
+          "estado": "Incumplimiento"
+        },
+        {
+          "id": 11,
+          "estado": "Cumplimiento Total"
+        }
+      ]
+    },
+    {
+      "idImputado": "c47d148c-1c47-445d-be1e-14f8dfec7a16",
+      "condiciones": [
+        {
+          "id": 2,
+          "estado": "Pendiente"
+        },
+        {
+          "id": 5,
+          "estado": "Cumplimiento Total"
+        },
+        {
+          "id": 6,
+          "estado": "Pendiente"
+        },
+        {
+          "id": 9,
+          "estado": "Pendiente"
+        },
+        {
+          "id": 12,
+          "estado": "Incumplimiento"
+        },
+        {
+          "id": 13,
+          "estado": "Incumplimiento"
+        }
+      ]
+    }
+
+  ],
+
+  "informePsiquiatrico":{
+    "id": "INF-ID-999999",
+    "institucion": "Servicio Médico Legal",
+    "responsable": "Dr. Alberto Sanhuza Ampuero",
+    "fecha": "10-07-2022",
+    "informe": "informe de prueba...",
+    "idImputado": "b86467da-522c-40db-909b-358ddc15c7a8"
+  },
+
+  "registroDeCumplimientoIncumplimiento":{
+    "estado": "Incumplido",
+    "observacion": "Observación de incumplimiento de condición",
+    "imputado": "b86467da-522c-40db-909b-358ddc15c7a8"
+  }
+}

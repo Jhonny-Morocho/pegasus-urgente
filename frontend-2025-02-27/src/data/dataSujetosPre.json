@@ -1,0 +1,2084 @@
+{
+    "sujetosIntervinientes": [
+        {
+            "nombreCompleto": "Jose Cabrera Pardo",
+            "ruc": "3489324-8",
+            "idCodigoRelacion": "72026b89-35bf-4b23-87fc-3482536a0e6d",
+            "idPersona": "b9cca196-1133-4930-91ab-64ddbd0a2c88",
+            "idPersonaJuridica": "string",
+            "clase": "Procedimiento",
+            "idRelacionClase": "bd8b9bc9-1f73-426f-b09f-dba2fc96c47d",
+            "idDetalleHechoDelictual": "string",
+            "idCodigoRelacionRepresentanteLegal": "string",
+            "idProcedimiento": null,
+            "tipoSujeto": "Imputado",
+            "representaInstitucion": false,
+            "interviniente": {
+                "idNombrePersonaJuridica": "string",
+                "idIdentificacionPersonaJuridica": "string",
+                "rutPersonaJuridica": "UJwMX",
+                "razonSocial": "",
+                "direccionPersonaJuridica": {
+                    "idDireccion": "string",
+                    "tipo": "string",
+                    "calle": "string",
+                    "numero": "string",
+                    "departamentoOficina": "string",
+                    "block": "string",
+                    "poblacionVilla": "string",
+                    "sector": "string",
+                    "comuna": "string",
+                    "region": "string",
+                    "interseccion": "string",
+                    "cuadrante": "string",
+                    "observacionReferencia": "string",
+                    "georeferencia": {
+                        "lat": 0,
+                        "lon": 0
+                    },
+                    "tipoVivienda": "string",
+                    "tipoSector": "string",
+                    "idUbicacionReferencia": "string",
+                    "ubicacionReferencia": "string",
+                    "indicadorNotificacion": true,
+                    "tipoResidencia": "string"
+                },
+                "idTelefonoFijoPersonaJuridica": "string",
+                "telefonoFijoPersonaJuridica": "string",
+                "idCorreoElectronicoPersonaJuridica": "string",
+                "correoElectronicoPersonaJuridica": "2ca2B@noregistrado.com",
+                "identificaciones": [
+                    {
+                        "idIdentificacion": "8c763677-e328-4072-b433-30cac37c2627",
+                        "tipoDocumentoIdentificacion": "RUT",
+                        "paisDocumentoIdentificacion": "Chile",
+                        "numeroDocumentoIdentificacion": "9.683.543-4",
+                        "numeroDocumentoSerie": "string",
+                        "sexoRegistral": "Masculino",
+                        "fotografia": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "firma": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "huella": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "aplicaValidacionIdentidadElectronica": "string",
+                        "resultadoValidacionIdentidadElectronica": "string"
+                    }
+                ],
+                "idNacionalidad": "6a5248f6-cee0-4b2e-af07-a5421fabfcb9",
+                "nacionalidad": "Chilena",
+                "ciudadNacimiento": "santiago",
+                "idIdioma": "2e56ae7e-04e1-4733-8233-a936043acb2a",
+                "idioma": "",
+                "idEstadoMigratorio": "06896113-f506-4c3e-b49e-42fa966f6e97",
+                "estadoMigratorio": "",
+                "fechaNacimiento": "1992-05-07",
+                "idIdentidadGenero": "efc6872e-5aee-4c44-b175-a4cda6202e2c",
+                "identidadGenero": "",
+                "idNombre": "a0503af4-f8e7-4357-91c2-63db02f2bc6b",
+                "nombres": "Jose",
+                "apellidoPaterno": "Cabrera",
+                "apellidoMaterno": "Pardo",
+                "nombreSocial": "",
+                "aliasApelativo": "",
+                "idPueblosOriginarios": "4daad856-413b-43a8-8c79-8fdaf3774ec5",
+                "pueblosOriginarios": "",
+                "idProfesionOcupacion": "e609636f-14ad-42e1-885e-65b673ef14bf",
+                "profesionOficioOcupacion": "Desarrollador",
+                "idEstadoCivil": "6ca8f00b-5c23-42f0-83b5-2dd105784734",
+                "estadoCivil": "Casado",
+                "idEscolaridad": "aa7d8024-c5c8-4c97-9736-eec089890a15",
+                "escolaridad": "",
+                "idTipoDiscapacidad": null,
+                "condicionDiscapacidad": null,
+                "tipoDiscapacidad": "",
+                "direcciones": [
+                    {
+                        "idDireccion": "527c9883-ea4e-4b59-93fa-ba0881fd9064",
+                        "tipo": "string",
+                        "calle": "STRING",
+                        "numero": "string",
+                        "departamentoOficina": "string",
+                        "block": "string",
+                        "poblacionVilla": "string",
+                        "sector": "string",
+                        "comuna": "string",
+                        "region": "string",
+                        "interseccion": "string",
+                        "cuadrante": "string",
+                        "observacionReferencia": "string",
+                        "georeferencia": {
+                            "lat": 0,
+                            "lon": 0
+                        },
+                        "tipoVivienda": "string",
+                        "tipoSector": "string",
+                        "idUbicacionReferencia": "a10a4e18-f101-4954-96c3-e0c63f712468",
+                        "ubicacionReferencia": "string",
+                        "indicadorNotificacion": true,
+                        "tipoResidencia": "string"
+                    }
+                ],
+                "requiereAsistencia": [
+                    {
+                        "id": "0cad8489-90e5-4b8f-82bc-d03debac0d2b",
+                        "asistencia": "string"
+                    }
+                ],
+                "conQuienVive": [
+                    {
+                        "id": "7296539a-3fc5-4af4-8679-0a9098bdfa86",
+                        "conviviente": "string"
+                    }
+                ],
+                "leeEscribe": true,
+                "esRPA": true,
+                "idAsociacion": "6962b361-86bf-44df-b807-a0dbdb2d69d5",
+                "grupoPandilla": "string",
+                "tieneOrdenDetencionVigente": true,
+                "documentoOrdenDetencion": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                "idLaboral": "d68d25cd-da7a-4bb8-b818-92df0d1651c0",
+                "esFuncionarioPublico": null,
+                "cargoFuncionarioPublico": "",
+                "institucionFuncionarioPublico": "",
+                "conoceImputado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "conoceTestigo": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "relacionConImputado": "string",
+                "estadoSalud": {
+                    "idEstadoSalud": "406227e5-b14a-4a4e-b6fb-c6c043b7dc0a",
+                    "estado": "string",
+                    "estadoTemperancia": "",
+                    "presentaLesiones": true,
+                    "dau": "",
+                    "descripcionLesiones": "",
+                    "origenLesiones": "",
+                    "quedoHospitalizado": true,
+                    "nombreHospital": "string",
+                    "diagnosticoMedico": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                    "indicadorConsumoDrogas": "",
+                    "idNombreMedico": "string",
+                    "nombresMedico": "string",
+                    "primerApellidoMedico": "string",
+                    "segundoApellidoMedico": "string",
+                    "idIdentificacionMedico": "string",
+                    "rutMedicoTratante": "Xyx9L"
+                },
+                "relatoHechos": "string",
+                "idRelacionRelatoNNA": null,
+                "esVictima": false,
+                "nnaParentesco": "string",
+                "nnaEsAdultoProtector": "string",
+                "nnaDatosAdultoProtector": "string",
+                "nnaAQuienContoHechos": "string",
+                "nnaComoSupoHechos": "string",
+                "esNNA": false,
+                "requiereFormularioRiesgoNNA": true,
+                "formularioRiesgoNNA": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                "requierePautaVIF": true,
+                "medidasProteccion": [
+                    {
+                        "id": "99a0855f-65ca-4965-89ef-5ebda80d353e",
+                        "tipo": "string",
+                        "subtipo": "string",
+                        "subSubtipo": "string",
+                        "estado": "string"
+                    }
+                ],
+                "conoceDenunciado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "idRelacionDetenidoDetalle": "f6aaad9d-0a47-476b-8b7b-5b9fb395a6ee",
+                "estaDetenido": true,
+                "lugarDetencion": "string",
+                "fechaHoraDetencion": "2022-02-17T13:13:13.000",
+                "causaDetencion": "string",
+                "pasaControlDetencion": true,
+                "destinoImputado": "string",
+                "rolHechoDelictual": "string",
+                "detalleRolHechoDelictual": "string",
+                "perfilImputado": "string",
+                "situacionLibertad": "string",
+                "muertesBajoCustodia": true,
+                "seAplicoFuerza": "string",
+                "quienAplicoFuerza": [
+                    {
+                        "id": "c8b2de3d-7880-45be-b5b1-ee77bbb7f583",
+                        "idPersona": "6aac6c44-6014-4909-ba42-9a35948a4377",
+                        "organismoPertenecienteRol": "string",
+                        "idRutQuienUtilizoFuerza": "string",
+                        "rutQuienUtilizoFuerza": "ejsMu",
+                        "idNombre": "972b3e43-1eca-4308-8dc3-2ef1dd8e858f",
+                        "nombres": "string",
+                        "primerApellido": "string",
+                        "segundoApellido": "string",
+                        "idTelefono": "7f9fa357-70c3-4687-b728-f7ea07d7d872",
+                        "tipoContacto": "string",
+                        "telefono": "string",
+                        "idCorreoElectronico": "4d06cca2-02e3-49df-9b05-5f77fb25d324",
+                        "correoElectronico": "ZWEgk@noregistrado.com"
+                    }
+                ],
+                "fuenteInformacion": "string",
+                "tipoTestigo": "string",
+                "reservaTestigo": true,
+                "idDescripcionPersona": "4843ef05-6f4a-4292-a8fd-4df50d63194f",
+                "descripcionPersona": "string",
+                "idRelacionRepresentante": null,
+                "tipoSujetoQueRepresenta": "string",
+                "idPersonaQueRepresenta": "string",
+                "tipoInstitucionQuePertenece": "string",
+                "nombreInstitucionQuePertenece": "string",
+                "comoAcreditaRepresentacion": "string",
+                "tipoContacto": "Particular",
+                "idTelefonoFijoContacto": "2a7c309a-5989-4dda-b03f-aa6e8d767e2a",
+                "telefonoFijoContacto": "22222222222",
+                "idTelefonoMovilContacto": "a14470e7-8f44-4b05-87da-7343848b528f",
+                "telefonoMovilContacto": "99999999999",
+                "idCorreoElectronicoContacto": "05fd8b37-f089-4ab2-8800-0892b7b1aaca",
+                "correoElectronicoContacto": "jose@cabrera.cl",
+                "indicadorDireccionNotificacion": false,
+                "redesSociales": [
+                    {
+                        "id": "string",
+                        "tipoRedSocial": "string",
+                        "operador": "string",
+                        "identificador": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "nombreCompleto": "Judith Varela Pardo",
+            "ruc": "3489334-8",
+            "idCodigoRelacion": "df924142-a8a9-4910-bd9c-f5a3f1a81ef3",
+            "idPersona": "7eb435a3-8ac2-428b-b3de-36ceb452d4fa",
+            "idPersonaJuridica": "string",
+            "clase": "Procedimiento",
+            "idRelacionClase": "bd8b9bc9-1f73-426f-b09f-dba2fc96c47d",
+            "idDetalleHechoDelictual": "string",
+            "idCodigoRelacionRepresentanteLegal": "string",
+            "idProcedimiento": null,
+            "tipoSujeto": "Imputado",
+            "representaInstitucion": false,
+            "interviniente": {
+                "idNombrePersonaJuridica": "string",
+                "idIdentificacionPersonaJuridica": "string",
+                "rutPersonaJuridica": "BWIvS",
+                "razonSocial": "",
+                "direccionPersonaJuridica": {
+                    "idDireccion": "string",
+                    "tipo": "string",
+                    "calle": "string",
+                    "numero": "string",
+                    "departamentoOficina": "string",
+                    "block": "string",
+                    "poblacionVilla": "string",
+                    "sector": "string",
+                    "comuna": "string",
+                    "region": "string",
+                    "interseccion": "string",
+                    "cuadrante": "string",
+                    "observacionReferencia": "string",
+                    "georeferencia": {
+                        "lat": 0,
+                        "lon": 0
+                    },
+                    "tipoVivienda": "string",
+                    "tipoSector": "string",
+                    "idUbicacionReferencia": "string",
+                    "ubicacionReferencia": "string",
+                    "indicadorNotificacion": true,
+                    "tipoResidencia": "string"
+                },
+                "idTelefonoFijoPersonaJuridica": "string",
+                "telefonoFijoPersonaJuridica": "string",
+                "idCorreoElectronicoPersonaJuridica": "string",
+                "correoElectronicoPersonaJuridica": "FWRUw@noregistrado.com",
+                "identificaciones": [
+                    {
+                        "idIdentificacion": "322d2fdf-34a2-4723-bac6-758cb15b2f11",
+                        "tipoDocumentoIdentificacion": "RUT",
+                        "paisDocumentoIdentificacion": "Chile",
+                        "numeroDocumentoIdentificacion": "7.343.452-1",
+                        "numeroDocumentoSerie": "string",
+                        "sexoRegistral": "Femenino",
+                        "fotografia": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "firma": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "huella": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "aplicaValidacionIdentidadElectronica": "string",
+                        "resultadoValidacionIdentidadElectronica": "string"
+                    }
+                ],
+                "idNacionalidad": "3d1cab6e-a552-4ef2-8079-ea555d8a759b",
+                "nacionalidad": "Chilena",
+                "ciudadNacimiento": "santiago",
+                "idIdioma": "df56ad70-6272-4d07-bf9c-dd511e3f3081",
+                "idioma": "",
+                "idEstadoMigratorio": "b5020aae-cbe6-4218-bd83-f2b24e4a551d",
+                "estadoMigratorio": "",
+                "fechaNacimiento": "1992-05-07",
+                "idIdentidadGenero": "c141f95b-17f9-425c-ad7d-2a2e073e236a",
+                "identidadGenero": "",
+                "idNombre": "6628c7cb-2d3d-494d-b9e6-a2297d13cdf8",
+                "nombres": "Judith",
+                "apellidoPaterno": "Varela",
+                "apellidoMaterno": "Pardo",
+                "nombreSocial": "",
+                "aliasApelativo": "",
+                "idPueblosOriginarios": "2dc7be55-2b18-48a2-8ce6-51a867757cd6",
+                "pueblosOriginarios": "",
+                "idProfesionOcupacion": "10984f0a-0350-488f-a719-7093c94f2dbf",
+                "profesionOficioOcupacion": "Desarrollador",
+                "idEstadoCivil": "8ecdebb5-8756-4075-8789-7cc588b84407",
+                "estadoCivil": "Casado",
+                "idEscolaridad": "8184da83-4e95-466e-9356-fed6973bb0b5",
+                "escolaridad": "",
+                "idTipoDiscapacidad": null,
+                "condicionDiscapacidad": null,
+                "tipoDiscapacidad": "",
+                "direcciones": [
+                    {
+                        "idDireccion": "793edc5e-963a-40ea-837b-7ecef5f5b080",
+                        "tipo": "string",
+                        "calle": "STRING",
+                        "numero": "string",
+                        "departamentoOficina": "string",
+                        "block": "string",
+                        "poblacionVilla": "string",
+                        "sector": "string",
+                        "comuna": "string",
+                        "region": "string",
+                        "interseccion": "string",
+                        "cuadrante": "string",
+                        "observacionReferencia": "string",
+                        "georeferencia": {
+                            "lat": 0,
+                            "lon": 0
+                        },
+                        "tipoVivienda": "string",
+                        "tipoSector": "string",
+                        "idUbicacionReferencia": "c6d9f559-bc27-43be-b239-c19a322784ef",
+                        "ubicacionReferencia": "string",
+                        "indicadorNotificacion": true,
+                        "tipoResidencia": "string"
+                    }
+                ],
+                "requiereAsistencia": [
+                    {
+                        "id": "583ea45c-f856-4797-a16e-bda69aa76886",
+                        "asistencia": "string"
+                    }
+                ],
+                "conQuienVive": [
+                    {
+                        "id": "8cd009f7-396f-4979-8e02-7f582b8b5a68",
+                        "conviviente": "string"
+                    }
+                ],
+                "leeEscribe": true,
+                "esRPA": false,
+                "idAsociacion": "a268354f-cdb0-4b62-a9dd-9f6909c98a77",
+                "grupoPandilla": "string",
+                "tieneOrdenDetencionVigente": true,
+                "documentoOrdenDetencion": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                "idLaboral": "e460808f-9baf-4af1-a427-6d939607ab95",
+                "esFuncionarioPublico": null,
+                "cargoFuncionarioPublico": "",
+                "institucionFuncionarioPublico": "",
+                "conoceImputado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "conoceTestigo": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "relacionConImputado": "string",
+                "estadoSalud": {
+                    "idEstadoSalud": "8ae3caa2-2f90-4757-8e57-4ca80570db29",
+                    "estado": "string",
+                    "estadoTemperancia": "",
+                    "presentaLesiones": true,
+                    "dau": "",
+                    "descripcionLesiones": "",
+                    "origenLesiones": "",
+                    "quedoHospitalizado": true,
+                    "nombreHospital": "string",
+                    "diagnosticoMedico": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                    "indicadorConsumoDrogas": "",
+                    "idNombreMedico": "string",
+                    "nombresMedico": "string",
+                    "primerApellidoMedico": "string",
+                    "segundoApellidoMedico": "string",
+                    "idIdentificacionMedico": "string",
+                    "rutMedicoTratante": "UOJ2O"
+                },
+                "relatoHechos": "string",
+                "idRelacionRelatoNNA": null,
+                "esVictima": false,
+                "nnaParentesco": "string",
+                "nnaEsAdultoProtector": "string",
+                "nnaDatosAdultoProtector": "string",
+                "nnaAQuienContoHechos": "string",
+                "nnaComoSupoHechos": "string",
+                "esNNA": false,
+                "requiereFormularioRiesgoNNA": true,
+                "formularioRiesgoNNA": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                "requierePautaVIF": true,
+                "medidasProteccion": [
+                    {
+                        "id": "bd20f9ee-8f80-42f8-a020-89ec52a0493a",
+                        "tipo": "string",
+                        "subtipo": "string",
+                        "subSubtipo": "string",
+                        "estado": "string"
+                    }
+                ],
+                "conoceDenunciado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "idRelacionDetenidoDetalle": "d9bda40b-089f-467b-853b-e552f65ecf7a",
+                "estaDetenido": true,
+                "lugarDetencion": "string",
+                "fechaHoraDetencion": "2022-02-17T13:13:13.000",
+                "causaDetencion": "string",
+                "pasaControlDetencion": true,
+                "destinoImputado": "string",
+                "rolHechoDelictual": "string",
+                "detalleRolHechoDelictual": "string",
+                "perfilImputado": "string",
+                "situacionLibertad": "string",
+                "muertesBajoCustodia": true,
+                "seAplicoFuerza": "string",
+                "quienAplicoFuerza": [
+                    {
+                        "id": "50d5f610-eac3-4343-85a8-7b181951c6c7",
+                        "idPersona": "c9123974-2277-4048-a3d3-98adac5628e0",
+                        "organismoPertenecienteRol": "string",
+                        "idRutQuienUtilizoFuerza": "string",
+                        "rutQuienUtilizoFuerza": "IoZY2",
+                        "idNombre": "15f94377-a606-4012-87b5-94111f5ee04b",
+                        "nombres": "string",
+                        "primerApellido": "string",
+                        "segundoApellido": "string",
+                        "idTelefono": "d357029b-7559-47c1-9288-f28c187d402f",
+                        "tipoContacto": "string",
+                        "telefono": "string",
+                        "idCorreoElectronico": "69f19200-2c3b-4a91-bc68-95d97f06689c",
+                        "correoElectronico": "qtRfR@noregistrado.com"
+                    }
+                ],
+                "fuenteInformacion": "string",
+                "tipoTestigo": "string",
+                "reservaTestigo": true,
+                "idDescripcionPersona": "b3575bef-0af6-4296-bc2b-b6f130872f86",
+                "descripcionPersona": "string",
+                "idRelacionRepresentante": null,
+                "tipoSujetoQueRepresenta": "string",
+                "idPersonaQueRepresenta": "string",
+                "tipoInstitucionQuePertenece": "string",
+                "nombreInstitucionQuePertenece": "string",
+                "comoAcreditaRepresentacion": "string",
+                "tipoContacto": "Particular",
+                "idTelefonoFijoContacto": "25661480-15b5-4ceb-a55a-0b16cf5ba7be",
+                "telefonoFijoContacto": "22222222222",
+                "idTelefonoMovilContacto": "779fb498-e439-4bc0-bb0a-704cf3fe6746",
+                "telefonoMovilContacto": "99999999999",
+                "idCorreoElectronicoContacto": "b6b4c2b6-c8cc-4e77-b7ab-940c0c169f32",
+                "correoElectronicoContacto": "judith@varela.cl",
+                "indicadorDireccionNotificacion": false,
+                "redesSociales": [
+                    {
+                        "id": "string",
+                        "tipoRedSocial": "string",
+                        "operador": "string",
+                        "identificador": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "nombreCompleto": "Jacinta Simon Pardo",
+            "ruc": "3489344-8",
+            "idCodigoRelacion": "1c9256db-5bf0-4aa3-a185-4ed4f04566f3",
+            "idPersona": "96871de5-bb05-411f-bcbc-a95e1dd8dd57",
+            "idPersonaJuridica": "string",
+            "clase": "Procedimiento",
+            "idRelacionClase": "bd8b9bc9-1f73-426f-b09f-dba2fc96c47d",
+            "idDetalleHechoDelictual": "string",
+            "idCodigoRelacionRepresentanteLegal": "string",
+            "idProcedimiento": null,
+            "tipoSujeto": "Imputado",
+            "representaInstitucion": false,
+            "interviniente": {
+                "idNombrePersonaJuridica": "string",
+                "idIdentificacionPersonaJuridica": "string",
+                "rutPersonaJuridica": "6PcIL",
+                "razonSocial": "",
+                "direccionPersonaJuridica": {
+                    "idDireccion": "string",
+                    "tipo": "string",
+                    "calle": "string",
+                    "numero": "string",
+                    "departamentoOficina": "string",
+                    "block": "string",
+                    "poblacionVilla": "string",
+                    "sector": "string",
+                    "comuna": "string",
+                    "region": "string",
+                    "interseccion": "string",
+                    "cuadrante": "string",
+                    "observacionReferencia": "string",
+                    "georeferencia": {
+                        "lat": 0,
+                        "lon": 0
+                    },
+                    "tipoVivienda": "string",
+                    "tipoSector": "string",
+                    "idUbicacionReferencia": "string",
+                    "ubicacionReferencia": "string",
+                    "indicadorNotificacion": true,
+                    "tipoResidencia": "string"
+                },
+                "idTelefonoFijoPersonaJuridica": "string",
+                "telefonoFijoPersonaJuridica": "string",
+                "idCorreoElectronicoPersonaJuridica": "string",
+                "correoElectronicoPersonaJuridica": "lTFoS@noregistrado.com",
+                "identificaciones": [
+                    {
+                        "idIdentificacion": "c3c7f986-3daa-49d4-b72b-588d1258f1a9",
+                        "tipoDocumentoIdentificacion": "RUT",
+                        "paisDocumentoIdentificacion": "Chile",
+                        "numeroDocumentoIdentificacion": "23.128.125-8",
+                        "numeroDocumentoSerie": "string",
+                        "sexoRegistral": "Femenino",
+                        "fotografia": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "firma": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "huella": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "aplicaValidacionIdentidadElectronica": "string",
+                        "resultadoValidacionIdentidadElectronica": "string"
+                    }
+                ],
+                "idNacionalidad": "2b60dcde-3d5d-4055-a296-b6efe2f3f0f7",
+                "nacionalidad": "Chilena",
+                "ciudadNacimiento": "santiago",
+                "idIdioma": "acb304b6-aea5-418e-820b-02d5f51c0f80",
+                "idioma": "",
+                "idEstadoMigratorio": "219e69fb-5e98-4798-bf7f-a3ac6b6fb6e4",
+                "estadoMigratorio": "",
+                "fechaNacimiento": "1992-05-07",
+                "idIdentidadGenero": "48681193-257d-4d5d-b5a7-60ac377918e3",
+                "identidadGenero": "",
+                "idNombre": "dba7118e-7c57-4108-a151-bac3b22be604",
+                "nombres": "Jacinta",
+                "apellidoPaterno": "Simon",
+                "apellidoMaterno": "Pardo",
+                "nombreSocial": "",
+                "aliasApelativo": "",
+                "idPueblosOriginarios": "7ac3fd72-9870-4ac2-9905-3f029a78cf0e",
+                "pueblosOriginarios": "",
+                "idProfesionOcupacion": "df3acd10-00f1-41f7-b42e-73b88dbb9d79",
+                "profesionOficioOcupacion": "Desarrollador",
+                "idEstadoCivil": "a6cdcf4e-fbee-4f18-8c81-86b087b18f47",
+                "estadoCivil": "Casado",
+                "idEscolaridad": "dca48e3b-233c-44c5-b306-0f15d3df54ef",
+                "escolaridad": "",
+                "idTipoDiscapacidad": null,
+                "condicionDiscapacidad": null,
+                "tipoDiscapacidad": "",
+                "direcciones": [
+                    {
+                        "idDireccion": "8130fccc-bfb5-4ef8-9fc0-759c91b14bdf",
+                        "tipo": "string",
+                        "calle": "STRING",
+                        "numero": "string",
+                        "departamentoOficina": "string",
+                        "block": "string",
+                        "poblacionVilla": "string",
+                        "sector": "string",
+                        "comuna": "string",
+                        "region": "string",
+                        "interseccion": "string",
+                        "cuadrante": "string",
+                        "observacionReferencia": "string",
+                        "georeferencia": {
+                            "lat": 0,
+                            "lon": 0
+                        },
+                        "tipoVivienda": "string",
+                        "tipoSector": "string",
+                        "idUbicacionReferencia": "8df57424-fbae-4434-a286-8520a6e4fcc4",
+                        "ubicacionReferencia": "string",
+                        "indicadorNotificacion": true,
+                        "tipoResidencia": "string"
+                    }
+                ],
+                "requiereAsistencia": [
+                    {
+                        "id": "f8209e1f-b8e1-4d63-a571-1c98b8c10962",
+                        "asistencia": "string"
+                    }
+                ],
+                "conQuienVive": [
+                    {
+                        "id": "1dadd72d-116b-4695-87b2-bab915a1769a",
+                        "conviviente": "string"
+                    }
+                ],
+                "leeEscribe": true,
+                "esRPA": true,
+                "idAsociacion": "ddcb7243-9aef-4bf5-ba60-04cc22583f24",
+                "grupoPandilla": "string",
+                "tieneOrdenDetencionVigente": true,
+                "documentoOrdenDetencion": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                "idLaboral": "2339fe48-1625-4caa-8fe2-de65d9cd67e6",
+                "esFuncionarioPublico": null,
+                "cargoFuncionarioPublico": "",
+                "institucionFuncionarioPublico": "",
+                "conoceImputado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "conoceTestigo": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "relacionConImputado": "string",
+                "estadoSalud": {
+                    "idEstadoSalud": "be6ccfab-4f6a-49b0-8404-67ee43741757",
+                    "estado": "string",
+                    "estadoTemperancia": "",
+                    "presentaLesiones": true,
+                    "dau": "",
+                    "descripcionLesiones": "",
+                    "origenLesiones": "",
+                    "quedoHospitalizado": true,
+                    "nombreHospital": "string",
+                    "diagnosticoMedico": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                    "indicadorConsumoDrogas": "",
+                    "idNombreMedico": "string",
+                    "nombresMedico": "string",
+                    "primerApellidoMedico": "string",
+                    "segundoApellidoMedico": "string",
+                    "idIdentificacionMedico": "string",
+                    "rutMedicoTratante": "sSoxD"
+                },
+                "relatoHechos": "string",
+                "idRelacionRelatoNNA": null,
+                "esVictima": false,
+                "nnaParentesco": "string",
+                "nnaEsAdultoProtector": "string",
+                "nnaDatosAdultoProtector": "string",
+                "nnaAQuienContoHechos": "string",
+                "nnaComoSupoHechos": "string",
+                "esNNA": false,
+                "requiereFormularioRiesgoNNA": true,
+                "formularioRiesgoNNA": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                "requierePautaVIF": true,
+                "medidasProteccion": [
+                    {
+                        "id": "60e9cb31-adb4-437b-9c46-49ac00dc7e38",
+                        "tipo": "string",
+                        "subtipo": "string",
+                        "subSubtipo": "string",
+                        "estado": "string"
+                    }
+                ],
+                "conoceDenunciado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "idRelacionDetenidoDetalle": "de716878-6752-424b-a64d-58e0fb23a791",
+                "estaDetenido": true,
+                "lugarDetencion": "string",
+                "fechaHoraDetencion": "2022-02-17T13:13:13.000",
+                "causaDetencion": "string",
+                "pasaControlDetencion": true,
+                "destinoImputado": "string",
+                "rolHechoDelictual": "string",
+                "detalleRolHechoDelictual": "string",
+                "perfilImputado": "string",
+                "situacionLibertad": "string",
+                "muertesBajoCustodia": true,
+                "seAplicoFuerza": "string",
+                "quienAplicoFuerza": [
+                    {
+                        "id": "6fdfdb6d-97ca-4656-97e4-158aaff135c2",
+                        "idPersona": "505eab86-1b4e-47af-8268-c68617066ca0",
+                        "organismoPertenecienteRol": "string",
+                        "idRutQuienUtilizoFuerza": "string",
+                        "rutQuienUtilizoFuerza": "N6Z71",
+                        "idNombre": "d5daf38c-7df1-43cd-b956-bea0fa643ffa",
+                        "nombres": "string",
+                        "primerApellido": "string",
+                        "segundoApellido": "string",
+                        "idTelefono": "ea49dfe1-22a9-46a1-a3e6-a1889ddcb2a3",
+                        "tipoContacto": "string",
+                        "telefono": "string",
+                        "idCorreoElectronico": "c6ab903e-54dc-40cf-9da0-037fe0b4ec2b",
+                        "correoElectronico": "KjpNR@noregistrado.com"
+                    }
+                ],
+                "fuenteInformacion": "string",
+                "tipoTestigo": "string",
+                "reservaTestigo": true,
+                "idDescripcionPersona": "6407e2d4-fd3d-42af-985c-7cefb2477559",
+                "descripcionPersona": "string",
+                "idRelacionRepresentante": null,
+                "tipoSujetoQueRepresenta": "string",
+                "idPersonaQueRepresenta": "string",
+                "tipoInstitucionQuePertenece": "string",
+                "nombreInstitucionQuePertenece": "string",
+                "comoAcreditaRepresentacion": "string",
+                "tipoContacto": "Particular",
+                "idTelefonoFijoContacto": "f96e78a4-f957-45df-8095-193eaba232e4",
+                "telefonoFijoContacto": "22222222222",
+                "idTelefonoMovilContacto": "62b5c364-3302-4d03-9df7-c5917c2fc2ac",
+                "telefonoMovilContacto": "99999999999",
+                "idCorreoElectronicoContacto": "07076e0a-43f5-4327-b396-8a6120e64e32",
+                "correoElectronicoContacto": "jacinta@simon.cl",
+                "indicadorDireccionNotificacion": false,
+                "redesSociales": [
+                    {
+                        "id": "string",
+                        "tipoRedSocial": "string",
+                        "operador": "string",
+                        "identificador": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "nombreCompleto": "Roger Lucena Pardo",
+            "ruc": "3489354-8",
+            "idCodigoRelacion": "f78e2653-2803-4684-9807-117668ed3f46",
+            "idPersona": "69ef70e3-ebe8-4f4e-a751-7ea3f3ed67eb",
+            "idPersonaJuridica": "string",
+            "clase": "Procedimiento",
+            "idRelacionClase": "bd8b9bc9-1f73-426f-b09f-dba2fc96c47d",
+            "idDetalleHechoDelictual": "string",
+            "idCodigoRelacionRepresentanteLegal": "string",
+            "idProcedimiento": null,
+            "tipoSujeto": "Imputado",
+            "representaInstitucion": false,
+            "interviniente": {
+                "idNombrePersonaJuridica": "string",
+                "idIdentificacionPersonaJuridica": "string",
+                "rutPersonaJuridica": "ApVLl",
+                "razonSocial": "",
+                "direccionPersonaJuridica": {
+                    "idDireccion": "string",
+                    "tipo": "string",
+                    "calle": "string",
+                    "numero": "string",
+                    "departamentoOficina": "string",
+                    "block": "string",
+                    "poblacionVilla": "string",
+                    "sector": "string",
+                    "comuna": "string",
+                    "region": "string",
+                    "interseccion": "string",
+                    "cuadrante": "string",
+                    "observacionReferencia": "string",
+                    "georeferencia": {
+                        "lat": 0,
+                        "lon": 0
+                    },
+                    "tipoVivienda": "string",
+                    "tipoSector": "string",
+                    "idUbicacionReferencia": "string",
+                    "ubicacionReferencia": "string",
+                    "indicadorNotificacion": true,
+                    "tipoResidencia": "string"
+                },
+                "idTelefonoFijoPersonaJuridica": "string",
+                "telefonoFijoPersonaJuridica": "string",
+                "idCorreoElectronicoPersonaJuridica": "string",
+                "correoElectronicoPersonaJuridica": "uCUo3@noregistrado.com",
+                "identificaciones": [
+                    {
+                        "idIdentificacion": "71b89f41-7d98-4b8f-b22c-5fad92ac90ab",
+                        "tipoDocumentoIdentificacion": "RUT",
+                        "paisDocumentoIdentificacion": "Chile",
+                        "numeroDocumentoIdentificacion": "18.128.239-8",
+                        "numeroDocumentoSerie": "string",
+                        "sexoRegistral": "Masculino",
+                        "fotografia": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "firma": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "huella": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "aplicaValidacionIdentidadElectronica": "string",
+                        "resultadoValidacionIdentidadElectronica": "string"
+                    }
+                ],
+                "idNacionalidad": "8ab0e0a5-1e6e-4039-8df5-7fc82ec5fd3f",
+                "nacionalidad": "Chilena",
+                "ciudadNacimiento": "santiago",
+                "idIdioma": "1c47dc11-a19a-4a86-b498-c519866b61a5",
+                "idioma": "",
+                "idEstadoMigratorio": "dc19f2ad-b189-4e70-97ab-ca5d6335b4db",
+                "estadoMigratorio": "",
+                "fechaNacimiento": "1992-05-07",
+                "idIdentidadGenero": "08a5e42c-ece4-4a9f-81f1-e453a67593d2",
+                "identidadGenero": "",
+                "idNombre": "03b7c3d8-4690-471f-9239-cb5026b4850c",
+                "nombres": "Roger",
+                "apellidoPaterno": "Lucena",
+                "apellidoMaterno": "Pardo",
+                "nombreSocial": "",
+                "aliasApelativo": "",
+                "idPueblosOriginarios": "4a36c310-931b-46db-b293-e0fa862d7697",
+                "pueblosOriginarios": "",
+                "idProfesionOcupacion": "398ef45e-3eb0-419b-ae11-ea48acfe1e10",
+                "profesionOficioOcupacion": "Desarrollador",
+                "idEstadoCivil": "ef615742-588d-4d5d-8610-4cca35868df4",
+                "estadoCivil": "Casado",
+                "idEscolaridad": "24718969-c46a-4c66-9c89-4ea008798de7",
+                "escolaridad": "",
+                "idTipoDiscapacidad": null,
+                "condicionDiscapacidad": null,
+                "tipoDiscapacidad": "",
+                "direcciones": [
+                    {
+                        "idDireccion": "96cd2edf-3a7a-484d-a836-9a96133d04a8",
+                        "tipo": "string",
+                        "calle": "STRING",
+                        "numero": "string",
+                        "departamentoOficina": "string",
+                        "block": "string",
+                        "poblacionVilla": "string",
+                        "sector": "string",
+                        "comuna": "string",
+                        "region": "string",
+                        "interseccion": "string",
+                        "cuadrante": "string",
+                        "observacionReferencia": "string",
+                        "georeferencia": {
+                            "lat": 0,
+                            "lon": 0
+                        },
+                        "tipoVivienda": "string",
+                        "tipoSector": "string",
+                        "idUbicacionReferencia": "b40e47d6-903c-411a-ab62-054a1945cb71",
+                        "ubicacionReferencia": "string",
+                        "indicadorNotificacion": true,
+                        "tipoResidencia": "string"
+                    }
+                ],
+                "requiereAsistencia": [
+                    {
+                        "id": "8e54c12f-648a-4ed7-b2da-44649be27df2",
+                        "asistencia": "string"
+                    }
+                ],
+                "conQuienVive": [
+                    {
+                        "id": "98ae240c-d655-428e-8569-da0e0b0d6041",
+                        "conviviente": "string"
+                    }
+                ],
+                "leeEscribe": true,
+                "esRPA": false,
+                "idAsociacion": "2c0b2979-f13f-4dd4-bb96-7839a43815de",
+                "grupoPandilla": "string",
+                "tieneOrdenDetencionVigente": true,
+                "documentoOrdenDetencion": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                "idLaboral": "a0a813cd-9502-4e7b-8437-c3e1c72e38d3",
+                "esFuncionarioPublico": null,
+                "cargoFuncionarioPublico": "",
+                "institucionFuncionarioPublico": "",
+                "conoceImputado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "conoceTestigo": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "relacionConImputado": "string",
+                "estadoSalud": {
+                    "idEstadoSalud": "90b49c8a-7be9-4211-a345-b52766825f73",
+                    "estado": "string",
+                    "estadoTemperancia": "",
+                    "presentaLesiones": true,
+                    "dau": "",
+                    "descripcionLesiones": "",
+                    "origenLesiones": "",
+                    "quedoHospitalizado": true,
+                    "nombreHospital": "string",
+                    "diagnosticoMedico": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                    "indicadorConsumoDrogas": "",
+                    "idNombreMedico": "string",
+                    "nombresMedico": "string",
+                    "primerApellidoMedico": "string",
+                    "segundoApellidoMedico": "string",
+                    "idIdentificacionMedico": "string",
+                    "rutMedicoTratante": "Y8AgE"
+                },
+                "relatoHechos": "string",
+                "idRelacionRelatoNNA": null,
+                "esVictima": false,
+                "nnaParentesco": "string",
+                "nnaEsAdultoProtector": "string",
+                "nnaDatosAdultoProtector": "string",
+                "nnaAQuienContoHechos": "string",
+                "nnaComoSupoHechos": "string",
+                "esNNA": false,
+                "requiereFormularioRiesgoNNA": true,
+                "formularioRiesgoNNA": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                "requierePautaVIF": true,
+                "medidasProteccion": [
+                    {
+                        "id": "a25230e7-042d-43cd-86c9-d2cf798e5be9",
+                        "tipo": "string",
+                        "subtipo": "string",
+                        "subSubtipo": "string",
+                        "estado": "string"
+                    }
+                ],
+                "conoceDenunciado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "idRelacionDetenidoDetalle": "8ff928bb-db9d-4cc0-a867-f8bf354ee240",
+                "estaDetenido": true,
+                "lugarDetencion": "string",
+                "fechaHoraDetencion": "2022-02-17T13:13:13.000",
+                "causaDetencion": "string",
+                "pasaControlDetencion": true,
+                "destinoImputado": "string",
+                "rolHechoDelictual": "string",
+                "detalleRolHechoDelictual": "string",
+                "perfilImputado": "string",
+                "situacionLibertad": "string",
+                "muertesBajoCustodia": true,
+                "seAplicoFuerza": "string",
+                "quienAplicoFuerza": [
+                    {
+                        "id": "a003cfc1-be7b-4a79-8255-c969e7622803",
+                        "idPersona": "0d66a41a-96f5-4431-8768-1b938d543a39",
+                        "organismoPertenecienteRol": "string",
+                        "idRutQuienUtilizoFuerza": "string",
+                        "rutQuienUtilizoFuerza": "h0PW8",
+                        "idNombre": "8476e9f7-8b89-47e1-8a5c-5ab8d03e6208",
+                        "nombres": "string",
+                        "primerApellido": "string",
+                        "segundoApellido": "string",
+                        "idTelefono": "e1cad597-44e4-4fbc-9170-cd9030c41229",
+                        "tipoContacto": "string",
+                        "telefono": "string",
+                        "idCorreoElectronico": "3addeae9-ecc1-4ab2-96e7-0dd29c4e6a62",
+                        "correoElectronico": "Rwr9I@noregistrado.com"
+                    }
+                ],
+                "fuenteInformacion": "string",
+                "tipoTestigo": "string",
+                "reservaTestigo": true,
+                "idDescripcionPersona": "d7b65a23-2371-45b1-aa34-2d63b42cd157",
+                "descripcionPersona": "string",
+                "idRelacionRepresentante": null,
+                "tipoSujetoQueRepresenta": "string",
+                "idPersonaQueRepresenta": "string",
+                "tipoInstitucionQuePertenece": "string",
+                "nombreInstitucionQuePertenece": "string",
+                "comoAcreditaRepresentacion": "string",
+                "tipoContacto": "Particular",
+                "idTelefonoFijoContacto": "ea3f526d-9d95-4cab-95d9-ad53d1176a87",
+                "telefonoFijoContacto": "22222222222",
+                "idTelefonoMovilContacto": "7fcb6462-1049-4d79-98ea-e7d4a15945a7",
+                "telefonoMovilContacto": "99999999999",
+                "idCorreoElectronicoContacto": "6bdc371e-1c14-4bd0-8949-e5e1ea4fcf52",
+                "correoElectronicoContacto": "roger@lucena.cl",
+                "indicadorDireccionNotificacion": false,
+                "redesSociales": [
+                    {
+                        "id": "string",
+                        "tipoRedSocial": "string",
+                        "operador": "string",
+                        "identificador": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "nombreCompleto": "Adriana Canales Pardo",
+            "ruc": "3489324-8",
+            "idCodigoRelacion": "41fea9f8-3538-4a41-ad60-8b20c0f260ab",
+            "idPersona": "0d8e798c-4a2f-40f9-ad58-639e78e39b46",
+            "idPersonaJuridica": "string",
+            "clase": "Procedimiento",
+            "idRelacionClase": "bd8b9bc9-1f73-426f-b09f-dba2fc96c47d",
+            "idDetalleHechoDelictual": "string",
+            "idCodigoRelacionRepresentanteLegal": "string",
+            "idProcedimiento": null,
+            "tipoSujeto": "Víctima",
+            "representaInstitucion": false,
+            "interviniente": {
+                "idNombrePersonaJuridica": "string",
+                "idIdentificacionPersonaJuridica": "string",
+                "rutPersonaJuridica": "Gd8Bv",
+                "razonSocial": "",
+                "direccionPersonaJuridica": {
+                    "idDireccion": "string",
+                    "tipo": "string",
+                    "calle": "string",
+                    "numero": "string",
+                    "departamentoOficina": "string",
+                    "block": "string",
+                    "poblacionVilla": "string",
+                    "sector": "string",
+                    "comuna": "string",
+                    "region": "string",
+                    "interseccion": "string",
+                    "cuadrante": "string",
+                    "observacionReferencia": "string",
+                    "georeferencia": {
+                        "lat": 0,
+                        "lon": 0
+                    },
+                    "tipoVivienda": "string",
+                    "tipoSector": "string",
+                    "idUbicacionReferencia": "string",
+                    "ubicacionReferencia": "string",
+                    "indicadorNotificacion": true,
+                    "tipoResidencia": "string"
+                },
+                "idTelefonoFijoPersonaJuridica": "string",
+                "telefonoFijoPersonaJuridica": "string",
+                "idCorreoElectronicoPersonaJuridica": "string",
+                "correoElectronicoPersonaJuridica": "DzFfe@noregistrado.com",
+                "identificaciones": [
+                    {
+                        "idIdentificacion": "e049f934-b0fa-4744-8e61-82b626568e33",
+                        "tipoDocumentoIdentificacion": "RUT",
+                        "paisDocumentoIdentificacion": "Chile",
+                        "numeroDocumentoIdentificacion": "14.470.501-7",
+                        "numeroDocumentoSerie": "string",
+                        "sexoRegistral": "Femenino",
+                        "fotografia": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "firma": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "huella": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "aplicaValidacionIdentidadElectronica": "string",
+                        "resultadoValidacionIdentidadElectronica": "string"
+                    }
+                ],
+                "idNacionalidad": "707c8c96-62e0-42ec-b0aa-1a0a7fd9a4a9",
+                "nacionalidad": "Chilena",
+                "ciudadNacimiento": "santiago",
+                "idIdioma": "20a92b1e-b340-4489-80cd-6f099fa96443",
+                "idioma": "",
+                "idEstadoMigratorio": "f7883acb-52f9-4556-9e1b-d8468ab41cb5",
+                "estadoMigratorio": "",
+                "fechaNacimiento": "1992-05-07",
+                "idIdentidadGenero": "79d0c44e-c03a-4301-920a-05d52f57688e",
+                "identidadGenero": "",
+                "idNombre": "46999e63-ce70-44da-bda2-ee5beda481d3",
+                "nombres": "Adriana",
+                "apellidoPaterno": "Canales",
+                "apellidoMaterno": "Pardo",
+                "nombreSocial": "",
+                "aliasApelativo": "",
+                "idPueblosOriginarios": "bc7fde90-df59-4e78-a3f8-7ea32d0f4458",
+                "pueblosOriginarios": "",
+                "idProfesionOcupacion": "e56ddcae-0c5b-422d-9a25-bbaf111f98d0",
+                "profesionOficioOcupacion": "Desarrollador",
+                "idEstadoCivil": "152511f5-bbd2-42c4-bda9-7ed784368c69",
+                "estadoCivil": "Casado",
+                "idEscolaridad": "1f97822c-e500-4f20-b239-3cac742b56d4",
+                "escolaridad": "",
+                "idTipoDiscapacidad": null,
+                "condicionDiscapacidad": null,
+                "tipoDiscapacidad": "",
+                "direcciones": [
+                    {
+                        "idDireccion": "9f8c170b-3a75-4ac2-b52c-6c7504b134ae",
+                        "tipo": "string",
+                        "calle": "STRING",
+                        "numero": "string",
+                        "departamentoOficina": "string",
+                        "block": "string",
+                        "poblacionVilla": "string",
+                        "sector": "string",
+                        "comuna": "string",
+                        "region": "string",
+                        "interseccion": "string",
+                        "cuadrante": "string",
+                        "observacionReferencia": "string",
+                        "georeferencia": {
+                            "lat": 0,
+                            "lon": 0
+                        },
+                        "tipoVivienda": "string",
+                        "tipoSector": "string",
+                        "idUbicacionReferencia": "69eb371a-818a-458d-b44c-290cc0ae1222",
+                        "ubicacionReferencia": "string",
+                        "indicadorNotificacion": true,
+                        "tipoResidencia": "string"
+                    }
+                ],
+                "requiereAsistencia": [
+                    {
+                        "id": "f82ad7e4-a3a6-43c2-992a-c249d291ec61",
+                        "asistencia": "string"
+                    }
+                ],
+                "conQuienVive": [
+                    {
+                        "id": "4bf344ff-77b9-4211-99d7-1bc243032e25",
+                        "conviviente": "string"
+                    }
+                ],
+                "leeEscribe": true,
+                "esRPA": false,
+                "idAsociacion": "2cd1b9fa-d753-4ad0-b976-3a3ade8790b8",
+                "grupoPandilla": "string",
+                "tieneOrdenDetencionVigente": false,
+                "documentoOrdenDetencion": null,
+                "idLaboral": "2a439f9c-be3f-400d-9d29-d8e32f2a6a05",
+                "esFuncionarioPublico": null,
+                "cargoFuncionarioPublico": "",
+                "institucionFuncionarioPublico": "",
+                "conoceImputado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "conoceTestigo": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "relacionConImputado": "string",
+                "estadoSalud": {
+                    "idEstadoSalud": "5d6e4c36-7f69-462a-a896-dda97996f9eb",
+                    "estado": "string",
+                    "estadoTemperancia": "",
+                    "presentaLesiones": true,
+                    "dau": "",
+                    "descripcionLesiones": "",
+                    "origenLesiones": "",
+                    "quedoHospitalizado": true,
+                    "nombreHospital": "string",
+                    "diagnosticoMedico": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                    "indicadorConsumoDrogas": "false",
+                    "idNombreMedico": "string",
+                    "nombresMedico": "string",
+                    "primerApellidoMedico": "string",
+                    "segundoApellidoMedico": "string",
+                    "idIdentificacionMedico": "string",
+                    "rutMedicoTratante": "SIsPm"
+                },
+                "relatoHechos": "string",
+                "idRelacionRelatoNNA": null,
+                "esVictima": true,
+                "nnaParentesco": "string",
+                "nnaEsAdultoProtector": "string",
+                "nnaDatosAdultoProtector": "string",
+                "nnaAQuienContoHechos": "string",
+                "nnaComoSupoHechos": "string",
+                "esNNA": false,
+                "requiereFormularioRiesgoNNA": true,
+                "formularioRiesgoNNA": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                "requierePautaVIF": true,
+                "medidasProteccion": [
+                    {
+                        "id": "34f39ffd-77f6-43a5-be37-324a3b6ba08f",
+                        "tipo": "string",
+                        "subtipo": "string",
+                        "subSubtipo": "string",
+                        "estado": "string"
+                    }
+                ],
+                "conoceDenunciado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "idRelacionDetenidoDetalle": "3103a6e7-7030-4aef-aefd-3ef73dcafab4",
+                "estaDetenido": true,
+                "lugarDetencion": "string",
+                "fechaHoraDetencion": "2022-02-17T13:13:13.000",
+                "causaDetencion": "string",
+                "pasaControlDetencion": true,
+                "destinoImputado": "string",
+                "rolHechoDelictual": "string",
+                "detalleRolHechoDelictual": "string",
+                "perfilImputado": "string",
+                "situacionLibertad": "string",
+                "muertesBajoCustodia": true,
+                "seAplicoFuerza": "string",
+                "quienAplicoFuerza": [
+                    {
+                        "id": "5b28f183-fbb3-4ca4-9f67-134a4fc132eb",
+                        "idPersona": "4a3d3050-dbfa-4845-8fb4-22ee882fbadc",
+                        "organismoPertenecienteRol": "string",
+                        "idRutQuienUtilizoFuerza": "string",
+                        "rutQuienUtilizoFuerza": "F19Jd",
+                        "idNombre": "800020ff-f0ef-4c67-8c91-8df2359dca49",
+                        "nombres": "string",
+                        "primerApellido": "string",
+                        "segundoApellido": "string",
+                        "idTelefono": "19976e72-6699-4d18-a460-0727bad075a8",
+                        "tipoContacto": "string",
+                        "telefono": "string",
+                        "idCorreoElectronico": "7f7ec954-039f-41e9-a1a5-6ddce2280972",
+                        "correoElectronico": "kmVjD@noregistrado.com"
+                    }
+                ],
+                "fuenteInformacion": "string",
+                "tipoTestigo": "string",
+                "reservaTestigo": true,
+                "idDescripcionPersona": "a9e81895-600c-479a-ae98-99e65c4906ef",
+                "descripcionPersona": "string",
+                "idRelacionRepresentante": null,
+                "tipoSujetoQueRepresenta": "string",
+                "idPersonaQueRepresenta": "string",
+                "tipoInstitucionQuePertenece": "string",
+                "nombreInstitucionQuePertenece": "string",
+                "comoAcreditaRepresentacion": "string",
+                "tipoContacto": "Particular",
+                "idTelefonoFijoContacto": "89d68c61-e260-46b4-95c7-7511ddc0efdb",
+                "telefonoFijoContacto": "22222222222",
+                "idTelefonoMovilContacto": "4b52bacf-e574-47ac-91fe-c219cced6843",
+                "telefonoMovilContacto": "99999999999",
+                "idCorreoElectronicoContacto": "0b8cf8b5-e652-4bdc-ad81-7f379c7a6fea",
+                "correoElectronicoContacto": "adriana@canales.cl",
+                "indicadorDireccionNotificacion": false,
+                "redesSociales": [
+                    {
+                        "id": "string",
+                        "tipoRedSocial": "string",
+                        "operador": "string",
+                        "identificador": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "nombreCompleto": "Julio Verne Pardo",
+            "ruc": "3489334-8",
+            "idCodigoRelacion": "cda76716-1104-4560-b14f-9df4d4fab2ed",
+            "idPersona": "dbf51952-ca9c-4cf7-bfa5-86fe55b6187c",
+            "idPersonaJuridica": "string",
+            "clase": "Procedimiento",
+            "idRelacionClase": "bd8b9bc9-1f73-426f-b09f-dba2fc96c47d",
+            "idDetalleHechoDelictual": "string",
+            "idCodigoRelacionRepresentanteLegal": "string",
+            "idProcedimiento": null,
+            "tipoSujeto": "Víctima",
+            "representaInstitucion": false,
+            "interviniente": {
+                "idNombrePersonaJuridica": "string",
+                "idIdentificacionPersonaJuridica": "string",
+                "rutPersonaJuridica": "YJVfs",
+                "razonSocial": "",
+                "direccionPersonaJuridica": {
+                    "idDireccion": "string",
+                    "tipo": "string",
+                    "calle": "string",
+                    "numero": "string",
+                    "departamentoOficina": "string",
+                    "block": "string",
+                    "poblacionVilla": "string",
+                    "sector": "string",
+                    "comuna": "string",
+                    "region": "string",
+                    "interseccion": "string",
+                    "cuadrante": "string",
+                    "observacionReferencia": "string",
+                    "georeferencia": {
+                        "lat": 0,
+                        "lon": 0
+                    },
+                    "tipoVivienda": "string",
+                    "tipoSector": "string",
+                    "idUbicacionReferencia": "string",
+                    "ubicacionReferencia": "string",
+                    "indicadorNotificacion": true,
+                    "tipoResidencia": "string"
+                },
+                "idTelefonoFijoPersonaJuridica": "string",
+                "telefonoFijoPersonaJuridica": "string",
+                "idCorreoElectronicoPersonaJuridica": "string",
+                "correoElectronicoPersonaJuridica": "cmOga@noregistrado.com",
+                "identificaciones": [
+                    {
+                        "idIdentificacion": "55192124-9efc-4d9b-aa39-9783f3c0cedd",
+                        "tipoDocumentoIdentificacion": "RUT",
+                        "paisDocumentoIdentificacion": "Chile",
+                        "numeroDocumentoIdentificacion": "23.111.022-4",
+                        "numeroDocumentoSerie": "string",
+                        "sexoRegistral": "Masculino",
+                        "fotografia": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "firma": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "huella": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "aplicaValidacionIdentidadElectronica": "string",
+                        "resultadoValidacionIdentidadElectronica": "string"
+                    }
+                ],
+                "idNacionalidad": "043abb3d-cfc9-4b02-aaeb-bbc484ca3a3e",
+                "nacionalidad": "Chilena",
+                "ciudadNacimiento": "santiago",
+                "idIdioma": "f54206f4-b955-40e9-ab5b-2edad4085047",
+                "idioma": "",
+                "idEstadoMigratorio": "1a8dae01-28bb-4e90-8192-9cd83edb62f2",
+                "estadoMigratorio": "",
+                "fechaNacimiento": "1992-05-07",
+                "idIdentidadGenero": "80fc8f89-2b8e-43c3-8159-c5386fd6cd1c",
+                "identidadGenero": "",
+                "idNombre": "d7026945-8de2-4688-a64c-be00083838e8",
+                "nombres": "Julio",
+                "apellidoPaterno": "Verne",
+                "apellidoMaterno": "Pardo",
+                "nombreSocial": "",
+                "aliasApelativo": "",
+                "idPueblosOriginarios": "be8e7ba1-ffcc-4381-acf2-f69daff89bbe",
+                "pueblosOriginarios": "",
+                "idProfesionOcupacion": "60cdd935-5f98-4671-bc97-f055de232372",
+                "profesionOficioOcupacion": "Desarrollador",
+                "idEstadoCivil": "13cc25f7-6251-40e6-a9c5-bb415d0b33c8",
+                "estadoCivil": "Casado",
+                "idEscolaridad": "dc9231a0-20e8-4c07-83e1-e67edbd4e341",
+                "escolaridad": "",
+                "idTipoDiscapacidad": null,
+                "condicionDiscapacidad": null,
+                "tipoDiscapacidad": "",
+                "direcciones": [
+                    {
+                        "idDireccion": "e5724eb1-776a-4d0a-bf7f-c934d393ffa2",
+                        "tipo": "string",
+                        "calle": "STRING",
+                        "numero": "string",
+                        "departamentoOficina": "string",
+                        "block": "string",
+                        "poblacionVilla": "string",
+                        "sector": "string",
+                        "comuna": "string",
+                        "region": "string",
+                        "interseccion": "string",
+                        "cuadrante": "string",
+                        "observacionReferencia": "string",
+                        "georeferencia": {
+                            "lat": 0,
+                            "lon": 0
+                        },
+                        "tipoVivienda": "string",
+                        "tipoSector": "string",
+                        "idUbicacionReferencia": "492a0805-49c3-4237-b829-661706d70a68",
+                        "ubicacionReferencia": "string",
+                        "indicadorNotificacion": true,
+                        "tipoResidencia": "string"
+                    }
+                ],
+                "requiereAsistencia": [
+                    {
+                        "id": "11b2d5af-66bb-4498-9213-0409f69e95f2",
+                        "asistencia": "string"
+                    }
+                ],
+                "conQuienVive": [
+                    {
+                        "id": "7da09a93-edfe-47be-b498-405a96192ced",
+                        "conviviente": "string"
+                    }
+                ],
+                "leeEscribe": true,
+                "esRPA": true,
+                "idAsociacion": "ce914a77-2d0f-4885-85e9-e849ae49eded",
+                "grupoPandilla": "string",
+                "tieneOrdenDetencionVigente": false,
+                "documentoOrdenDetencion": null,
+                "idLaboral": "c2eda8df-4508-44f8-9c58-8f7a68ee4afc",
+                "esFuncionarioPublico": null,
+                "cargoFuncionarioPublico": "",
+                "institucionFuncionarioPublico": "",
+                "conoceImputado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "conoceTestigo": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "relacionConImputado": "string",
+                "estadoSalud": {
+                    "idEstadoSalud": "b4b1aecf-23ed-42d3-8b6f-b6afc5eb2f6d",
+                    "estado": "string",
+                    "estadoTemperancia": "",
+                    "presentaLesiones": true,
+                    "dau": "",
+                    "descripcionLesiones": "",
+                    "origenLesiones": "",
+                    "quedoHospitalizado": true,
+                    "nombreHospital": "string",
+                    "diagnosticoMedico": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                    "indicadorConsumoDrogas": "false",
+                    "idNombreMedico": "string",
+                    "nombresMedico": "string",
+                    "primerApellidoMedico": "string",
+                    "segundoApellidoMedico": "string",
+                    "idIdentificacionMedico": "string",
+                    "rutMedicoTratante": "1X4yx"
+                },
+                "relatoHechos": "string",
+                "idRelacionRelatoNNA": null,
+                "esVictima": true,
+                "nnaParentesco": "string",
+                "nnaEsAdultoProtector": "string",
+                "nnaDatosAdultoProtector": "string",
+                "nnaAQuienContoHechos": "string",
+                "nnaComoSupoHechos": "string",
+                "esNNA": false,
+                "requiereFormularioRiesgoNNA": true,
+                "formularioRiesgoNNA": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                "requierePautaVIF": true,
+                "medidasProteccion": [
+                    {
+                        "id": "84907010-03b4-426d-98a1-4f6507ed45c8",
+                        "tipo": "string",
+                        "subtipo": "string",
+                        "subSubtipo": "string",
+                        "estado": "string"
+                    }
+                ],
+                "conoceDenunciado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "idRelacionDetenidoDetalle": "e12a4d9f-98f4-4fa6-ac07-70b0f8304fb0",
+                "estaDetenido": true,
+                "lugarDetencion": "string",
+                "fechaHoraDetencion": "2022-02-17T13:13:13.000",
+                "causaDetencion": "string",
+                "pasaControlDetencion": true,
+                "destinoImputado": "string",
+                "rolHechoDelictual": "string",
+                "detalleRolHechoDelictual": "string",
+                "perfilImputado": "string",
+                "situacionLibertad": "string",
+                "muertesBajoCustodia": true,
+                "seAplicoFuerza": "string",
+                "quienAplicoFuerza": [
+                    {
+                        "id": "1f523362-3e0b-4fd0-9a26-b20741b1df3c",
+                        "idPersona": "0cc86732-e336-4440-9b44-827a98d07f52",
+                        "organismoPertenecienteRol": "string",
+                        "idRutQuienUtilizoFuerza": "string",
+                        "rutQuienUtilizoFuerza": "ihIhy",
+                        "idNombre": "47059dbd-13b4-4e44-a5c6-f26e4b2c8115",
+                        "nombres": "string",
+                        "primerApellido": "string",
+                        "segundoApellido": "string",
+                        "idTelefono": "f93f8a63-2c83-47e7-b527-5965670e24b8",
+                        "tipoContacto": "string",
+                        "telefono": "string",
+                        "idCorreoElectronico": "8abfedf0-14f6-415f-a875-360be39af8a5",
+                        "correoElectronico": "ftPO2@noregistrado.com"
+                    }
+                ],
+                "fuenteInformacion": "string",
+                "tipoTestigo": "string",
+                "reservaTestigo": true,
+                "idDescripcionPersona": "c9da718d-79a9-4f1c-8b79-c82261313648",
+                "descripcionPersona": "string",
+                "idRelacionRepresentante": null,
+                "tipoSujetoQueRepresenta": "string",
+                "idPersonaQueRepresenta": "string",
+                "tipoInstitucionQuePertenece": "string",
+                "nombreInstitucionQuePertenece": "string",
+                "comoAcreditaRepresentacion": "string",
+                "tipoContacto": "Particular",
+                "idTelefonoFijoContacto": "fdc15812-ff92-41fa-a4b4-c8d9bf4c1d94",
+                "telefonoFijoContacto": "22222222222",
+                "idTelefonoMovilContacto": "f47d4b48-1e12-4479-897d-767677747132",
+                "telefonoMovilContacto": "99999999999",
+                "idCorreoElectronicoContacto": "b0fea34d-efd8-409c-bc2d-d2d8ad203bc1",
+                "correoElectronicoContacto": "julio@verne.cl",
+                "indicadorDireccionNotificacion": false,
+                "redesSociales": [
+                    {
+                        "id": "string",
+                        "tipoRedSocial": "string",
+                        "operador": "string",
+                        "identificador": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "nombreCompleto": "Luke Jar Pardo",
+            "ruc": "3489344-8",
+            "idCodigoRelacion": "c522c4e5-3b54-4934-a8bf-4fe6c1c3431a",
+            "idPersona": "8bc4977a-e26c-4605-bf93-7c019be4756e",
+            "idPersonaJuridica": "string",
+            "clase": "Procedimiento",
+            "idRelacionClase": "bd8b9bc9-1f73-426f-b09f-dba2fc96c47d",
+            "idDetalleHechoDelictual": "string",
+            "idCodigoRelacionRepresentanteLegal": "string",
+            "idProcedimiento": null,
+            "tipoSujeto": "Víctima",
+            "representaInstitucion": false,
+            "interviniente": {
+                "idNombrePersonaJuridica": "string",
+                "idIdentificacionPersonaJuridica": "string",
+                "rutPersonaJuridica": "saf6M",
+                "razonSocial": "",
+                "direccionPersonaJuridica": {
+                    "idDireccion": "string",
+                    "tipo": "string",
+                    "calle": "string",
+                    "numero": "string",
+                    "departamentoOficina": "string",
+                    "block": "string",
+                    "poblacionVilla": "string",
+                    "sector": "string",
+                    "comuna": "string",
+                    "region": "string",
+                    "interseccion": "string",
+                    "cuadrante": "string",
+                    "observacionReferencia": "string",
+                    "georeferencia": {
+                        "lat": 0,
+                        "lon": 0
+                    },
+                    "tipoVivienda": "string",
+                    "tipoSector": "string",
+                    "idUbicacionReferencia": "string",
+                    "ubicacionReferencia": "string",
+                    "indicadorNotificacion": true,
+                    "tipoResidencia": "string"
+                },
+                "idTelefonoFijoPersonaJuridica": "string",
+                "telefonoFijoPersonaJuridica": "string",
+                "idCorreoElectronicoPersonaJuridica": "string",
+                "correoElectronicoPersonaJuridica": "NjgF9@noregistrado.com",
+                "identificaciones": [
+                    {
+                        "idIdentificacion": "92f1b7ba-c36f-4503-94b3-477001c84d9b",
+                        "tipoDocumentoIdentificacion": "RUT",
+                        "paisDocumentoIdentificacion": "Chile",
+                        "numeroDocumentoIdentificacion": "8.089.402-3",
+                        "numeroDocumentoSerie": "string",
+                        "sexoRegistral": "Masculino",
+                        "fotografia": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "firma": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "huella": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "aplicaValidacionIdentidadElectronica": "string",
+                        "resultadoValidacionIdentidadElectronica": "string"
+                    }
+                ],
+                "idNacionalidad": "e374c3ef-ea48-40a2-b87d-764c3e0b7cb8",
+                "nacionalidad": "Chilena",
+                "ciudadNacimiento": "santiago",
+                "idIdioma": "6b82e858-2c48-447a-8404-0523efad8a96",
+                "idioma": "",
+                "idEstadoMigratorio": "ae581bff-a609-48c9-812f-dd067eec7fb6",
+                "estadoMigratorio": "",
+                "fechaNacimiento": "1992-05-07",
+                "idIdentidadGenero": "bbf28bfb-2d0a-4108-bf81-31a008512ddf",
+                "identidadGenero": "",
+                "idNombre": "687291cd-e00e-41d8-b37e-ed2e835f0057",
+                "nombres": "Luke",
+                "apellidoPaterno": "Jar",
+                "apellidoMaterno": "Pardo",
+                "nombreSocial": "",
+                "aliasApelativo": "",
+                "idPueblosOriginarios": "b1c79a17-53f6-4774-bfb9-818dbb013ef0",
+                "pueblosOriginarios": "",
+                "idProfesionOcupacion": "923bce47-8c1e-4997-9f5e-8e9e6f7c4bac",
+                "profesionOficioOcupacion": "Desarrollador",
+                "idEstadoCivil": "ab7a4ef5-50b3-424e-8518-9b450566ac67",
+                "estadoCivil": "Casado",
+                "idEscolaridad": "fcf14dda-8b13-40c8-b5b4-572ba7c1cdcd",
+                "escolaridad": "",
+                "idTipoDiscapacidad": null,
+                "condicionDiscapacidad": null,
+                "tipoDiscapacidad": "",
+                "direcciones": [
+                    {
+                        "idDireccion": "7ba6bdc1-8ecb-4b85-98d5-2492c755d4b3",
+                        "tipo": "string",
+                        "calle": "STRING",
+                        "numero": "string",
+                        "departamentoOficina": "string",
+                        "block": "string",
+                        "poblacionVilla": "string",
+                        "sector": "string",
+                        "comuna": "string",
+                        "region": "string",
+                        "interseccion": "string",
+                        "cuadrante": "string",
+                        "observacionReferencia": "string",
+                        "georeferencia": {
+                            "lat": 0,
+                            "lon": 0
+                        },
+                        "tipoVivienda": "string",
+                        "tipoSector": "string",
+                        "idUbicacionReferencia": "2d661824-4643-4200-a079-66b212beee1c",
+                        "ubicacionReferencia": "string",
+                        "indicadorNotificacion": true,
+                        "tipoResidencia": "string"
+                    }
+                ],
+                "requiereAsistencia": [
+                    {
+                        "id": "8447c457-b6ad-4541-84bc-69840f0bb743",
+                        "asistencia": "string"
+                    }
+                ],
+                "conQuienVive": [
+                    {
+                        "id": "c34b89ed-6a0e-403d-b6d4-26a41b64fdae",
+                        "conviviente": "string"
+                    }
+                ],
+                "leeEscribe": true,
+                "esRPA": false,
+                "idAsociacion": "c026df0b-6684-4af0-bbc9-8bfa46fea5de",
+                "grupoPandilla": "string",
+                "tieneOrdenDetencionVigente": false,
+                "documentoOrdenDetencion": "null",
+                "idLaboral": "750142e6-dc40-4939-be83-2fa5d9516fc3",
+                "esFuncionarioPublico": null,
+                "cargoFuncionarioPublico": "",
+                "institucionFuncionarioPublico": "",
+                "conoceImputado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "conoceTestigo": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "relacionConImputado": "string",
+                "estadoSalud": {
+                    "idEstadoSalud": "bb8504e4-d987-4519-9f33-34df5e6bb42c",
+                    "estado": "string",
+                    "estadoTemperancia": "",
+                    "presentaLesiones": true,
+                    "dau": "",
+                    "descripcionLesiones": "",
+                    "origenLesiones": "",
+                    "quedoHospitalizado": true,
+                    "nombreHospital": "string",
+                    "diagnosticoMedico": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                    "indicadorConsumoDrogas": "false",
+                    "idNombreMedico": "string",
+                    "nombresMedico": "string",
+                    "primerApellidoMedico": "string",
+                    "segundoApellidoMedico": "string",
+                    "idIdentificacionMedico": "string",
+                    "rutMedicoTratante": "6B12C"
+                },
+                "relatoHechos": "string",
+                "idRelacionRelatoNNA": null,
+                "esVictima": true,
+                "nnaParentesco": "string",
+                "nnaEsAdultoProtector": "string",
+                "nnaDatosAdultoProtector": "string",
+                "nnaAQuienContoHechos": "string",
+                "nnaComoSupoHechos": "string",
+                "esNNA": false,
+                "requiereFormularioRiesgoNNA": true,
+                "formularioRiesgoNNA": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                "requierePautaVIF": true,
+                "medidasProteccion": [
+                    {
+                        "id": "56514437-128a-4ba6-acc0-5dfe94d4d934",
+                        "tipo": "string",
+                        "subtipo": "string",
+                        "subSubtipo": "string",
+                        "estado": "string"
+                    }
+                ],
+                "conoceDenunciado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "idRelacionDetenidoDetalle": "88363cb9-ce6a-4102-ad4e-f8d8c5c32119",
+                "estaDetenido": true,
+                "lugarDetencion": "string",
+                "fechaHoraDetencion": "2022-02-17T13:13:13.000",
+                "causaDetencion": "string",
+                "pasaControlDetencion": true,
+                "destinoImputado": "string",
+                "rolHechoDelictual": "string",
+                "detalleRolHechoDelictual": "string",
+                "perfilImputado": "string",
+                "situacionLibertad": "string",
+                "muertesBajoCustodia": true,
+                "seAplicoFuerza": "string",
+                "quienAplicoFuerza": [
+                    {
+                        "id": "d672710b-d5e4-4b7e-868a-53489da42edc",
+                        "idPersona": "b5b1fd7a-d1a8-415c-8c3b-1e9e4d640f0a",
+                        "organismoPertenecienteRol": "string",
+                        "idRutQuienUtilizoFuerza": "string",
+                        "rutQuienUtilizoFuerza": "13dRQ",
+                        "idNombre": "c00cdd6f-7759-4769-8806-e60d99bdd2fc",
+                        "nombres": "string",
+                        "primerApellido": "string",
+                        "segundoApellido": "string",
+                        "idTelefono": "46057b7a-32ca-4b09-90e7-ebf5199c43e7",
+                        "tipoContacto": "string",
+                        "telefono": "string",
+                        "idCorreoElectronico": "7e335509-7a85-43be-b8ec-ebd468ebcb0a",
+                        "correoElectronico": "wZvn7@noregistrado.com"
+                    }
+                ],
+                "fuenteInformacion": "string",
+                "tipoTestigo": "string",
+                "reservaTestigo": true,
+                "idDescripcionPersona": "5a06bb7f-359b-4a85-a83c-c93862ad1c5f",
+                "descripcionPersona": "string",
+                "idRelacionRepresentante": null,
+                "tipoSujetoQueRepresenta": "string",
+                "idPersonaQueRepresenta": "string",
+                "tipoInstitucionQuePertenece": "string",
+                "nombreInstitucionQuePertenece": "string",
+                "comoAcreditaRepresentacion": "string",
+                "tipoContacto": "Particular",
+                "idTelefonoFijoContacto": "e46542a2-b5a3-4e09-bf25-b45d8c35121d",
+                "telefonoFijoContacto": "22222222222",
+                "idTelefonoMovilContacto": "53d4ebf1-daa0-412e-9896-63958609066e",
+                "telefonoMovilContacto": "99999999999",
+                "idCorreoElectronicoContacto": "0b5be292-1aaa-4f1d-b534-5fb0a5f0d476",
+                "correoElectronicoContacto": "luke@jar.cl",
+                "indicadorDireccionNotificacion": false,
+                "redesSociales": [
+                    {
+                        "id": "string",
+                        "tipoRedSocial": "string",
+                        "operador": "string",
+                        "identificador": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "nombreCompleto": "Joaquín Fenix Pardo",
+            "ruc": "3489354-8",
+            "idCodigoRelacion": "227bc416-b108-4918-a220-60ad53594932",
+            "idPersona": "2197c235-5559-4130-a5b6-03c85249e70e",
+            "idPersonaJuridica": "string",
+            "clase": "Procedimiento",
+            "idRelacionClase": "bd8b9bc9-1f73-426f-b09f-dba2fc96c47d",
+            "idDetalleHechoDelictual": "string",
+            "idCodigoRelacionRepresentanteLegal": "string",
+            "idProcedimiento": null,
+            "tipoSujeto": "Víctima",
+            "representaInstitucion": false,
+            "interviniente": {
+                "idNombrePersonaJuridica": "string",
+                "idIdentificacionPersonaJuridica": "string",
+                "rutPersonaJuridica": "iaA0i",
+                "razonSocial": "",
+                "direccionPersonaJuridica": {
+                    "idDireccion": "string",
+                    "tipo": "string",
+                    "calle": "string",
+                    "numero": "string",
+                    "departamentoOficina": "string",
+                    "block": "string",
+                    "poblacionVilla": "string",
+                    "sector": "string",
+                    "comuna": "string",
+                    "region": "string",
+                    "interseccion": "string",
+                    "cuadrante": "string",
+                    "observacionReferencia": "string",
+                    "georeferencia": {
+                        "lat": 0,
+                        "lon": 0
+                    },
+                    "tipoVivienda": "string",
+                    "tipoSector": "string",
+                    "idUbicacionReferencia": "string",
+                    "ubicacionReferencia": "string",
+                    "indicadorNotificacion": true,
+                    "tipoResidencia": "string"
+                },
+                "idTelefonoFijoPersonaJuridica": "string",
+                "telefonoFijoPersonaJuridica": "string",
+                "idCorreoElectronicoPersonaJuridica": "string",
+                "correoElectronicoPersonaJuridica": "eP0CU@noregistrado.com",
+                "identificaciones": [
+                    {
+                        "idIdentificacion": "15a8e9ad-291e-410a-b950-9627f40eda92",
+                        "tipoDocumentoIdentificacion": "RUT",
+                        "paisDocumentoIdentificacion": "Chile",
+                        "numeroDocumentoIdentificacion": "14.701.499-6",
+                        "numeroDocumentoSerie": "string",
+                        "sexoRegistral": "Masculino",
+                        "fotografia": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "firma": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "huella": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                        "aplicaValidacionIdentidadElectronica": "string",
+                        "resultadoValidacionIdentidadElectronica": "string"
+                    }
+                ],
+                "idNacionalidad": "c571a50c-1540-4ba4-a589-7a3221cf5948",
+                "nacionalidad": "Chilena",
+                "ciudadNacimiento": "santiago",
+                "idIdioma": "3c071d90-eb4f-45f0-940b-6f72d768afd9",
+                "idioma": "",
+                "idEstadoMigratorio": "428d73dc-560f-4a5d-a639-c9ce3c655878",
+                "estadoMigratorio": "",
+                "fechaNacimiento": "1992-05-07",
+                "idIdentidadGenero": "f29b36b6-6d6e-4331-ab48-22c2ada64fd9",
+                "identidadGenero": "",
+                "idNombre": "faff021f-1016-44fa-8de9-32e61af42388",
+                "nombres": "Joaquín",
+                "apellidoPaterno": "Fenix",
+                "apellidoMaterno": "Pardo",
+                "nombreSocial": "",
+                "aliasApelativo": "",
+                "idPueblosOriginarios": "daa2b27e-9a93-4ee7-953f-6f112fe42d9b",
+                "pueblosOriginarios": "",
+                "idProfesionOcupacion": "08c05c6d-8a62-453d-99e4-be5115dadf7b",
+                "profesionOficioOcupacion": "Desarrollador",
+                "idEstadoCivil": "6a5b48ff-f135-4c69-adf9-724ba0e7d892",
+                "estadoCivil": "Casado",
+                "idEscolaridad": "6f10e542-f75e-4359-a764-05898120f37e",
+                "escolaridad": "",
+                "idTipoDiscapacidad": null,
+                "condicionDiscapacidad": null,
+                "tipoDiscapacidad": "",
+                "direcciones": [
+                    {
+                        "idDireccion": "ff68dec5-40c5-4bd2-aa4b-d7d3f813eccc",
+                        "tipo": "string",
+                        "calle": "STRING",
+                        "numero": "string",
+                        "departamentoOficina": "string",
+                        "block": "string",
+                        "poblacionVilla": "string",
+                        "sector": "string",
+                        "comuna": "string",
+                        "region": "string",
+                        "interseccion": "string",
+                        "cuadrante": "string",
+                        "observacionReferencia": "string",
+                        "georeferencia": {
+                            "lat": 0,
+                            "lon": 0
+                        },
+                        "tipoVivienda": "string",
+                        "tipoSector": "string",
+                        "idUbicacionReferencia": "bdaa4133-8fcc-4610-a8f8-0077001c1c33",
+                        "ubicacionReferencia": "string",
+                        "indicadorNotificacion": true,
+                        "tipoResidencia": "string"
+                    }
+                ],
+                "requiereAsistencia": [
+                    {
+                        "id": "441d071b-9c26-4a1f-b23d-099d4e6efda1",
+                        "asistencia": "string"
+                    }
+                ],
+                "conQuienVive": [
+                    {
+                        "id": "86ee3abd-972e-4257-96df-60adfaab8569",
+                        "conviviente": "string"
+                    }
+                ],
+                "leeEscribe": true,
+                "esRPA": true,
+                "idAsociacion": "9603f502-1a36-441a-ae38-ddeb92426605",
+                "grupoPandilla": "string",
+                "tieneOrdenDetencionVigente": false,
+                "documentoOrdenDetencion": null,
+                "idLaboral": "e743f140-7910-4332-9383-1af333cca838",
+                "esFuncionarioPublico": null,
+                "cargoFuncionarioPublico": "",
+                "institucionFuncionarioPublico": "",
+                "conoceImputado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "conoceTestigo": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "relacionConImputado": "string",
+                "estadoSalud": {
+                    "idEstadoSalud": "2af30f89-47cc-4c77-8b7b-1e09ffdab36a",
+                    "estado": "string",
+                    "estadoTemperancia": "",
+                    "presentaLesiones": true,
+                    "dau": "",
+                    "descripcionLesiones": "",
+                    "origenLesiones": "",
+                    "quedoHospitalizado": true,
+                    "nombreHospital": "string",
+                    "diagnosticoMedico": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                    "indicadorConsumoDrogas": "false",
+                    "idNombreMedico": "string",
+                    "nombresMedico": "string",
+                    "primerApellidoMedico": "string",
+                    "segundoApellidoMedico": "string",
+                    "idIdentificacionMedico": "string",
+                    "rutMedicoTratante": "RXcAe"
+                },
+                "relatoHechos": "string",
+                "idRelacionRelatoNNA": null,
+                "esVictima": true,
+                "nnaParentesco": "string",
+                "nnaEsAdultoProtector": "string",
+                "nnaDatosAdultoProtector": "string",
+                "nnaAQuienContoHechos": "string",
+                "nnaComoSupoHechos": "string",
+                "esNNA": false,
+                "requiereFormularioRiesgoNNA": true,
+                "formularioRiesgoNNA": "/home/thomas/rgp_api/rgp-persona-parent/rgp-persona-api/target/string",
+                "requierePautaVIF": true,
+                "medidasProteccion": [
+                    {
+                        "id": "4513bafe-3cef-4605-9bbd-2f0442ca7461",
+                        "tipo": "string",
+                        "subtipo": "string",
+                        "subSubtipo": "string",
+                        "estado": "string"
+                    }
+                ],
+                "conoceDenunciado": [
+                    {
+                        "id": null,
+                        "nombre": null,
+                        "descripcion": null
+                    }
+                ],
+                "idRelacionDetenidoDetalle": "f5d183e9-898f-4c76-8943-237309b65c97",
+                "estaDetenido": true,
+                "lugarDetencion": "string",
+                "fechaHoraDetencion": "2022-02-17T13:13:13.000",
+                "causaDetencion": "string",
+                "pasaControlDetencion": true,
+                "destinoImputado": "string",
+                "rolHechoDelictual": "string",
+                "detalleRolHechoDelictual": "string",
+                "perfilImputado": "string",
+                "situacionLibertad": "string",
+                "muertesBajoCustodia": true,
+                "seAplicoFuerza": "string",
+                "quienAplicoFuerza": [
+                    {
+                        "id": "4165e214-ffff-4d21-be71-8f51b6cf66ae",
+                        "idPersona": "085fc311-962e-4154-85a4-3dc5f13453e0",
+                        "organismoPertenecienteRol": "string",
+                        "idRutQuienUtilizoFuerza": "string",
+                        "rutQuienUtilizoFuerza": "lFvfF",
+                        "idNombre": "ba6090c9-d528-4a33-9f5b-38cfefbf4725",
+                        "nombres": "string",
+                        "primerApellido": "string",
+                        "segundoApellido": "string",
+                        "idTelefono": "518c0388-ea1e-4a86-8ec7-5fd7b78005fe",
+                        "tipoContacto": "string",
+                        "telefono": "string",
+                        "idCorreoElectronico": "91b86ccd-5115-46c7-95f7-e102f5452cd9",
+                        "correoElectronico": "9hXUC@noregistrado.com"
+                    }
+                ],
+                "fuenteInformacion": "string",
+                "tipoTestigo": "string",
+                "reservaTestigo": true,
+                "idDescripcionPersona": "8ffd57f5-75d9-4e1e-b2f3-9481dc286164",
+                "descripcionPersona": "string",
+                "idRelacionRepresentante": null,
+                "tipoSujetoQueRepresenta": "string",
+                "idPersonaQueRepresenta": "string",
+                "tipoInstitucionQuePertenece": "string",
+                "nombreInstitucionQuePertenece": "string",
+                "comoAcreditaRepresentacion": "string",
+                "tipoContacto": "Particular",
+                "idTelefonoFijoContacto": "a35b7440-6220-4102-af0d-9dacd34ab6fe",
+                "telefonoFijoContacto": "22222222222",
+                "idTelefonoMovilContacto": "d0a7bfa8-8072-407e-a6cf-5571b3b36cab",
+                "telefonoMovilContacto": "99999999999",
+                "idCorreoElectronicoContacto": "5960100e-7414-4954-96dc-85b5dd6f94c7",
+                "correoElectronicoContacto": "joaquin@fenix.cl",
+                "indicadorDireccionNotificacion": false,
+                "redesSociales": [
+                    {
+                        "id": "string",
+                        "tipoRedSocial": "string",
+                        "operador": "string",
+                        "identificador": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}

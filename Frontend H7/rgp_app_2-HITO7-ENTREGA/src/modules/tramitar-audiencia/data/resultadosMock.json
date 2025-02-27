@@ -1,0 +1,202 @@
+{
+  "resultado1":{
+    "apercibimiento":[
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": false, 
+        "actaAudiencia": false,
+        "resultado": true
+      },
+      {
+        "item": "Imputado - Jaime Carrasco Tapia", 
+        "registro": false, 
+        "actaAudiencia": false,
+        "resultado": true
+      }
+    ],
+    "medidasCautelares":[
+      {
+        "item": "Jaime Carrasco Tapia - prision preventiva", 
+        "registro": true, 
+        "actaAudiencia": true,
+        "resultado": true
+      },
+      {
+        "item": "Jaime Carrasco Tapia - Arraigo Nacional", 
+        "registro": true, 
+        "actaAudiencia": true,
+        "resultado": true
+      }
+    ],
+    "resultadoAudiencia":[
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      },
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      }
+    ],
+    "resultadoSentencia":[
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      },
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      }
+    ],
+    "procedimiento":[
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      },
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      }
+    ],
+    "salidasAlternativas":[
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      },
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      }
+    ],
+    "especies":[
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      },
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      }
+    ]
+  },
+  "resultado2":{
+    "apercibimiento":[
+      {
+        "item": "Test 1", 
+        "registro": false, 
+        "actaAudiencia": false,
+        "resultado": true
+      },
+      {
+        "item": "Imputado - Jaime Carrasco Tapia", 
+        "registro": false, 
+        "actaAudiencia": false,
+        "resultado": true
+      }
+    ],
+    "medidasCautelares":[
+      {
+        "item": "Jaime Carrasco Tapia - prision preventiva", 
+        "registro": true, 
+        "actaAudiencia": true,
+        "resultado": true
+      },
+      {
+        "item": "Jaime Carrasco Tapia - Arraigo Nacional", 
+        "registro": true, 
+        "actaAudiencia": true,
+        "resultado": true
+      }
+    ],
+    "resultadoAudiencia":[
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      },
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      }
+    ],
+    "resultadoSentencia":[
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      },
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      }
+    ],
+    "procedimiento":[
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      },
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      }
+    ],
+    "salidasAlternativas":[
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      },
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      }
+    ],
+    "especies":[
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      },
+      {
+        "item": "Víctima - Gustavo Sebastian Henriquez", 
+        "registro": true, 
+        "actaAudiencia": false,
+        "resultado": false
+      }
+    ]
+  }
+}

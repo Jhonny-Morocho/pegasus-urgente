@@ -1,0 +1,31 @@
+{
+    "victimas": [{
+            "name": "María Soto Tapia"
+        },
+        {
+            "name": "José Vera Vera"
+        },
+        {
+            "name": "Mauricio Pérez Gutierrez"
+        },
+        {
+            "name": "Mauricio Vera Soto"
+        }
+
+    ],
+    "imputados": [{
+            "name": "Pedro Castro Villa"
+        },
+        {
+            "name": "Alexis Sánchez"
+        },
+        {
+            "name": "Gonzalo Auth"
+        },
+        {
+            "name": "Gonzalo Villa Sánchez"
+        }
+
+
+    ]
+}

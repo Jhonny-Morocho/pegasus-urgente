@@ -1,0 +1,330 @@
+{
+    "tipoDiligencia": [
+        {
+            "id": 1,
+            "name": "Medida de vigilancia"
+        },
+        {
+            "id": 2,
+            "name": "Orden de investigar"
+        },
+        {
+            "id": 3,
+            "name": "Reconocimiento en rueda"
+        },
+        {
+            "id": 4,
+            "name": "Informe pericial"
+        },
+        {
+            "id": 5,
+            "name": "Exámenes médicos"
+        },
+        {
+            "id": 6,
+            "name": "Autopsia"
+        },
+        {
+            "id": 7,
+            "name": "Informe de lesiones"
+        },
+        {
+            "id": 8,
+            "name": "Reconocimiento e identificación de cadáver"
+        },
+        {
+            "id": 9,
+            "name": "Registro de prueba caligráfica voluntaria"
+        },
+        {
+            "id": 10,
+            "name": "Registro de Careo"
+        },
+        {
+            "id": 11,
+            "name": "Instrucciones particulares (por escrito)"
+        },
+        {
+            "id": 12,
+            "name": "Instrucciones particulares (verbales)"
+        },
+        {
+            "id": 13,
+            "name": "Instrucciones particulares (otro medio)"
+        },
+        {
+            "id": 14,
+            "name": "Inscripción de defunción"
+        },
+        {
+            "id": 15,
+            "name": "Devolución de vehículo"
+        },
+        {
+            "id": 16,
+            "name": "Medida de protección para víctimas"
+        },
+        {
+            "id": 17,
+            "name": "Medida de protección para testigos"
+        },
+        {
+            "id": 18,
+            "name": "Entrega de cadáver"
+        },
+        {
+            "id": 19,
+            "name": "Solicitud de certificado (Registro Civil)"
+        },
+        {
+            "id": 20,
+            "name": "Exámenes Corporales del ofendido (voluntarios)"
+        },
+        {
+            "id": 21,
+            "name": "Informe de alcoholemia"
+        },
+        {
+            "id": 22,
+            "name": "Informe psiquiátrico"
+        },
+        {
+            "id": 23,
+            "name": "Registro de declaración"
+        },
+        {
+            "id": 24,
+            "name": "Requerimiento de Información"
+        },
+        {
+            "id": 25,
+            "name": "Requerimiento de Información (otro medio)"
+        },
+        {
+            "id": 26,
+            "name": "Requerimiento de Información (telefónico)"
+        },
+        {
+            "id": 27,
+            "name": "Otra"
+        },
+        {
+            "id": 28,
+            "name": "Reconstitución de escena"
+        },
+        {
+            "id": 29,
+            "name": "Servicio Médico Legal"
+        }
+    ],
+    "subTipoDiligencia": [
+        {
+            "id": 1,
+            "name": "Servicio de Urgencia de Hospital",
+            "idTipoDiligencia": 7
+        },
+        {
+            "id": 2,
+            "name": "Servicio Médico Legal",
+            "idTipoDiligencia": 7
+        },
+        {
+            "id": 3,
+            "name": "Nacimiento",
+            "idTipoDiligencia": 19
+        },
+        {
+            "id": 4,
+            "name": "Matrimonio",
+            "idTipoDiligencia": 19
+        },
+        {
+            "id": 5,
+            "name": "Defunción",
+            "idTipoDiligencia": 19
+        },
+        {
+            "id": 6,
+            "name": "Extracto de filiación",
+            "idTipoDiligencia": 19
+        },
+        {
+            "id": 7,
+            "name": "De Anotaciones",
+            "idTipoDiligencia": 19
+        },
+        {
+            "id": 8,
+            "name": "Certificado de dominio vigente",
+            "idTipoDiligencia": 19
+        },
+        {
+            "id": 9,
+            "name": "Hoja de vida del conductor",
+            "idTipoDiligencia": 19
+        },
+        {
+            "id": 10,
+            "name": "Fotografía",
+            "idTipoDiligencia": 19
+        },
+        {
+            "id": 11,
+            "name": "Informe de Imputabilidad",
+            "idTipoDiligencia": 22
+        },
+        {
+            "id": 12,
+            "name": "Informe según el art. 465",
+            "idTipoDiligencia": 22
+        },
+        {
+            "id": 13,
+            "name": "Solicitud de Examen",
+            "idTipoDiligencia": 29
+        },
+        {
+            "id": 14,
+            "name": "Solicitud de Autopsia y Entrega de Cadáver",
+            "idTipoDiligencia": 29
+        },
+        {
+            "id": 99,
+            "name": "Sin Subtipo"
+        }
+    ],
+    "estado": [
+        {
+            "id": 1,
+            "name": "En Preparación"
+        },
+        {
+            "id": 2,
+            "name": "Pendiente"
+        },
+        {
+            "id": 3,
+            "name": "Cumplida"
+        },
+        {
+            "id": 4,
+            "name": "Finalizada"
+        },
+        {
+            "id": 5,
+            "name": "Fallida"
+        },
+        {
+            "id": 6,
+            "name": "Invalidada"
+        },
+        {
+            "id": 7,
+            "name": "Anulada"
+        },
+        {
+            "id": 8,
+            "name": "Separada"
+        },
+        {
+            "id": 9,
+            "name": "Agrupada"
+        },
+        {
+            "id": 10,
+            "name": "Reiterada"
+        },
+        {
+            "id": 11,
+            "name": "Revocada"
+        },
+        {
+            "id": 99,
+            "name": "Ejecutada"
+        }
+    ],
+    "ambito": [
+        {
+            "id": 1,
+            "name": "Sujeto"
+        },
+        {
+            "id": 2,
+            "name": "Relación"
+        },
+        {
+            "id": 3,
+            "name": "Causa"
+        }
+    ],
+    "referencia": [
+        {
+            "id": 1,
+            "name": "Víctima"
+        },
+        {
+            "id": 2,
+            "name": "Imputado"
+        }
+    ],
+    "institucion": [
+        {
+            "id": 1,
+            "name": "Carabineros"
+        },
+        {
+            "id": 2,
+            "name": "PDI"
+        },
+        {
+            "id": 3,
+            "name": "Fiscalía"
+        },
+        {
+            "id": 4,
+            "name": "PJUD"
+        },
+        {
+            "id": 5,
+            "name": "Gendarmería"
+        },
+        {
+            "id": 6,
+            "name": "Otro"
+        }
+    ],
+    "justificacion": [
+        {
+            "id": 1,
+            "name": "Diligencias Autónomas (Artículo 83 y 85 del CPP)"
+        },
+        {
+            "id": 2,
+            "name": "Primeras Diligencias conforme al Manual"
+        },
+        {
+            "id": 3,
+            "name": "Instrucción Fiscal (Flagrancia)"
+        },
+        {
+            "id": 4,
+            "name": "Instrucción Particular"
+        },
+        {
+            "id": 5,
+            "name": "Orden de Investigar"
+        },
+        {
+            "id": 6,
+            "name": "Instructivo Regional"
+        },
+        {
+            "id": 7,
+            "name": "Instructivo Nacional"
+        },
+        {
+            "id": 8,
+            "name": "Otro"
+        }
+    ]
+}

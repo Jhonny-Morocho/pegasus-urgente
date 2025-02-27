@@ -1,0 +1,41 @@
+[
+    {
+        "nombreTarea":"Revisar Solicitud Equipo Juridico",
+        "ruc":"2202637794-1",
+        "actividad": "Desarrollo de algo",
+        "alerta":"RPA",
+        "causaJudicializada":false,
+        "imputado": "Algun ladron",
+        "delito":"111-Hurto. ART. 394",
+        "victima": "Alguna victima",
+        "diasUltimaActividad":"15",
+        "plazo":"15 días",
+        "fechaHoraUltimaActividad":"15-07-2022  10:22"
+    },
+    {
+        "nombreTarea":"Pide Cuenta",
+        "ruc":"220668723-2",
+        "actividad": "Desarrollo de la Investigación",
+        "alerta":"VIF",
+        "causaJudicializada":false,
+        "imputado": "Algun ladron",
+        "delito":"111-Hurto. ART. 394",
+        "victima": "Alguna victima",
+        "diasUltimaActividad":"15",
+        "plazo":"15 días",
+        "fechaHoraUltimaActividad":"15-07-2022  10:22"
+    },
+    {
+        "nombreTarea":"Resultado Diligencia",
+        "ruc":"220668723-2",
+        "actividad": "Desarrollo de la Investigación",
+        "alerta":"VIF IPP",
+        "causaJudicializada":false,
+        "imputado": "Jorge Corona Rojas",
+        "delito":"111-Hurto. ART. 394",
+        "victima": "Ernesto Rodríguez Soto",
+        "diasUltimaActividad":"1",
+        "plazo":"15 días",
+        "fechaHoraUltimaActividad":"15-07-2022  10:22"
+    }
+]

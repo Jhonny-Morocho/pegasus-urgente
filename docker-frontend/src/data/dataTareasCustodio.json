@@ -1,0 +1,108 @@
+{
+  "especies": [
+    {
+      "nombreTarea": "Ingresar Especie",
+      "idFamiliaEspecie":"48C358D6-55C6-4279-BA95-C03F0A0E6969",
+      "idtipoEspecie": "000C79AB-95F1-4365-822E-95E7BB26A797",
+      "nue": "1939402",
+      "ruc": "2207899900-3", 
+      "estadoTarea": "En Proceso",
+      "isPrioritario": false,
+      "sla": "",
+      "marca": "",
+      "codigoFiscalia": "1701",
+      "fechaHoraAsigancion": "2021-12-02T13:54:06.000"
+    },
+    {
+      "nombreTarea": "Registrar Dinero",
+      "idFamiliaEspecie":"68C47D52-FF30-41AD-ADE1-63417F62E2DA",
+      "idtipoEspecie": "550B0548-120D-4C05-BAC5-41100EF91A38",
+      "nue": "2315779",
+      "ruc": "9958367669-8", 
+      "estadoTarea": "En Proceso",
+      "isPrioritario": false,
+      "sla": "",
+      "marca": "",
+      "codigoFiscalia": "1789",
+      "fechaHoraAsigancion": "2021-03-23T11:22:45.000"
+    },  
+    {
+      "nombreTarea": "Registrar Especie",
+      "idFamiliaEspecie":"CB194580-3CF8-4324-8552-3231063176B0",
+      "idtipoEspecie": "02356550-1869-419C-98E6-7ACF4E28D3B5",
+      "nue": "8496640",
+      "ruc": "3869355344-5", 
+      "estadoTarea": "En Proceso",
+      "isPrioritario": false,
+      "sla": "",
+      "marca": "",
+      "codigoFiscalia": "2398",
+      "fechaHoraAsigancion": "2021-10-28T09:17:43.000"
+    }
+  ],
+  "especiesIncautadasPendienteRecepcion": [
+    {
+      "nue": "1939402",
+      "familiaEspecie": "Abarrotes",
+      "tipoespecie": "Arroz",
+      "descripcion": "Marca tuCuentaDamelo",
+      "alerta": false,
+      "cantidadMonto": "1000000",
+      "observaciones": "Varios embalajes d eeste producto fueron sustraídos por el ladrón",
+      "resultadoReglaNegocio": "",
+      "entregadoPor": [
+        {
+          "run": "",
+          "nombre": "Marcela Rivas",
+          "grado": "",
+          "institucion": "carabineros",
+          "unidad": "policial",
+          "destacamiento": ""
+        }
+      ]
+
+    },
+    {
+      "nue": "2315779",
+      "familiaEspecie": "Cigarrillos",
+      "tipoespecie": "Cigarrillos",
+      "descripcion": "Kent Neo Rose",
+      "alerta": false,
+      "cantidadMonto": "",
+      "observaciones": "paquetes importados robados desde bodega",
+      "resultadoReglaNegocio": "",
+      "entregadoPor": [
+        {
+          "run": "",
+          "nombre": "Pablo Escobar",
+          "grado": "",
+          "institucion": "Carabinero",
+          "unidad": "Drogas por kilo",
+          "destacamiento": ""
+        }
+      ]
+
+    },
+    {
+      "nue": "8496640",
+      "familiaEspecie": "Drogas",
+      "tipoespecie": "Marihuana",
+      "descripcion": "Plantas vivas",
+      "alerta": false,
+      "cantidadMonto": "",
+      "observaciones": "plantas de dicha droga encontradas en los cerros",
+      "resultadoReglaNegocio": "",
+      "entregadoPor": [
+        {
+          "run": "",
+          "nombre": "Jhon Paul",
+          "grado": "",
+          "institucion": "PDI",
+          "unidad": "Brigada homicidios",
+          "destacamiento": ""
+        }
+      ]
+
+    }
+  ]
+}

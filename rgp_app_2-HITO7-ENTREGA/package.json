@@ -7,10 +7,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "./node_modules/.bin/eslint --ext .js,.vue ./src",
-    "lint:fix": "./node_modules/.bin/eslint --fix --ext .js,.vue ./src",
-    "lint:changes": "./node_modules/.bin/eslint $(git diff --name-only HEAD | grep -E '\\.(js|vue)$' | xargs)",
-    "lint:commit": "./node_modules/.bin/eslint --fix $(git diff --name-only HEAD | grep -E '\\.(js|vue)$' | xargs)"
+    "lint": "eslint --ext .js,.vue ./src",
+    "lint:fix": "eslint --fix --ext .js,.vue ./src",
+    "lint:changes": "eslint --fix $(git diff --name-only HEAD | grep -E '\\.(js|vue)$' | xargs)",
+    "lint:commit": "eslint --fix $(git diff --name-only HEAD | grep -E '\\.(js|vue)$' | xargs)"
   },
   "dependencies": {
     "@baloise/vue-keycloak": "^1.5.0",
@@ -57,12 +57,13 @@
     "@vue/eslint-config-standard": "^6.1.0",
     "@vue/test-utils": "^2.0.0-rc.21",
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.14.0",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint": "^9.21.0",
+    "eslint-import-resolver-webpack": "^0.13.10",
+    "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-standard": "^4.1.0",
-    "eslint-plugin-vue": "^8.7.1",
+    "eslint-plugin-vue": "^9.32.0",
     "node-sass": "^7.0.1",
     "sass-loader": "^12.6.0",
     "vue-jest": "^5.0.0-0"

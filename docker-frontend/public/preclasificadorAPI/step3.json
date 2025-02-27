@@ -1,0 +1,296 @@
+[
+  {
+    "idGlobal": "8e735531-75ba-4aef-ade7-45b09a82230c",
+    "idTipoDenuncia": "",
+    "idOrigen": "",
+    "idDenuncia": "c35d2425-2570-4f8a-bc14-4de3f4e6eca6",
+    "numeroDenuncia": "FI0000151",
+    "idCausa": null,
+    "idDenunciaHechoDelictual": "08bb492e-3b61-4dcc-9ba2-d4641df0c87b",
+    "idDetalleDenunciaHechoDelictualDireccion": "322d510b-f19f-4cb8-9b77-27c0150fbaea",
+    "idDetalleHechoDelictual": "70f664b1-9b04-447c-b7e4-bb3618cd9dbe",
+    "idOrganismoColaboradorUnidad": "",
+    "delito": {
+      "idDenuncia": "",
+      "familiaDelito": "DELITOS FUNCIONARIOS",
+      "idFamiliaDelito": "BDB7471D-38D5-4F31-871E-BA6208BE371D",
+      "delitoDenunciado": "MALVERSACIÓN DE CAUDALES PÚBLICOS. ARTS. 233, 234, y 235.",
+      "idTipoDelito": "26CCE852-12AC-4F2A-9644-B03EB4A75BCF",
+      "descripcionDelito": "descripción delito",
+      "codigoDelitoCarabineros": null
+    },
+    "idProcedimiento": "",
+    "idFiscalia": "",
+    "mediosTransportes": [
+      {
+        "idMedioTransporte": "2022-05-09T14:32:38.823Z",
+        "idDetalleHechoDelictual": null,
+        "rutaMedioTransporte": "Ambos",
+        "tipoMedioTransporte": "Pie",
+        "detalleMedioTransporte": "Vino y se fue a patijuai",
+        "datoVehiculoUtilizadoImputado": {
+          "idDetalleHechoDelictual": null,
+          "idMedioTransporteImputado": null,
+          "idDatosVehiculoUtilizadoImputado": null,
+          "tieneSeguro": "",
+          "estaEncargadoPorRobo": "",
+          "portaPlacaPatente": null,
+          "incautado": null,
+          "numeroEncargos": "",
+          "informacionAutopista": "",
+          "informacionPeajes": "",
+          "observacion": "",
+          "datosVehiculo": {
+            "idDetalleHechoDelictual": "",
+            "idDatosVehiculoUtilizadoImputado": "",
+            "idDatoVehiculo": "",
+            "tipoVehiculo": "",
+            "patente": "",
+            "marca": "",
+            "modelo": "",
+            "color": "",
+            "vin": "",
+            "numeroMotor": ""
+          }
+        }
+      }
+    ],
+    "direccionDelito": {
+      "idDireccion": "044cbfbd-3bca-4196-8fa8-b4fcfca95563",
+      "idDenuncia": "",
+      "idDetalleDenunciaHechoDelictualDireccion": "322d510b-f19f-4cb8-9b77-27c0150fbaea",
+      "calle": "Avenida Libertador Bernardo O'Higgins",
+      "numero": "390",
+      "departamentoOficina": "",
+      "block": "",
+      "poblacionVilla": "",
+      "sector": "",
+      "ciudad": "",
+      "comuna": "Santiago",
+      "region": "Región Metropolitana",
+      "interseccion": "",
+      "cuadrante": "",
+      "observacionReferencia": "",
+      "lugarEspecifico": "",
+      "latitud": "-33.4411015",
+      "longitud": "-70.64140770000002",
+      "esPrincipal": true,
+      "ubicacionRural": false
+    },
+    "idTipo": null,
+    "idEstado": null,
+    "vif": false,
+    "fechaHoraRango": true,
+    "fechaHoraDelitoInicio": "2022-05-08T10:31:18.000",
+    "fechaHoraDelitoFin": "2022-05-09T10:31:18.000",
+    "fechaOcurrencia": "1900-01-01T00:00:00.000",
+    "esFlagrante": false,
+    "esHallazgo": false,
+    "tipoHallazgo": "",
+    "existenDetenidos": "No",
+    "existenLesionados": "No",
+    "existenMuertos": "No",
+    "entregaDetenidosPorCiviles": false,
+    "esAccidenteTransito": false,
+    "esIncendio": false,
+    "medioTransporteDto": null,
+    "informacionAnonima": {
+      "idDenuncia": "",
+      "esInformacionAnonima": false,
+      "programaRazonAnonimato": "",
+      "viaInformacionAportada": ""
+    },
+    "lugarDelito": {
+      "idDelito": "",
+      "zonaDelito": "",
+      "tipoLugarOcurrencia": "",
+      "viaIngreso": "",
+      "lugarOcurrencia": "",
+      "lugarEspecificoOcurrencia": ""
+    },
+    "clasificacionDelito": {
+      "idDenuncia": "",
+      "gradoEjecucionDelito": "",
+      "problemaDelictualFenomenoCriminal": "",
+      "patronCriminal": "",
+      "modusOperandi": "",
+      "subModusOperandi": ""
+    },
+    "elementoUsado": {
+      "idDenuncia": "",
+      "tipoElementoUsado": "",
+      "elementoUsado": ""
+    },
+    "informacionCamara": {
+      "idDenuncia": "",
+      "existeCamara": "",
+      "incautaronImagenes": "",
+      "lugarCamara": "",
+      "contenidoCamara": "",
+      "observacionAdicionalCamara": ""
+    },
+    "vigilancia": {
+      "idDenuncia": "",
+      "tipoVigilancia": "",
+      "medidasSeguridad": ""
+    },
+    "sujeto": {
+      "idDenuncia": "",
+      "cantidadSujetosCometieronHechoDelictual": "",
+      "modalidadGrupo": ""
+    },
+    "ambitoNNA": {
+      "idDenuncia": "",
+      "nnaSeNiegaSepararAdulto": null,
+      "describirConductasNNA": ""
+    },
+    "listaAntecedentesCreateDTO": null
+  },
+  {
+    "idGlobal": "3ba94a4a-f9dd-470a-99fa-a5d589632faa",
+    "idTipoDenuncia": "",
+    "idOrigen": "",
+    "idDenuncia": "628a0818-a174-4b71-93fd-fd2732800eab",
+    "numeroDenuncia": "FI0000151",
+    "idCausa": null,
+    "idDenunciaHechoDelictual": "08bb492e-3b61-4dcc-9ba2-d4641df0c87b",
+    "idDetalleDenunciaHechoDelictualDireccion": "322d510b-f19f-4cb8-9b77-27c0150fbaea",
+    "idDetalleHechoDelictual": "70f664b1-9b04-447c-b7e4-bb3618cd9dbe",
+    "idOrganismoColaboradorUnidad": "",
+    "delito": {
+      "idDenuncia": "",
+      "familiaDelito": "ROBOS NO VIOLENTOS",
+      "idFamiliaDelito": "5C7F8DFF-0A3B-43F9-BFB4-D90A1EC492C1",
+      "delitoDenunciado": "ROBO EN LUGAR NO HABITADO. ART. 442.",
+      "idTipoDelito": "5040F974-DB5F-4770-B420-87FF22918670",
+      "descripcionDelito": "descripción delito",
+      "codigoDelitoCarabineros": null
+    },
+    "idProcedimiento": "",
+    "idFiscalia": "",
+    "mediosTransportes": [
+      {
+        "idMedioTransporte": "2022-05-09T14:32:38.823Z",
+        "idDetalleHechoDelictual": null,
+        "rutaMedioTransporte": "Ambos",
+        "tipoMedioTransporte": "Pie",
+        "detalleMedioTransporte": "Vino y se fue a patijuai",
+        "datoVehiculoUtilizadoImputado": {
+          "idDetalleHechoDelictual": null,
+          "idMedioTransporteImputado": null,
+          "idDatosVehiculoUtilizadoImputado": null,
+          "tieneSeguro": "",
+          "estaEncargadoPorRobo": "",
+          "portaPlacaPatente": null,
+          "incautado": null,
+          "numeroEncargos": "",
+          "informacionAutopista": "",
+          "informacionPeajes": "",
+          "observacion": "",
+          "datosVehiculo": {
+            "idDetalleHechoDelictual": "",
+            "idDatosVehiculoUtilizadoImputado": "",
+            "idDatoVehiculo": "",
+            "tipoVehiculo": "",
+            "patente": "",
+            "marca": "",
+            "modelo": "",
+            "color": "",
+            "vin": "",
+            "numeroMotor": ""
+          }
+        }
+      }
+    ],
+    "direccionDelito": {
+      "idDireccion": "044cbfbd-3bca-4196-8fa8-b4fcfca95563",
+      "idDenuncia": "",
+      "idDetalleDenunciaHechoDelictualDireccion": "322d510b-f19f-4cb8-9b77-27c0150fbaea",
+      "calle": "Avenida Libertador Bernardo O'Higgins",
+      "numero": "390",
+      "departamentoOficina": "",
+      "block": "",
+      "poblacionVilla": "",
+      "sector": "",
+      "ciudad": "",
+      "comuna": "Santiago",
+      "region": "Región Metropolitana",
+      "interseccion": "",
+      "cuadrante": "",
+      "observacionReferencia": "",
+      "lugarEspecifico": "",
+      "latitud": "-33.4411015",
+      "longitud": "-70.64140770000002",
+      "esPrincipal": true,
+      "ubicacionRural": false
+    },
+    "idTipo": null,
+    "idEstado": null,
+    "vif": false,
+    "fechaHoraRango": true,
+    "fechaHoraDelitoInicio": "2022-05-08T10:31:18.000",
+    "fechaHoraDelitoFin": "2022-05-09T10:31:18.000",
+    "fechaOcurrencia": "1900-01-01T00:00:00.000",
+    "esFlagrante": false,
+    "esHallazgo": false,
+    "tipoHallazgo": "",
+    "existenDetenidos": "No",
+    "existenLesionados": "No",
+    "existenMuertos": "No",
+    "entregaDetenidosPorCiviles": false,
+    "esAccidenteTransito": false,
+    "esIncendio": false,
+    "medioTransporteDto": null,
+    "informacionAnonima": {
+      "idDenuncia": "",
+      "esInformacionAnonima": false,
+      "programaRazonAnonimato": "",
+      "viaInformacionAportada": ""
+    },
+    "lugarDelito": {
+      "idDelito": "",
+      "zonaDelito": "",
+      "tipoLugarOcurrencia": "",
+      "viaIngreso": "",
+      "lugarOcurrencia": "",
+      "lugarEspecificoOcurrencia": ""
+    },
+    "clasificacionDelito": {
+      "idDenuncia": "",
+      "gradoEjecucionDelito": "",
+      "problemaDelictualFenomenoCriminal": "",
+      "patronCriminal": "",
+      "modusOperandi": "",
+      "subModusOperandi": ""
+    },
+    "elementoUsado": {
+      "idDenuncia": "",
+      "tipoElementoUsado": "",
+      "elementoUsado": ""
+    },
+    "informacionCamara": {
+      "idDenuncia": "",
+      "existeCamara": "",
+      "incautaronImagenes": "",
+      "lugarCamara": "",
+      "contenidoCamara": "",
+      "observacionAdicionalCamara": ""
+    },
+    "vigilancia": {
+      "idDenuncia": "",
+      "tipoVigilancia": "",
+      "medidasSeguridad": ""
+    },
+    "sujeto": {
+      "idDenuncia": "",
+      "cantidadSujetosCometieronHechoDelictual": "",
+      "modalidadGrupo": ""
+    },
+    "ambitoNNA": {
+      "idDenuncia": "",
+      "nnaSeNiegaSepararAdulto": null,
+      "describirConductasNNA": ""
+    },
+    "listaAntecedentesCreateDTO": null
+  }
+]

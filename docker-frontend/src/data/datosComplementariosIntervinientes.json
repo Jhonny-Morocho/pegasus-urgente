@@ -1,0 +1,313 @@
+{
+  "esNNALaVictimaOptions": [
+    {
+      "name": "Si",
+      "value": true
+    },
+    {
+      "name": "No",
+      "value": false
+    },
+    {
+      "name": "No Sabe",
+      "value": null
+    }
+  ],
+  "conQuienViveOptions": [
+    {
+      "name": "Padre"
+    },
+    {
+      "name": "Madre"
+    },
+    {
+      "name": "Residencia Institucional (especifíque)"
+    },
+    {
+      "name": "Residencia Particular (especifíque)"
+    },
+    {
+      "name": "Tíos"
+    },
+    {
+      "name": "Situación calle"
+    },
+    {
+      "name": "Otro (especifique)"
+    }
+  ],
+  "relacionConElImputadoOptions": [
+    {
+      "name": "Amigo"
+    },
+    {
+      "name": "Padre"
+    },
+    {
+      "name": "Madre"
+    },
+    {
+      "name": "Hermano"
+    },
+    {
+      "name": "Vecino"
+    },
+    {
+      "name": "Pareja"
+    },
+    {
+      "name": "Conocido"
+    },
+    {
+      "name": "Cónyugue"
+    },
+    {
+      "name": "Otro"
+    }
+  ],
+  "nnaParentescoOptions": [
+    {
+      "name": "Papá"
+    },
+    {
+      "name": "Mamá"
+    },
+    {
+      "name": "Hermano"
+    },
+    {
+      "name": "Hermana"
+    },
+    {
+      "name": "Tío"
+    },
+    {
+      "name": "Tía"
+    },
+    {
+      "name": "Abuelo"
+    },
+    {
+      "name": "Abuela"
+    },
+    {
+      "name": "Primo"
+    },
+    {
+      "name": "Prima"
+    },
+    {
+      "name": "Vecino"
+    },
+    {
+      "name": "Vecina"
+    },
+    {
+      "name": "Amigo"
+    },
+    {
+      "name": "Amiga"
+    },
+    {
+      "name": "No Informado"
+    }
+  ],
+  "relacionConImputadoOptions": [
+    {
+      "name": "Amigo"
+    },
+    {
+      "name": "Padre"
+    },
+    {
+      "name": "Madre"
+    },
+    {
+      "name": "Vecino"
+    },
+    {
+      "name": "Pareja"
+    },
+    {
+      "name": "Conocido"
+    },
+    {
+      "name": "Cónyugue"
+    },
+    {
+      "name": "Otro"
+    }
+  ],
+  "aQuienRepresetaElAbogadoOptions": [
+    {
+      "name": "Víctima"
+    },
+    {
+      "name": "Imputado"
+    },
+    {
+      "name": "Testigo"
+    },
+    {
+      "name": "Denunciante"
+    }
+  ],
+  "aQueInstitucionPerteneceOptions": [
+    {
+      "name": "Estudio Juridico"
+    },
+    {
+      "name": "ONG"
+    },
+    {
+      "name": "Ejercicio libre de la profresion"
+    },
+    {
+      "name": "Defensoria Publica"
+    },
+    {
+      "name": "Otro Organismo Estatal"
+    },
+    {
+      "name": "Otro"
+    }
+  ],
+  "acreditacionRepresentacionOption": [
+    {
+      "name": "Patrocinio y poder"
+    },
+    {
+      "name": "Querella"
+    },
+    {
+      "name": "Poder Simple"
+    },
+    {
+      "name": "Aceptacion Presencial por sujeto"
+    },
+    {
+      "name": "Otro"
+    }
+  ],
+  "listTipoArchivoDeclaracion": [
+    {
+      "name": "AUDIO",
+      "value": 1
+    },
+    {
+      "name": "VIDEO",
+      "value": 2
+    },
+    {
+      "name": "DOCUMENTO",
+      "value": 3
+    },
+    {
+      "name": "IMAGEN",
+      "value": 4
+    },
+    {
+      "name": "OTRO",
+      "value": 99
+    }
+  ],
+  "tipoTestigoOptions": [
+    {
+      "name": "Presencial"
+    },
+    {
+      "name": "De oídas"
+    },
+    {
+      "name": "Otro"
+    }
+  ],
+  "esRpaElInimputableOptions": [
+    {
+      "name": "Si",
+      "value": true
+    },
+    {
+      "name": "No",
+      "value": false
+    }
+  ],
+  "rolEnElHechoDelictualOptions": [
+    {
+      "name": "Toma parte en la ejecución"
+    },
+    {
+      "name": "Fuerza o induce a otro"
+    },
+    {
+      "name": "Facilita los medios"
+    },
+    {
+      "name": "Lo presencian sin tomar parte inmediata en él"
+    }
+  ],
+  "perfilImputadoOptions": [
+    {
+      "name": "Violento"
+    },
+    {
+      "name": "Pasivo"
+    },
+    {
+      "name": "Inquieto"
+    }
+  ],
+  "fuenteInfoTestigoOptions": [
+    {
+      "name": "Empadronamiento"
+    },
+    {
+      "name": "Declaración de otro sujeto"
+    },
+    {
+      "name": "Otro"
+    }
+  ],
+  "estadoTemperanciaDeLaVictimaOptions": [
+    {
+      "name": "Rostro Congestionado"
+    },
+    {
+      "name": "Inestablidad al caminar"
+    },
+    {
+      "name": "Incoherencia al hablar"
+    },
+    {
+      "name": "Hálito alcohólico"
+    },
+    {
+      "name": "No presenta temperancia"
+    }
+  ],
+  "aQuienEntregoOptions": [
+    {
+      "name": "Tribunal de Familia"
+    },
+    {
+      "name": "Adulto responsable"
+    },
+    {
+      "name": "Otro"
+    }
+  ],
+  "idiomaOptions": [
+    {
+      "name": "Español"
+    },
+    {
+      "name": "Ingles"
+    },
+    {
+      "name": "Creole"
+    },
+    {
+      "name": "Otra"
+    }
+  ]
+}

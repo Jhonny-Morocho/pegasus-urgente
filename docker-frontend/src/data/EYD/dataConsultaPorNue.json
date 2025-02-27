@@ -1,0 +1,1194 @@
+{
+  "causas": [
+    {
+      "ruc":"3200000003-7",
+      "estadoCausa":"Por recepcionar",
+      "fechaHoraCreacionCausa": "2021-12-02T13:54:06.000",
+      "nombreCausa":"Recepcionar Dinero",
+      "fiscalAsignado":"Jose Pardo",
+      "nombreFiscalia":"Fiscalia Oriente",
+      "idTipoDelito":"",
+      "nue": ""
+    },
+    {
+      "ruc":"3200000003-7",
+      "estadoCausa":"Por recepcionar",
+      "fechaHoraCreacionCausa": "2021-12-02T13:54:06.000",
+      "nombreCausa":"Recepcionar Dinero",
+      "fiscalAsignado":"Jose Pardo",
+      "nombreFiscalia":"Fiscalia Oriente",
+      "delito":""
+    },
+    {
+      "ruc":"2200000003-5",
+      "estadoCausa":"Por recepcionar",
+      "fechaHoraCreacionCausa": "2021-12-02T13:54:06.000",
+      "nombreCausa":"Recepcionar Dinero",
+      "fiscalAsignado":"Jose Pardo",
+      "nombreFiscalia":"Fiscalia Oriente",
+      "delito":""
+    },
+    {
+      "ruc":"2299000003-3",
+      "estadoCausa":"Por recepcionar",
+      "fechaHoraCreacionCausa": "2021-12-02T13:54:06.000",
+      "nombreCausa":"Recepcionar Especie",
+      "fiscalAsignado":"Jose Pardo",
+      "nombreFiscalia":"Fiscalia Norte",
+      "delito":"",
+      "nue": "365410"
+    },
+    {
+      "ruc":"2299000003-3",
+      "estadoCausa":"Por recepcionar",
+      "fechaHoraCreacionCausa": "2021-12-02T13:54:06.000",
+      "nombreCausa":"Recepcionar Especie",
+      "fiscalAsignado":"Jose Pardo",
+      "nombreFiscalia":"Fiscalia Norte",
+      "delito":""
+    },
+    {
+      "ruc":"6660000066-6",
+      "estadoCausa":"Por recepcionar",
+      "fechaHoraCreacionCausa": "2021-12-02T13:54:06.000",
+      "nombreCausa":"Recepcionar Especie",
+      "fiscalAsignado":"Jose Pardo",
+      "nombreFiscalia":"Fiscalia Norte",
+      "delito":""
+    }
+  ],
+  "especiesDinero": [
+    {
+      "ruc":"3200000003-7",
+      "idEspecie": "",
+      "idDenuncia": null,
+      "idProcedimiento": "",
+      "idEspecieDinero": "",
+      "clasificacion": "",
+      "ambitoEspecie": 1,
+      "nue": "200111",
+      "rue": "2200000003-9",
+      "idFamiliaEspecie": "68C47D52-FF30-41AD-ADE1-63417F62E2DA",
+      "idTipoEspecie": "B104B9AB-55C9-48DD-894D-FC3F400EFED9", 
+      "destino": "",
+      "motivo": "", 
+      "descripcion": "Le robaron el dinero fuera del banco",
+      "unidadMedida": "UNIDAD",
+      "cantidadEspecie": 2,
+      "pesoBruto": 0,
+      "perecible": false,
+      "perecibleIdNumeroSerie": "1",
+      "estadoConservacionEnvase": 1,
+      "tipoElemento": 1,
+      "especiePeligrosa": false,
+      "idNivelPeligro": null,
+      "especieDigital": false,
+      "especieDigitalTipoEspecie": null,
+      "esDinero": false,
+      "alerta": "Dinero",
+      "dineros": [
+        {
+          "tipoMoneda" : 1,
+          "cantidadMonto": 250000,
+          "montoRectificado": 0,
+          "difrenciaMonto": 0,
+          "descripcion": "10 billetes de $20.0000, 4 billetes de $5.000, 4 billetes de $2.000 y 2 billetes de $1.000",
+          "resultadoReglaDeNegocio": "",
+          "desglose": [
+            {
+              "denominacion": "10",
+              "tipoDinero": "1",
+              "cantidad": 10,
+              "total": 200000
+            },
+            {
+              "denominacion": "8",
+              "tipoDinero": "1",
+              "cantidad": 4,
+              "total": 20000
+            },
+            {
+              "denominacion": "7",
+              "tipoDinero": "1",
+              "cantidad": 4,
+              "total": 8000
+            },
+            {
+              "denominacion": "6",
+              "tipoDinero": "1",
+              "cantidad": 2,
+              "total": 2000
+            }
+          ],
+          "entregadoPor": [
+            {
+              "run": "14.015.509-8",
+              "nombre": "Carlos Ramirez",
+              "grado": "Detective",
+              "institucion": "PDI",
+              "unidad": "Robos y Focos Criminales",
+              "destacamento": "Subcomisaría Casablanca"
+            }
+          ],
+          "destinoDinero":  
+          {
+            "decisionDinero":"",
+            "motivoDeRechazo": "",
+            "tipoDeObservacion": "",
+            "observaciones":""
+          }
+        }
+      ], 
+      "indicadorArma": false,
+      "indicadorEvidencia": false,
+      "indicadorMedioUsadoCometerDelito": false,
+      "avaluoEstimado": 250000,
+      "quienRealizaAvaluo": "Carabinero",
+      "rutTenedorEspecie": "16.115.733-3",
+      "nombreTenedorEspecie": "Juanito el Paco",
+      "pronunciamientoFiscal": "Incautar, destino: Bodega",
+      "esVehiculo": false,
+      "datoVehiculo": {
+          "idEspecieDinero": "",
+          "informacionVehiculo": {
+          "tipoVehiculo": "",
+          "patente": "",
+          "marca": "",
+          "modelo": "",
+          "color": "",
+          "vin": "",
+          "numeroMotor": "",
+          "tieneSeguro": null,
+          "estaEncargadoPorRobo": null,
+          "numeroEncargo": "",
+          "informacionAutopista": "",
+          "informacionPeajes": "",
+          "tieneTag": "",
+          "clonado": "",
+          "portaPlacaPatente": "",
+          "puedeRodar": ""
+          },
+          "tieneDocumentacionVehiculo": null,
+          "estabaCerradoVehiculo": null,
+          "signosFuerza": "",
+          "estadoVehiculo": "",
+          "herramientasAdentro": "",
+          "lugarCustodia": "",
+          "tieneCamara": null,
+          "accesoriosAdicionales": "",
+          "tieneDispositivoGeolocalizacion": null,
+          "latitudLongitudGeolocalizacion": {
+          "lat": 0,
+          "lon": 0
+          },
+          "archivoGeolocalizacion": null,
+          "lugarEstacionaComunmente": ""
+      },
+      "esDocumentoValor": false,
+      "datoDocumentoValor": {
+          "idEspecieDinero": "",
+          "tipoDocumento": "",
+          "numero": 0,
+          "serie": "",
+          "institucion": "",
+          "fecha": "",
+          "valor": 0,
+          "observacion": ""
+      },
+      "existeAnimalInvolucrado": false,
+      "datoAnimal": {
+          "idEspecieDinero": "",
+          "tipoAnimal": "",
+          "razaAnimal": "",
+          "edad": 0,
+          "peso": 0,
+          "chipNumeroIdentificatorio": "",
+          "numeroArete": "",
+          "bancoADNBobino": "",
+          "marcaOreja": "",
+          "color": "",
+          "colorDeFrenteAnimal": "",
+          "tipoTusa": "",
+          "colorTusa": "",
+          "tipoCicatriz": "",
+          "formaCicatriz": "",
+          "tipoHerradura": "",
+          "tipoCola": "",
+          "colorCola": "",
+          "tipoSenal": "",
+          "formaSenal": "",
+          "origenAnimal": "",
+          "inscripcion": "",
+          "tipoDocumentacionAnimal": "",
+          "causaMuerteAnimal": "",
+          "observaciones": "",
+          "lugarCustodia": ""
+      },
+      "antecedentesForm": {
+          "tipoAntecedente": "",
+          "nombreArchivo": "",
+          "descripcionArchivo": "",
+          "tipoArchivo": "",
+          "extensionArchivo": "",
+          "tamanoArchivo": "",
+          "ubicacionArchivo": "",
+          "origen": "",
+          "formatoActual": "",
+          "relacionFront": "",
+          "version": "",
+          "fotografiasVideos": "",
+          "idRelacion": "",
+          "idTipoRelacion": ""
+      }
+    } ,
+    { 
+      "ruc":"2200000001-2",
+      "idEspecie": "",
+      "idDenuncia": null,
+      "idProcedimiento": "",
+      "idEspecieDinero": "",
+      "clasificacion": "",
+      "ambitoEspecie": 2,
+      "nue": "200100",
+      "rue": "2243516790-6",
+      "idFamiliaEspecie": "68C47D52-FF30-41AD-ADE1-63417F62E2DA",
+      "idTipoEspecie": "519C8F82-04D7-46BA-B42F-167AC5C4F543",
+      "destino": "",
+      "motivo": "", 
+      "descripcion": "Se intento pagar con billetes falsos",
+      "unidadMedidaCuantitativa": "No Definido",
+      "cantidadEspecie": 0,
+      "pesoBruto": 0,
+      "IdONumeroSerie": "",
+      "especiePeligrosa": false,
+      "idNivelPeligro": null,
+      "tipoElemento": "",
+      "estadoConservacionEnvase": "",
+      "especieDigital": false,
+      "especieDigitalTipoEspecie": null,
+      "perecible": false,
+      "esDinero": true,
+      "montoTotal": "",
+      "montoCdCe": "",
+      "diferencia": "",
+      "montoRectificado": "",
+      "alerta": "Dinero",
+      "dineros": [
+        {
+          "tipoMoneda" : 1,
+          "cantidadMonto": 135000,
+          "montoRectificado": 0,
+          "difrenciaMonto": 0,
+          "descripcion": "12 billetes de $10.0000, 1 billete de $5.000, 1 billete de $2.000 y 8 billetes de $1.000", 
+          "resultadoReglaDeNegocio": "",
+          "desglose": [
+            {
+              "denominacion": "9",
+              "tipoDinero": "1",
+              "cantidad": 12,
+              "total": 120000
+            },
+            {
+              "denominacion": "8",
+              "tipoDinero": "1",
+              "cantidad": 1,
+              "total": 5000
+            },
+            {
+              "denominacion": "7",
+              "tipoDinero": "1",
+              "cantidad": 1,
+              "total": 2000
+            },
+            {
+              "denominacion": "6",
+              "tipoDinero": "1",
+              "cantidad": 8,
+              "total": 8000
+            }
+          ],
+          "entregadoPor": [
+            {
+              "run": "14.015.509-8",
+              "nombre": "Carlos Ramirez",
+              "grado": "Detective",
+              "institucion": "PDI",
+              "unidad": "Robos y Focos Criminales",
+              "destacamento": "Subcomisaría Casablanca"
+            }
+          ],
+          "destinoDinero":  
+            {
+              "decisionDinero":"",
+              "tipoDeObservacion": "",
+              "motivoDeRechazo": "",
+              "observaciones":""
+            }
+        }
+      ],
+      "indicadorArma": false,
+      "indicadorEvidencia": false,
+      "indicadorMedioUsadoCometerDelito": false,
+      "avaluoEstimado": 0,
+      "quienRealizaAvaluo": "Carabinero",
+      "rutTenedorEspecie": "3.790.812-6",
+      "nombreTenedorEspecie": "Camilo",
+      "pronunciamientoFiscal": "Incautar, destino: Bodega",
+      "esVehiculo": false,
+      "datoVehiculo": {
+          "idEspecieDinero": "",
+          "informacionVehiculo": {
+            "tipoVehiculo": "",
+            "patente": "",
+            "marca": "",
+            "modelo": "",
+            "color": "",
+            "vin": "",
+            "numeroMotor": "",
+            "tieneSeguro": null,
+            "estaEncargadoPorRobo": null,
+            "numeroEncargo": "",
+            "informacionAutopista": "",
+            "informacionPeajes": "",
+            "tieneTag": "",
+            "clonado": "",
+            "portaPlacaPatente": "",
+            "puedeRodar": ""
+          },
+          "tieneDocumentacionVehiculo": null,
+          "estabaCerradoVehiculo": null,
+          "signosFuerza": "",
+          "estadoVehiculo": "",
+          "herramientasAdentro": "",
+          "lugarCustodia": "",
+          "tieneCamara": null,
+          "accesoriosAdicionales": "",
+          "tieneDispositivoGeolocalizacion": null,
+          "latitudLongitudGeolocalizacion": {
+            "lat": 0,
+            "lon": 0
+          },
+          "archivoGeolocalizacion": null,
+          "lugarEstacionaComunmente": ""
+      },
+      "esDocumentoValor": false,
+      "datoDocumentoValor": {
+          "idEspecieDinero": "",
+          "tipoDocumento": "",
+          "numero": 0,
+          "serie": "",
+          "institucion": "",
+          "fecha": "",
+          "valor": 0,
+          "observacion": ""
+      },
+      "existeAnimalInvolucrado": false,
+      "datoAnimal": {
+          "idEspecieDinero": "",
+          "tipoAnimal": "",
+          "razaAnimal": "",
+          "edad": 0,
+          "peso": 0,
+          "chipNumeroIdentificatorio": "",
+          "numeroArete": "",
+          "bancoADNBobino": "",
+          "marcaOreja": "",
+          "color": "",
+          "colorDeFrenteAnimal": "",
+          "tipoTusa": "",
+          "colorTusa": "",
+          "tipoCicatriz": "",
+          "formaCicatriz": "",
+          "tipoHerradura": "",
+          "tipoCola": "",
+          "colorCola": "",
+          "tipoSenal": "",
+          "formaSenal": "",
+          "origenAnimal": "",
+          "inscripcion": "",
+          "tipoDocumentacionAnimal": "",
+          "causaMuerteAnimal": "",
+          "observaciones": "",
+          "lugarCustodia": ""
+      },
+      "antecedentesForm": {
+          "tipoAntecedente": "",
+          "nombreArchivo": "",
+          "descripcionArchivo": "",
+          "tipoArchivo": "",
+          "extensionArchivo": "",
+          "tamanoArchivo": "",
+          "ubicacionArchivo": "",
+          "origen": "",
+          "formatoActual": "",
+          "relacionFront": "",
+          "version": "",
+          "fotografiasVideos": "",
+          "idRelacion": "",
+          "idTipoRelacion": ""
+      }
+    },
+    { 
+      "ruc":"2200000003-5",
+      "idDenuncia": null,
+      "idProcedimiento": "",
+      "idEspecieDinero": "",
+      "clasificacion": "",
+      "ambitoEspecie": 1,
+      "nue": "325000",
+      "rue": "8495673895-4",
+      "idFamiliaEspecie": "0515BDD4-A2E6-4BE4-8ABA-1676905BA66B",
+      "idTipoEspecie": "6D2DD229-B4DF-45EA-8EEB-3B6FAC2823E6",
+      "destino": "",
+      "motivo": "", 
+      "descripcion": "",
+      "unidadMedidaCuantitativa": "No Definido",
+      "cantidadEspecie": 1,
+      "pesoBruto": 0,
+      "IdONumeroSerie": "",
+      "especiePeligrosa": false,
+      "idNivelPeligro": null,
+      "tipoElemento": "",
+      "estadoConservacionEnvase": "",
+      "especieDigital": false,
+      "especieDigitalTipoEspecie": null,
+      "perecible": false,
+      "esDinero": true,
+      "montoTotal": "",
+      "montoCdCe": "",
+      "diferencia": "",
+      "montoRectificado": "",
+      "alerta": "Dinero",
+      "dineros": [
+        {
+          "tipoMoneda" : 1,
+          "cantidadMonto": 37500,
+          "montoRectificado": 0,
+          "difrenciaMonto": 0,
+          "descripcion": "3 billetes de $10.0000, 1 billete de $5.000, 1 billete de $2.000 y 5 monedas de $100", 
+          "resultadoReglaDeNegocio": "",
+          "desglose": [
+            {
+              "denominacion": "9",
+              "tipoDinero": "1",
+              "cantidad": 3,
+              "total": 30000
+            },
+            {
+              "denominacion": "8",
+              "tipoDinero": "1",
+              "cantidad": 1,
+              "total": 5000
+            },
+            {
+              "denominacion": "7",
+              "tipoDinero": "1",
+              "cantidad": 1,
+              "total": 2000
+            },
+            {
+              "denominacion": "5",
+              "tipoDinero": "2",
+              "cantidad": 5,
+              "total": 500
+            }
+          ],
+          "entregadoPor": [
+            {
+              "run": "14.015.509-8",
+              "nombre": "Carlos Ramirez",
+              "grado": "Detective",
+              "institucion": "PDI",
+              "unidad": "Robos y Focos Criminales",
+              "destacamento": "Subcomisaría Casablanca"
+            }
+          ],
+          "destinoDinero":  
+            {
+              "decisionDinero":"",
+              "tipoDeObservacion": "",
+              "motivoDeRechazo": "",
+              "observaciones":""
+            }
+        }
+      ],
+      "indicadorArma": false,
+      "indicadorEvidencia": false,
+      "indicadorMedioUsadoCometerDelito": false,
+      "avaluoEstimado": 300000,
+      "quienRealizaAvaluo": "Víctima",
+      "rutTenedorEspecie": "16.248.884-8",
+      "nombreTenedorEspecie": "Alverto Ramirez",
+      "pronunciamientoFiscal": "No Incautar",
+      "esVehiculo": false,
+      "datoVehiculo": {
+          "idEspecieDinero": "",
+          "informacionVehiculo": {
+            "tipoVehiculo": "",
+            "patente": "",
+            "marca": "",
+            "modelo": "",
+            "color": "",
+            "vin": "",
+            "numeroMotor": "",
+            "tieneSeguro": null,
+            "estaEncargadoPorRobo": null,
+            "numeroEncargo": "",
+            "informacionAutopista": "",
+            "informacionPeajes": "",
+            "tieneTag": "",
+            "clonado": "",
+            "portaPlacaPatente": "",
+            "puedeRodar": ""
+          },
+          "tieneDocumentacionVehiculo": null,
+          "estabaCerradoVehiculo": null,
+          "signosFuerza": "",
+          "estadoVehiculo": "",
+          "herramientasAdentro": "",
+          "lugarCustodia": "",
+          "tieneCamara": null,
+          "accesoriosAdicionales": "",
+          "tieneDispositivoGeolocalizacion": null,
+          "latitudLongitudGeolocalizacion": {
+            "lat": 0,
+            "lon": 0
+          },
+          "archivoGeolocalizacion": null,
+          "lugarEstacionaComunmente": ""
+      },
+      "esDocumentoValor": false,
+      "datoDocumentoValor": {
+          "idEspecieDinero": "",
+          "tipoDocumento": "",
+          "numero": 0,
+          "serie": "",
+          "institucion": "",
+          "fecha": "",
+          "valor": 0,
+          "observacion": ""
+      },
+      "existeAnimalInvolucrado": false,
+      "datoAnimal": {
+          "idEspecieDinero": "",
+          "tipoAnimal": "",
+          "razaAnimal": "",
+          "edad": 0,
+          "peso": 0,
+          "chipNumeroIdentificatorio": "",
+          "numeroArete": "",
+          "bancoADNBobino": "",
+          "marcaOreja": "",
+          "color": "",
+          "colorDeFrenteAnimal": "",
+          "tipoTusa": "",
+          "colorTusa": "",
+          "tipoCicatriz": "",
+          "formaCicatriz": "",
+          "tipoHerradura": "",
+          "tipoCola": "",
+          "colorCola": "",
+          "tipoSenal": "",
+          "formaSenal": "",
+          "origenAnimal": "",
+          "inscripcion": "",
+          "tipoDocumentacionAnimal": "",
+          "causaMuerteAnimal": "",
+          "observaciones": "",
+          "lugarCustodia": ""
+      },
+      "antecedentesForm": {
+          "tipoAntecedente": "",
+          "nombreArchivo": "",
+          "descripcionArchivo": "",
+          "tipoArchivo": "",
+          "extensionArchivo": "",
+          "tamanoArchivo": "",
+          "ubicacionArchivo": "",
+          "origen": "",
+          "formatoActual": "",
+          "relacionFront": "",
+          "version": "",
+          "fotografiasVideos": "",
+          "idRelacion": "",
+          "idTipoRelacion": ""
+      }
+    } ,
+    {
+      "ruc":"2200000013-6",
+      "idEspecie": "",
+      "idDenuncia": null,
+      "idProcedimiento": "",
+      "idEspecieDinero": "",
+      "clasificacion": null,
+      "ambitoEspecie": 1,
+      "nue": "254100",
+      "rue": "",
+      "idFamiliaEspecie": "CA1D9771-69C4-485F-B9BB-EA3901D64B0A",
+      "idTipoEspecie": "63A919B5-AD73-4C91-9845-F007533855E5",
+      "destino": "",
+      "motivo": "", 
+      "descripcion": "La herramienta fue encontrada en la entrada del domicilio, y fue utilizada para forzar y abrir la puerta",
+      "unidadMedidaCuantitativa": "GRAMO",
+      "cantidadEspecie": 1,
+      "pesoBruto": 250,
+      "IdONumeroSerie": "",
+      "especiePeligrosa": false,
+      "idNivelPeligro": null,
+      "tipoElemento": "",
+      "perecibleIdNumeroSerie": "- - -",
+      "estadoConservacionEnvase": "",
+      "especieDigital": false,
+      "especieDigitalTipoEspecie": null,
+      "perecible": false,
+      "esEspecieGenerico": true,
+      "esDinero": false,
+      "alerta": "Especie",
+      "tipoMoneda" : 0,
+      "dineros": [
+        {
+          "cantidadMonto": 0,
+          "descripcion": "",
+          "observaciones": "",
+          "resultadoReglaDeNegocio": "",
+          "desglose": [ ],
+          "entregadoPor": [
+            {
+              "run": "",
+              "nombre": "",
+              "grado": "",
+              "institucion": "",
+              "unidad": "",
+              "destacamento": ""
+            }
+          ]
+        }
+      ],
+      "observaciones": " Es de color marron con ",
+      "indicadorArma": true,
+      "indicadorEvidencia": true,
+      "indicadorMedioUsadoCometerDelito": true,
+      "avaluoEstimado": 5000,
+      "quienRealizaAvaluo": "Víctima",
+      "rutTenedorEspecie": "8.580.170-8",
+      "nombreTenedorEspecie": "Alvaro Henriquez",
+      "pronunciamientoFiscal": "Incautar, destino: Pericia",
+      "esVehiculo": false,
+      "datoVehiculo": {
+          "idEspecieDinero": "",
+          "informacionVehiculo": {
+            "tipoVehiculo": "",
+            "patente": "",
+            "marca": "",
+            "modelo": "",
+            "color": "",
+            "vin": "",
+            "numeroMotor": "",
+            "tieneSeguro": null,
+            "estaEncargadoPorRobo": null,
+            "numeroEncargo": "",
+            "informacionAutopista": "",
+            "informacionPeajes": "",
+            "tieneTag": "",
+            "clonado": "",
+            "portaPlacaPatente": "",
+            "puedeRodar": ""
+          },
+          "tieneDocumentacionVehiculo": null,
+          "estabaCerradoVehiculo": null,
+          "signosFuerza": "",
+          "estadoVehiculo": "",
+          "herramientasAdentro": "",
+          "lugarCustodia": "",
+          "tieneCamara": null,
+          "accesoriosAdicionales": "",
+          "tieneDispositivoGeolocalizacion": null,
+          "latitudLongitudGeolocalizacion": {
+            "lat": 0,
+            "lon": 0
+          },
+          "archivoGeolocalizacion": null,
+          "lugarEstacionaComunmente": ""
+      },
+      "esDocumentoValor": false,
+      "datoDocumentoValor": {
+          "idEspecieDinero": "",
+          "tipoDocumento": "",
+          "numero": 0,
+          "serie": "",
+          "institucion": "",
+          "fecha": "",
+          "valor": 0,
+          "observacion": ""
+      },
+      "existeAnimalInvolucrado": false,
+      "datoAnimal": {
+          "idEspecieDinero": "",
+          "tipoAnimal": "",
+          "razaAnimal": "",
+          "edad": 0,
+          "peso": 0,
+          "chipNumeroIdentificatorio": "",
+          "numeroArete": "",
+          "bancoADNBobino": "",
+          "marcaOreja": "",
+          "color": "",
+          "colorDeFrenteAnimal": "",
+          "tipoTusa": "",
+          "colorTusa": "",
+          "tipoCicatriz": "",
+          "formaCicatriz": "",
+          "tipoHerradura": "",
+          "tipoCola": "",
+          "colorCola": "",
+          "tipoSenal": "",
+          "formaSenal": "",
+          "origenAnimal": "",
+          "inscripcion": "",
+          "tipoDocumentacionAnimal": "",
+          "causaMuerteAnimal": "",
+          "observaciones": "",
+          "lugarCustodia": ""
+      },
+      "antecedentesForm": {
+          "tipoAntecedente": "",
+          "nombreArchivo": "",
+          "descripcionArchivo": "",
+          "tipoArchivo": "",
+          "extensionArchivo": "",
+          "tamanoArchivo": "",
+          "ubicacionArchivo": "",
+          "origen": "",
+          "formatoActual": "",
+          "relacionFront": "",
+          "version": "",
+          "fotografiasVideos": "",
+          "idRelacion": "",
+          "idTipoRelacion": ""
+      }, 
+      "entregadoPor": [
+        {
+          "run": "14.015.509-8",
+          "nombre": "Carlos Ramirez",
+          "grado": "Detective",
+          "institucion": "PDI",
+          "unidad": "Robos y Focos Criminales",
+          "destacamento": "Subcomisaría Casablanca"
+        }
+      ],
+      "destinoDinero":  
+      {
+        "decisionDinero":"",
+        "motivoDeRechazo": "",
+        "tipoDeObservacion": "",
+        "observaciones":""
+      }
+    },
+    {
+      "ruc":"5250000003-8",
+      "idEspecie": "",
+      "idDenuncia": "",
+      "idProcedimiento": "",
+      "idEspecieDinero": "",
+      "clasificacion": "",
+      "ambitoEspecie": 2,
+      "nue": "200220",
+      "rue": "LPe5Joulkxr0",
+      "idFamiliaEspecie": "FDBB22E0-285D-4DA3-BBC3-C71C6CFC389F",
+      "idTipoEspecie": "BCBB4F23-0F12-4B2E-A587-570A4844D139",
+      "descripcion": "Arma de fuego encontrada en el frontis del hogar.",
+      "unidadMedidaCuantitativa": "KILO",
+      "cantidadEspecie": 1,
+      "pesoBruto": 1400,
+      "perecible": false,
+      "perecibleIdNumeroSerie": "BM007846",
+      "estadoConservacionEnvase": "",
+      "tipoElemento": "",
+      "especiePeligrosa": false,
+      "idNivelPeligro": null,
+      "esDigital": false,
+      "especieDigital": false,
+      "especieDigitalTipoEspecie": null,
+      "esDinero": false,
+      "alerta": "Especie",
+      "tipoMoneda" : 0,
+      "dineros": [
+        {
+          "cantidadMonto": 0,
+          "descripcion": "",
+          "observaciones": "",
+          "resultadoReglaDeNegocio": "",
+          "desglose": [ ],
+          "entregadoPor": [
+            {
+              "run": "",
+              "nombre": "",
+              "grado": "",
+              "institucion": "",
+              "unidad": "",
+              "destacamento": ""
+            }
+          ]
+        }
+      ],
+      "esEspecieGenerico": true,
+      "observaciones": "Revolver 9mm. con marcas de desgaste en la empuñadura",
+      "indicadorArma": true,
+      "indicadorEvidencia": true,
+      "indicadorMedioUsadoCometerDelito": true,
+      "avaluoEstimado": 45000,
+      "quienRealizaAvaluo": "Especialista",
+      "rutTenedorEspecie": "18.931.840-5",
+      "nombreTenedorEspecie": "NN",
+      "pronunciamientoFiscal": "No Incautar",
+      "esVehiculo": false,
+      "datoVehiculo": {
+        "idEspecieDinero": "",
+        "informacionVehiculo": {
+          "tipoVehiculo": "",
+          "patente": "",
+          "marca": "",
+          "modelo": "",
+          "color": "",
+          "vin": "",
+          "numeroMotor": "",
+          "tieneSeguro": null,
+          "estaEncargadoPorRobo": null,
+          "numeroEncargo": "",
+          "informacionAutopista": "",
+          "informacionPeajes": "",
+          "tieneTag": "",
+          "clonado": "",
+          "portaPlacaPatente": "",
+          "puedeRodar": ""
+        },
+        "tieneDocumentacionVehiculo": null,
+        "estabaCerradoVehiculo": null,
+        "signosFuerza": "",
+        "estadoVehiculo": "",
+        "herramientasAdentro": "",
+        "lugarCustodia": "",
+        "tieneCamara": null,
+        "accesoriosAdicionales": "",
+        "tieneDispositivoGeolocalizacion": null,
+        "latitudLongitudGeolocalizacion": {
+          "lat": 0,
+          "lon": 0
+        },
+        "archivoGeolocalizacion": null,
+        "lugarEstacionaComunmente": ""
+      },
+      "esDocumentoValor": false,
+      "datoDocumentoValor": {
+        "idEspecieDinero": "",
+        "tipoDocumento": "",
+        "numero": 0,
+        "serie": "",
+        "institucion": "",
+        "fecha": "",
+        "valor": 0,
+        "observacion": ""
+      },
+      "existeAnimalInvolucrado": false,
+      "datoAnimal": {
+        "idEspecieDinero": "",
+        "tipoAnimal": "",
+        "razaAnimal": "",
+        "edad": 0,
+        "peso": 0,
+        "chipNumeroIdentificatorio": "",
+        "numeroArete": "",
+        "bancoADNBobino": "",
+        "marcaOreja": "",
+        "color": "",
+        "colorDeFrenteAnimal": "",
+        "tipoTusa": "",
+        "colorTusa": "",
+        "tipoCicatriz": "",
+        "formaCicatriz": "",
+        "tipoHerradura": "",
+        "tipoCola": "",
+        "colorCola": "",
+        "tipoSenal": "",
+        "formaSenal": "",
+        "origenAnimal": "",
+        "inscripcion": "",
+        "tipoDocumentacionAnimal": "",
+        "causaMuerteAnimal": "",
+        "observaciones": "",
+        "lugarCustodia": ""
+      },
+      "antecedentesForm": {
+        "tipoAntecedente": "",
+        "nombreArchivo": "",
+        "descripcionArchivo": "",
+        "tipoArchivo": "",
+        "extensionArchivo": "",
+        "tamanoArchivo": "",
+        "ubicacionArchivo": "",
+        "origen": "",
+        "formatoActual": "",
+        "relacionFront": "",
+        "version": "",
+        "fotografiasVideos": "",
+        "idRelacion": "",
+        "idTipoRelacion": ""
+      }, 
+      "entregadoPor": [
+        {
+          "run": "14.015.509-8",
+          "nombre": "Carlos Ramirez",
+          "grado": "Detective",
+          "institucion": "PDI",
+          "unidad": "Robos y Focos Criminales",
+          "destacamento": "Subcomisaría Casablanca"
+        }
+      ],
+      "destinoDinero":  
+      {
+        "decisionDinero":"",
+        "motivoDeRechazo": "",
+        "tipoDeObservacion": "",
+        "observaciones":""
+      }
+    },
+    {
+      "ruc":"6660000066-6",
+      "idEspecie": "",
+      "idDenuncia": "",
+      "idProcedimiento": "",
+      "idEspecieDinero": "",
+      "clasificacion": "",
+      "ambitoEspecie": 2,
+      "nue": "587410",
+      "rue": "GPgVyv2IIjo3",
+      "idFamiliaEspecie": "99E73C0A-7C38-4A07-A20C-2A8ABCE26FB8",
+      "idTipoEspecie": "50ECA5C7-D6D1-4090-93D4-5E3FE9F63CC2",
+      "descripcion": "Se encontrarons dos botellas rotuladas y selladas de acido sulfhídrico de 1Lt c/u",
+      "unidadMedidaCuantitativa": "LITRO",
+      "cantidadEspecie": 2,
+      "pesoBruto": 2000,
+      "perecible": false,
+      "perecibleIdNumeroSerie": "- - -",
+      "estadoConservacionEnvase": "Cerrado",
+      "tipoElemento": "Cortante",
+      "especiePeligrosa": true,
+      "idNivelPeligro": 8,
+      "esDigital": false,
+      "especieDigital": false,
+      "especieDigitalTipoEspecie": null,
+      "esDinero": false,
+      "alerta": "Especie Peligrosa C-8",
+      "tipoMoneda" : 0,
+      "dineros": [
+        {
+          "cantidadMonto": 0,
+          "descripcion": "",
+          "observaciones": "",
+          "resultadoReglaDeNegocio": "",
+          "desglose": [ ],
+          "entregadoPor": [
+            {
+              "run": "",
+              "nombre": "",
+              "grado": "",
+              "institucion": "",
+              "unidad": "",
+              "destacamento": ""
+            }
+          ]
+        }
+      ],
+      "esEspecieGenerico": true,
+      "observaciones": "Son dos botellas de color blanco con un rotulo donde se especifica su alto poder de corrosion",
+      "indicadorArma": false,
+      "indicadorEvidencia": true,
+      "indicadorMedioUsadoCometerDelito": false,
+      "avaluoEstimado": 22000,
+      "quienRealizaAvaluo": "Especialista",
+      "rutTenedorEspecie": "12.449.582-2",
+      "nombreTenedorEspecie": "Cristobal Suarez",
+      "pronunciamientoFiscal": "Incautar, destino: Bodega",
+      "esVehiculo": false,
+      "datoVehiculo": {
+        "idEspecieDinero": "",
+        "informacionVehiculo": {
+          "tipoVehiculo": "",
+          "patente": "",
+          "marca": "",
+          "modelo": "",
+          "color": "",
+          "vin": "",
+          "numeroMotor": "",
+          "tieneSeguro": null,
+          "estaEncargadoPorRobo": null,
+          "numeroEncargo": "",
+          "informacionAutopista": "",
+          "informacionPeajes": "",
+          "tieneTag": "",
+          "clonado": "",
+          "portaPlacaPatente": "",
+          "puedeRodar": ""
+        },
+        "tieneDocumentacionVehiculo": null,
+        "estabaCerradoVehiculo": null,
+        "signosFuerza": "",
+        "estadoVehiculo": "",
+        "herramientasAdentro": "",
+        "lugarCustodia": "",
+        "tieneCamara": null,
+        "accesoriosAdicionales": "",
+        "tieneDispositivoGeolocalizacion": null,
+        "latitudLongitudGeolocalizacion": {
+          "lat": 0,
+          "lon": 0
+        },
+        "archivoGeolocalizacion": null,
+        "lugarEstacionaComunmente": ""
+      },
+      "esDocumentoValor": false,
+      "datoDocumentoValor": {
+        "idEspecieDinero": "",
+        "tipoDocumento": "",
+        "numero": 0,
+        "serie": "",
+        "institucion": "",
+        "fecha": "",
+        "valor": 0,
+        "observacion": ""
+      },
+      "existeAnimalInvolucrado": false,
+      "datoAnimal": {
+        "idEspecieDinero": "",
+        "tipoAnimal": "",
+        "razaAnimal": "",
+        "edad": 0,
+        "peso": 0,
+        "chipNumeroIdentificatorio": "",
+        "numeroArete": "",
+        "bancoADNBobino": "",
+        "marcaOreja": "",
+        "color": "",
+        "colorDeFrenteAnimal": "",
+        "tipoTusa": "",
+        "colorTusa": "",
+        "tipoCicatriz": "",
+        "formaCicatriz": "",
+        "tipoHerradura": "",
+        "tipoCola": "",
+        "colorCola": "",
+        "tipoSenal": "",
+        "formaSenal": "",
+        "origenAnimal": "",
+        "inscripcion": "",
+        "tipoDocumentacionAnimal": "",
+        "causaMuerteAnimal": "",
+        "observaciones": "",
+        "lugarCustodia": ""
+      },
+      "antecedentesForm": {
+        "tipoAntecedente": "",
+        "nombreArchivo": "",
+        "descripcionArchivo": "",
+        "tipoArchivo": "",
+        "extensionArchivo": "",
+        "tamanoArchivo": "",
+        "ubicacionArchivo": "",
+        "origen": "",
+        "formatoActual": "",
+        "relacionFront": "",
+        "version": "",
+        "fotografiasVideos": "",
+        "idRelacion": "",
+        "idTipoRelacion": ""
+      }, 
+      "entregadoPor": [
+        {
+          "run": "14.015.509-8",
+          "nombre": "Carlos Ramirez",
+          "grado": "Detective",
+          "institucion": "PDI",
+          "unidad": "Robos y Focos Criminales",
+          "destacamento": "Subcomisaría Casablanca"
+        }
+      ],
+      "destinoDinero":  
+      {
+        "decisionDinero":"",
+        "motivoDeRechazo": "",
+        "tipoDeObservacion": "",
+        "observaciones":""
+      }
+    }
+  ],
+  "verCadenaCustodia": [
+    {
+      "rotuloCadenaCustodia": {
+        "nue": 200111,
+        "fechaRegistro": "2022-08-12",
+        "horaRegistro": "string",
+        "fechaLevantamiento": "2022-08-12",
+        "horaLevantamiento": "string",
+        "personaLevantamiento": "string",
+        "run": "string",
+        "grado": "string",
+        "cargo": "string",
+        "institucionNue": "string",
+        "unidadNue": "string",
+        "ruc": "3200000003-7",
+        "folio": 0,
+        "direccionLevantamiento": "string",
+        "esGeoreferencia": true,
+        "estadoCadenaCustodia": "cadena_levantada",
+        "fiscalia": "string",
+        "observaciones": "string"
+      },
+      "especiesODineros": [
+        {
+          "cantidad": 0,
+          "descripcionEspecie": "string",
+          "lugarLevantamiento": "string",
+          "observaciones": "string",
+          "refFotografias": [
+            {
+              "idCatalogo": "string",
+              "idDocumento": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+            }
+          ]
+        }
+      ],
+      "eslabones": [
+        {
+          "numeroEslabon": 0,
+          "fechaCreacion": "2022-08-12",
+          "horaCreacion": "string",
+          "motivo": "string",
+          "refFotografias": [
+            {
+              "idCatalogo": "string",
+              "idDocumento": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+            }
+          ],
+          "transaccion": {
+            "entrega": {
+              "nombre": "string",
+              "run": "string",
+              "grado": "string",
+              "cargo": "string",
+              "institucion": "string",
+              "unidad": "string"
+            },
+            "recibe": {
+              "nombre": "string",
+              "run": "string",
+              "grado": "string",
+              "cargo": "string",
+              "institucion": "string",
+              "unidad": "string"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

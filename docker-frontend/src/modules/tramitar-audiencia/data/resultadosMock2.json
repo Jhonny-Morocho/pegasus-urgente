@@ -1,0 +1,174 @@
+{
+  "resultado1":{
+    "apercibimiento": {
+      "titulo": "Apercibimiento",
+      "valores":[
+        {
+          "item": "Víctima - Gustavo Sebastian Henriquez", 
+          "registro": false, 
+          "actaAudiencia": false,
+          "resultado": true
+        },
+        {
+          "item": "Imputado - Jaime Carrasco Tapia", 
+          "registro": false, 
+          "actaAudiencia": false,
+          "resultado": true
+        }
+      ]
+    },
+    "medidasCautelares": {
+      "titulo": "Medidas Cautelares Vigentes",
+      "valores":[
+        {
+          "item": "Jaime Carrasco Tapia - prision preventiva", 
+          "registro": true, 
+          "actaAudiencia": true,
+          "resultado": true
+        },
+        {
+          "item": "Jaime Carrasco Tapia - Arraigo Nacional", 
+          "registro": true, 
+          "actaAudiencia": true,
+          "resultado": true
+        }
+      ]
+    },
+    "resultadoAudiencia": {
+      "titulo": "Resultado Audiencia",
+      "valores":[
+        {
+          "item": "Admite Responsabilidad", 
+          "registro": true, 
+          "actaAudiencia": true,
+          "resultado": true
+        }
+      ]
+    },
+    "resultadoSentencia": {
+      "titulo": "Resultado Sentencia",
+      "valores":[
+        {
+          "item": "Sentencia Definitiva Condenatoria", 
+          "registro": true, 
+          "actaAudiencia": false,
+          "resultado": false
+        },
+        {
+          "item": "Suspensión Condicional del Procedimiento", 
+          "registro": false, 
+          "actaAudiencia": true,
+          "resultado": false
+        }
+      ]
+    },
+    "preparacion": {
+      "titulo": "Preparación",
+      "valores":[
+        {
+          "item": "Sustituye Simplificado", 
+          "registro": true, 
+          "actaAudiencia": true,
+          "resultado": true
+        }
+      ]
+    },
+    "procedimiento": {
+      "titulo": "Procedimiento",
+      "valores":[
+        {
+          "item": "Víctima - Gustavo Sebastian Henriquez", 
+          "registro": true, 
+          "actaAudiencia": true,
+          "resultado": true
+        }
+      ]
+    }
+  },
+  "resultado2":{
+    "apercibimiento": {
+      "titulo": "Apercibimiento",
+      "valores":[
+        {
+          "item": "Víctima - José Fernandez DaSilva", 
+          "registro": false, 
+          "actaAudiencia": false,
+          "resultado": true
+        },
+        {
+          "item": "Imputado - Guillermo Pereira", 
+          "registro": false, 
+          "actaAudiencia": false,
+          "resultado": true
+        }
+      ]
+    },
+    "medidasCautelares": {
+      "titulo": "Medidas Cautelares Vigentes",
+      "valores":[
+        {
+          "item": "Jaime Carrasco Tapia - prision preventiva", 
+          "registro": true, 
+          "actaAudiencia": true,
+          "resultado": true
+        },
+        {
+          "item": "Jaime Carrasco Tapia - Arraigo Nacional", 
+          "registro": true, 
+          "actaAudiencia": true,
+          "resultado": true
+        }
+      ]
+    },
+    "resultadoAudiencia": {
+      "titulo": "Resultado Audiencia",
+      "valores":[
+        {
+          "item": "Admite Responsabilidad", 
+          "registro": true, 
+          "actaAudiencia": true,
+          "resultado": true
+        }
+      ]
+    },
+    "resultadoSentencia": {
+      "titulo": "Resultado Sentencia",
+      "valores":[
+        {
+          "item": "Sentencia Definitiva Condenatoria", 
+          "registro": true, 
+          "actaAudiencia": false,
+          "resultado": false
+        },
+        {
+          "item": "Suspensión Condicional del Procedimiento", 
+          "registro": false, 
+          "actaAudiencia": true,
+          "resultado": false
+        }
+      ]
+    },
+    "preparacion": {
+      "titulo": "Preparación",
+      "valores":[
+        {
+          "item": "Sustituye Simplificado", 
+          "registro": true, 
+          "actaAudiencia": true,
+          "resultado": true
+        }
+      ]
+    },
+    "procedimiento": {
+      "titulo": "Procedimiento",
+      "valores":[
+        {
+          "item": "Víctima - Gustavo Sebastian Henriquez", 
+          "registro": true, 
+          "actaAudiencia": true,
+          "resultado": true
+        }
+      ]
+    }
+  }
+}

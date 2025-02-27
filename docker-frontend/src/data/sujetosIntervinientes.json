@@ -1,0 +1,137 @@
+{
+  "tipoSujetoOptions": [
+    { "descripcion": "Fiscal" },
+    { "descripcion": "Víctima" },
+    { "descripcion": "Imputado" },
+    { "descripcion": "Defensor" },
+    { "descripcion": "Querellante" },
+    { "descripcion": "Testigo" },
+    { "descripcion": "Denunciante" },
+    { "descripcion": "Inimputable" }
+  ],
+  "sexoRegistral": [
+    { "codigo": "M","descripcion": "Masculino" },
+    { "codigo": "F","descripcion": "Femenino" },
+    { "codigo": "I","descripcion": "Indefinido" }
+  ],
+  "tipoVictimaOptions": [
+    { "name": "Víctima Directa" },
+    { "name": "Víctima Indirecta" },
+    { "name": "Representante de la Víctima" }
+  ],
+  "tipoDocumentoOptions": [
+    { "name": "RUT" },
+    { "name": "Pasaporte" },
+    { "name": "DNI" },
+    { "name": "Sin Documento" }
+  ],
+  "paisesDocumentoOptions": [
+    { "name": "Sin Información" },
+    { "name": "Alemania" },
+    { "name": "Andorra" },
+    { "name": "Angola" },
+    { "name": "Argelia" },
+    { "name": "Argentina" },
+    { "name": "Armenia" },
+    { "name": "Australia" },
+    { "name": "Austria" },
+    { "name": "Barbados" },
+    { "name": "Bélgica" },
+    { "name": "Bolivia" },
+    { "name": "Brasil" },
+    { "name": "Canada" },
+    { "name": "Checoslovaquia" },
+    { "name": "Chile" },
+    { "name": "China" },
+    { "name": "Ciudad del Vaticano" },
+    { "name": "Colombia" },
+    { "name": "Congo" },
+    { "name": "Corea del Sur" },
+    { "name": "Costa de Marfil" },
+    { "name": "Costa Rica" },
+    { "name": "Croacia" },
+    { "name": "Cuba" },
+    { "name": "Dinamarca" },
+    { "name": "Ecuador" },
+    { "name": "Egipto" },
+    { "name": "El Salvador" },
+    { "name": "Eslovenia" },
+    { "name": "España" },
+    { "name": "Estados Unidos" },
+    { "name": "Etiopia" },
+    { "name": "Finlandia" },
+    { "name": "Francia" },
+    { "name": "Granada" },
+    { "name": "Grecia" },
+    { "name": "guatemala" },
+    { "name": "Holanda" },
+    { "name": "Honduras" },
+    { "name": "Hungría" }
+  ],
+  "estadoMigratorioOptions": [
+    { "name": "Permanencia Transitoria" },
+    { "name": "Residente Oficial" },
+    { "name": "Residente Temporal" },
+    { "name": "Residente Definitivo" },
+    { "name": "Turista" },
+    { "name": "Otro" }
+  ],
+  "nacionalidadOptions": [
+    { "name": "Chilena" },
+    { "name": "Peruana" },
+    { "name": "Argentina" },
+    { "name": "Brasileña" },
+    { "name": "Boliviana" },
+    { "name": "Colombiana" },
+    { "name": "Venezolana" },
+    { "name": "Uruguaya" },
+    { "name": "Paraguaya" }
+  ],
+  "pueblosOriginariosOptions": [
+    { "name": "Mapuche" },
+    { "name": "Aymara" },
+    { "name": "Atacameño o Lican Antai" },
+    { "name": "Diaguita" },
+    { "name": "Coya" },
+    { "name": "Quechua" },
+    { "name": "Rapa-nui" },
+    { "name": "Kawesqar" },
+    { "name": "Yagan o Yamana" },
+    { "name": "Otros" },
+    { "name": "Ninguno" }
+  ],
+  "idiomaOptions": [
+    { "name": "Español" },
+    { "name": "Ingles" },
+    { "name": "Creole" },
+    { "name": "Otra" }
+  ],
+  "estadoCivilOptions": [
+    { "name": "SOLTERO" },
+    { "name": "CASADO" },
+    { "name": "DIVORCIADO" },
+    { "name": "VIUDO" }
+  ],
+  "tipoDiscapacidadOptions": [
+    { "name": "Discapacidad UNO" },
+    { "name": "Discapacidad DOS" },
+    { "name": "Discapacidad TRES" },
+    { "name": "Discapacidad CUATRO" }
+  ],
+  "escolaridadOptions": [
+    { "name": "Básica" },
+    { "name": "Media" },
+    { "name": "Universitaria" }
+  ],
+  "profesionOficioOptions": [
+    { "name": "Ingeniero" },
+    { "name": "Contador" },
+    { "name": "Médico" },
+    { "name": "Otra" }
+  ],
+  "tipoDirecciones": [
+    { "name": "Personal" },
+    { "name": "Laboral" },
+    { "name": "Comercial" }
+  ]
+}

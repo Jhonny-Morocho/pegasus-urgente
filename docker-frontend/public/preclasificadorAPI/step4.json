@@ -1,0 +1,54 @@
+[
+  {
+    "idGlobal": "8e735531-75ba-4aef-ade7-45b09a82230c",
+    "idDenuncia": "c35d2425-2570-4f8a-bc14-4de3f4e6eca6",
+    "idDetalleHechoDelictual": "ca0c1f9a-4ee0-491f-afb2-f933dc3a985f",
+    "idRelacionImputado": "c3727252-9124-4738-9454-fc69c5c0bd98",
+    "idRelacionVictima": "6cc78470-61cd-4afe-a940-1c8db9a6b125",
+    "idImputado": "12a9559d-6e55-4df7-b516-7fc79a36094d",
+    "idVictima": "52d6609e-e771-496d-92f7-760d614c13a6",
+    "victima": {
+      "interviniente": {
+        "nombres": "Victima",
+        "apellidoPaterno": "Sujeto",
+        "apellidoMaterno": "Interviniente"
+      }
+    },
+    "imputado": {
+      "interviniente": {
+        "nombres": "Rodrigo",
+        "apellidoPaterno": "Peñailillo",
+        "apellidoMaterno": "Briceño"
+      }
+    },
+    "delito": {
+      "labelDelito": "DELITOS FUNCIONARIOS - MALVERSACIÓN DE CAUDALES PÚBLICOS. ARTS. 233, 234, y 235.  "
+    }
+  },
+  {
+    "idGlobal": "3ba94a4a-f9dd-470a-99fa-a5d589632faa",
+    "idDenuncia": "628a0818-a174-4b71-93fd-fd2732800eab",
+    "idDetalleHechoDelictual": "b14f8518-7f7f-4b33-a256-07f662e43f88",
+    "idRelacionImputado": "baa425ae-8a28-4419-a3ca-9857547eee98",
+    "idRelacionVictima": "1d496641-e821-46e5-9f65-9264701ac8c4",
+    "idImputado": "5346c31c-5c58-4ee3-b16d-f5f15bd8fd79",
+    "idVictima": "868e4a3c-9078-4b2e-a0da-729e07b57e53",
+    "victima": {
+      "interviniente": {
+        "nombres": "Victima",
+        "apellidoPaterno": "Sujeto",
+        "apellidoMaterno": "Interviniente"
+      }
+    },
+    "imputado": {
+      "interviniente": {
+        "nombres": "Yana",
+        "apellidoPaterno": "Enríquez",
+        "apellidoMaterno": "Enríquez"
+      }
+    },
+    "delito": {
+      "labelDelito": "ROBOS NO VIOLENTOS - ROBO EN LUGAR NO HABITADO. ART. 442."
+    }
+  }
+]

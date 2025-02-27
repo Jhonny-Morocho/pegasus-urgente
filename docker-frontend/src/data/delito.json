@@ -1,0 +1,328 @@
+{
+    "modusOperandiOption": [
+        {
+            "name": "Aborda Víctima",
+            "value": 1
+        },
+        {
+            "name": "Acciones contra Personas",
+            "value": 2
+        },
+        {
+            "name": "Amarre o Retención Víctima",
+            "value": 3
+        },
+        {
+            "name": "Elementos de Ocultación",
+            "value": 4
+        },
+        {
+            "name": "Mecanismo de Apertura/Rompimiento/Acceso",
+            "value": 5
+        },
+        {
+            "name": "Medios de Comisión",
+            "value": 6
+        },
+        {
+            "name": "Neutralización de Medios de Seguridad",
+            "value": 7
+        },
+        {
+            "name": "Punto de Entrada Vivienda/Local Com",
+            "value": 8
+        },
+        {
+            "name": "Uso de Vigilante",
+            "value": 9
+        },
+        {
+            "name": "Vías de Acceso",
+            "value": 10
+        }
+    ],
+    "subModusOperandiOption": [
+        {
+            "name": "A Vehículo Repartidor",
+            "value": 1
+        },
+        {
+            "name": "Acceso Proveedores",
+            "value": 2
+        },
+        {
+            "name": "Acceso Público",
+            "value": 3
+        },
+        {
+            "name": "Agresión Física",
+            "value": 4
+        },
+        {
+            "name": "Amenaza Verbal",
+            "value": 5
+        },
+        {
+            "name": "Amenaza con Armas",
+            "value": 6
+        }
+    ],
+    "tiposDelitosNoFiltrados": [
+        {
+            "id": 1,
+            "descripcion": "Delito 1A",
+            "idFamiliaDelito": 1
+        },
+        {
+            "id": 2,
+            "descripcion": "Delito 2A",
+            "idFamiliaDelito": 1
+        },
+        {
+            "id": 1,
+            "descripcion": "Delito 1B",
+            "idFamiliaDelito": 2
+        },
+        {
+            "id": 2,
+            "descripcion": "Delito 2B",
+            "idFamiliaDelito": 2
+        }
+    ],
+    "tiposElementosOption": [
+        {
+            "idTipoElemento": 1,
+            "name": "Armas de Fuego"
+        },
+        {
+            "idTipoElemento": 2,
+            "name": "Arma Blanca"
+        },
+        {
+            "idTipoElemento": 3,
+            "name": "Otro"
+        },
+        {
+            "idTipoElemento": 4,
+            "name": "No se sabe"
+        }
+    ],
+    "elementos": [
+        {
+            "idTipoElemento": 1,
+            "idElemento": 1,
+            "name": "Pistola"
+        },
+        {
+            "idTipoElemento": 1,
+            "idElemento": 2,
+            "name": "Rifle"
+        },
+        {
+            "idTipoElemento": 1,
+            "idElemento": 3,
+            "name": "Revólver"
+        },
+        {
+            "idTipoElemento": 2,
+            "idElemento": 1,
+            "name": "Cuchillo"
+        },
+        {
+            "idTipoElemento": 2,
+            "idElemento": 2,
+            "name": "Cortapluma"
+        },
+        {
+            "idTipoElemento": 2,
+            "idElemento": 3,
+            "name": "Sable"
+        }
+    ],
+    "viaInformacionAportadaOption": [
+        {
+            "name": "Presencial"
+        },
+        {
+            "name": "Telefónica"
+        },
+        {
+            "name": "Oficio"
+        },
+        {
+            "name": "Carta"
+        },
+        {
+            "name": "Correo Electrónico"
+        },
+        {
+            "name": "Otro"
+        }
+    ],
+    "tiposLugarOcurrencia": [
+        {
+            "name": "Vía Pública"
+        },
+        {
+            "name": "Local Comercial"
+        },
+        {
+            "name": "Domicilio Particular"
+        },
+        {
+            "name": "Est. Educacional"
+        },
+        {
+            "name": "Otro"
+        }
+    ],
+    "viasIngresoOption": [
+        {
+            "name": "Ventana"
+        },
+        {
+            "name": "Puerta principal"
+        },
+        {
+            "name": "Reja"
+        },
+        {
+            "name": "Pandereta"
+        },
+        {
+            "name": "Otra"
+        }
+    ],
+    "ubicacionCamarasOptions": [
+        {
+            "name": "Ninguna"
+        },
+        {
+            "name": "Cámara cajero"
+        },
+        {
+            "name": "Cámara supermercado"
+        },
+        {
+            "name": "Cámara establecimiento"
+        },
+        {
+            "name": "Cámara vía pública"
+        },
+        {
+            "name": "Otro"
+        }
+    ],
+    "llegadaHuidaAmbosOptions": [
+        {
+            "name": "Llegada"
+        },
+        {
+            "name": "Huida"
+        },
+        {
+            "name": "Ambos"
+        }
+    ],
+    "tipoMedioTransporteImputadoOptions": [
+        {
+            "name": "Pie"
+        },
+        {
+            "name": "Vehículo"
+        },
+        {
+            "name": "No sabe"
+        }
+    ],
+    "tipoVehiculoOptions": [
+        {
+            "name": "Vehículo",
+            "value": 1
+        },
+        {
+            "name": "Vehículos Motorizados",
+            "value": 2
+        },
+        {
+            "name": "Autobus",
+            "value": 3
+        },
+        {
+            "name": "Motos",
+            "value": 4
+        },
+        {
+            "name": "Tractor",
+            "value": 5
+        },
+        {
+            "name": "Camión",
+            "value": 6
+        },
+        {
+            "name": "Accesorios Vehiculos",
+            "value": 7
+        },
+        {
+            "name": "Camioneta",
+            "value": 8
+        },
+        {
+            "name": "Rampla",
+            "value": 9
+        },
+        {
+            "name": "Tracción Animal",
+            "value": 10
+        },
+        {
+            "name": "Otros Vehículos",
+            "value": 11
+        },
+        {
+            "name": "Llaves de contactos",
+            "value": 12
+        },
+        {
+            "name": "Jockey",
+            "value": 13
+        }
+    ],
+    "tipoHallazgoOption": [
+        {
+            "name": "Personas",
+            "value": 1
+        },
+        {
+            "name": "Cadáveres",
+            "value": 2
+        },
+        {
+            "name": "Vehículos",
+            "value": 3
+        },
+        {
+            "name": "Otro",
+            "value": 4
+        }
+    ],
+    "medidasSeguridadOptions": [
+        { "name": "Alarmas" },
+        { "name": "Cerco eléctrico" },
+        { "name": "Perros" },
+        { "name": "Otros" }
+    ],
+    "cantidadesSujetosOptions": [
+        { "name": "0" },
+        { "name": "1" },
+        { "name": "2" },
+        { "name": "3" },
+        { "name": "4" },
+        { "name": "5" },
+        { "name": "10" },
+        { "name": "20" },
+        { "name": "100" },
+        { "name": "Más" }
+    ]
+}

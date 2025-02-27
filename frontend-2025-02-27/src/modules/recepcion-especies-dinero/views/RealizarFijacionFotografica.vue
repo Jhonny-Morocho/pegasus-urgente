@@ -28,7 +28,6 @@ import AppBtnsSteps from '@/modules/common/components/buttons/AppBtnsSteps.vue'
 import AppBtnNextTeleported from '@/modules/common/components/buttons/AppBtnNextTeleported.vue'
 import { useConfirmDialog } from '@/modules/common/composables'
 import { useRouter } from 'vue-router'
-
 const { itemsMenuSuperior } = useItemsMenuSuperiorCadena(actualizar, exportar)
 
 const { launchConfirmDialog } = useConfirmDialog()

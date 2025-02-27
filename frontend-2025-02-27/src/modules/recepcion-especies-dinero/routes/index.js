@@ -411,19 +411,13 @@ export default {
         },
         {
           path: 'realizar-fijacion-fotografica',
-          name: 'RealizarFijacionFotografica',
-          component: () =>
-            import(
-              '@/modules/recepcion-especies-dinero/views/RealizarFijacionFotografica'
-            ),
+          name: 'RealizarFijacionFotografica', // Nombre de la ruta padre
+          component: () => import('@/modules/recepcion-especies-dinero/views/RealizarFijacionFotografica'),
           children: [
             {
               path: 'realizar-fijacion-fotografica',
-              name: 'RealizarFijacionFotografica',
-              component: () =>
-                import(
-                  '@/modules/recepcion-especies-dinero/views/realizar-fijacion-fotografica/RealizarFijacionFotografica.vue'
-                )
+              // Se omite el nombre de la ruta hija
+              component: () => import('@/modules/recepcion-especies-dinero/views/realizar-fijacion-fotografica/RealizarFijacionFotografica.vue')
             }
           ]
         },

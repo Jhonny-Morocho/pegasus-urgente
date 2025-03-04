@@ -14,6 +14,7 @@
 </template>
 
 <script setup>
+debugger
 
 </script>
 

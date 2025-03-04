@@ -4,7 +4,7 @@
 
   <div class="page-wrapper">
     <TheSidebar
-      v-if="showHide"
+
       @show-hide-sidebar="showHideSideBar"
     />
 

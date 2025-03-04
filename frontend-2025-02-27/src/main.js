@@ -149,7 +149,6 @@ app.use(DialogService)
     clientId: 'vue-client'
   }
 }) */
-debugger
 app.use(VueGoogleMaps, {
   load: {
     key: process.env.VUE_APP_GMAPS_APIKEY,

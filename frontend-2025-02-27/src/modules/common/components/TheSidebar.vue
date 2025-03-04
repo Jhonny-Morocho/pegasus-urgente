@@ -44,27 +44,27 @@ import { ref, computed, defineEmits } from 'vue'
 import { version } from './../../../../package.json'
 
 // composables
-import { useAppGlobalProperties } from '@/modules/common/composables'
-import { useSessionStore } from '@/modules/session/composables'
+/* import { useAppGlobalProperties } from '@/modules/common/composables'
+import { useSessionStore } from '@/modules/session/composables' */
 import { useRoute } from 'vue-router'
 import { appUtil } from '@/utils'
 import { useFichaCausa, useFichaCausaStore } from '@/modules/ficha-causa/composables'
 
-const { perfiles } = useSessionStore()
-const { $hasSomeRoles, $userFiscaliaActual } = useAppGlobalProperties()
+/* const { perfiles } = useSessionStore()
+const { $hasSomeRoles, $userFiscaliaActual } = useAppGlobalProperties() */
 
 const { flujoOrigen } = useFichaCausa()
 const { origenCausa } = useFichaCausaStore()
 
 // USUARIOS AMBIENTES CAPA Y QA
 /* const atendedorJuridico = computed(() => perfiles?.value[0]?.atendedor_juridico) */
-const fiscalJefe = computed(() => perfiles?.value[1]?.fiscal_jefe)
-const policiaTurno = computed(() => perfiles?.value[5]?.policia_turno)
-const fiscalTurno = computed(() => perfiles?.value[6]?.fiscal_turno)
-const funcionarioOfPartes = computed(() => perfiles?.value[2]?.funcionario_oficina_partes)
-const preclasificador = computed(() => perfiles?.value[3]?.preclasificador)
+/* const fiscalJefe = computed(() => perfiles?.value[1]?.fiscal_jefe) */
+/* const policiaTurno = computed(() => perfiles?.value[5]?.policia_turno)
+const fiscalTurno = computed(() => perfiles?.value[6]?.fiscal_turno) */
+/* const funcionarioOfPartes = computed(() => perfiles?.value[2]?.funcionario_oficina_partes)
+const preclasificador = computed(() => perfiles?.value[3]?.preclasificador) */
 /* const digitador = computed(() => perfiles?.value[4]?.digitador) */
-const fiscal = computed(() => perfiles?.value[7]?.fiscal)
+/* const fiscal = computed(() => perfiles?.value[7]?.fiscal) */
 const route = useRoute()
 // USUARIOS AMBIENTES RGP2
 
@@ -72,11 +72,11 @@ const menuItems = ref([
   {
     key: 'flagrancia',
     label: 'Turno Flagrancia',
-    visible: () =>
+/*     visible: () =>
       $hasSomeRoles([`zona_2_fiscalia_${$userFiscaliaActual.value.fiscalia}_equipo_turnoif_TIN`]) ||
       $hasSomeRoles([`zona_2_fiscalia_${$userFiscaliaActual.value.fiscalia}_fiscal_turno_TIN`]) ||
       $hasSomeRoles(policiaTurno.value) ||
-      $hasSomeRoles(fiscalTurno.value),
+      $hasSomeRoles(fiscalTurno.value), */
     items: [
       {
         key: 'flagrancia_bandeja',
@@ -139,7 +139,7 @@ const menuItems = ref([
   {
     key: 'preclasificador',
     label: 'Preclasificador',
-    visible: () => $hasSomeRoles(preclasificador.value),
+    /* visible: () => $hasSomeRoles(preclasificador.value), */
     items: [
       {
         key: 'preclasificador_bandeja',
@@ -152,7 +152,7 @@ const menuItems = ref([
   {
     key: 'asignacion',
     label: 'Asignación',
-    visible: () => $hasSomeRoles(fiscalJefe.value),
+    /* visible: () => $hasSomeRoles(fiscalJefe.value), */
     items: [
       {
         key: 'asignacion_bandeja',
@@ -165,35 +165,35 @@ const menuItems = ref([
   {
     key: 'custodio',
     label: 'Custodio',
-    visible: () => $hasSomeRoles(['zona_2_fiscalia_901_fiscal_EYD', 'zona_2_fiscalia_901_custodio_EYD', 'one-single-role', 'admin']),
+    /* visible: () => $hasSomeRoles(['zona_2_fiscalia_901_fiscal_EYD', 'zona_2_fiscalia_901_custodio_EYD', 'one-single-role', 'admin']), */
     items: [
       {
         key: 'custodio_bandeja',
         label: 'Recepción Especies/Dineros',
         icon: 'pi pi-fw pi-inbox',
         to: '/custodia/custodio',
-        visible: () => $hasSomeRoles(['zona_2_fiscalia_901_custodio_EYD', 'one-single-role', 'admin'])
+        /* visible: () => $hasSomeRoles(['zona_2_fiscalia_901_custodio_EYD', 'one-single-role', 'admin']) */
       },
       {
         key: 'custodio_bandeja',
         label: 'Bandeja Fiscal',
         icon: 'pi pi-fw pi-inbox',
         to: '/custodia/fiscal',
-        visible: () => $hasSomeRoles(['zona_2_fiscalia_901_fiscal_EYD'])
+       /*  visible: () => $hasSomeRoles(['zona_2_fiscalia_901_fiscal_EYD']) */
       },
       {
         key: 'custodio_bandeja',
         label: 'Bandeja Profesional UAF',
         icon: 'pi pi-fw pi-inbox',
         to: '/custodia/uaf',
-        visible: () => $hasSomeRoles(['zona_2_fiscalia_901_profesional_UAF_EYD'])
+       /*  visible: () => $hasSomeRoles(['zona_2_fiscalia_901_profesional_UAF_EYD']) */
       }
     ]
   },
   {
     key: 'dirigir-investigacion',
     label: 'Dirigir Investigación',
-    visible: () => $hasSomeRoles(fiscal.value) || $hasSomeRoles(fiscalJefe.value),
+    /* visible: () => $hasSomeRoles(fiscal.value) || $hasSomeRoles(fiscalJefe.value), */
     items: [
       {
         key: 'dirigir_investigacion',
@@ -206,7 +206,7 @@ const menuItems = ref([
   {
     key: 'termino-postermino',
     label: 'Término y Postérmino',
-    visible: () => $hasSomeRoles(fiscal.value),
+    /* visible: () => $hasSomeRoles(fiscal.value), */
     items: [
       {
         key: 'bandeja_fiscal',
@@ -227,7 +227,7 @@ const menuItems = ref([
         to: '/termino-postermino/fiscal-regional'
       },
       {
-        visible: () => $hasSomeRoles([`zona_2_fiscalia_${$userFiscaliaActual.value.fiscalia}_fiscal_jefe_GDI`]),
+        /* visible: () => $hasSomeRoles([`zona_2_fiscalia_${$userFiscaliaActual.value.fiscalia}_fiscal_jefe_GDI`]), */
         key: 'bandeja_gestion_direccion-investigacion',
         label: 'Gestión y Dirección de Investigación',
         icon: 'pi pi-fw pi-inbox',
@@ -238,35 +238,35 @@ const menuItems = ref([
   {
     key: 'catalogo-documental-digital',
     label: 'Catálogo Documental Digital',
-    visible: () => $hasSomeRoles(['one-single-role', 'admin']) || $hasSomeRoles(fiscalJefe.value) || $hasSomeRoles(fiscal.value) || $hasSomeRoles(funcionarioOfPartes.value),
+    /* visible: () => $hasSomeRoles(['one-single-role', 'admin']) || $hasSomeRoles(fiscalJefe.value) || $hasSomeRoles(fiscal.value) || $hasSomeRoles(funcionarioOfPartes.value), */
     items: [
       {
         key: 'BandejaFiscalCdd',
         label: 'Bandeja Fiscal',
         icon: 'pi pi-fw pi-inbox',
         to: { name: 'BandejaFiscalCdd' },
-        visible: () => $hasSomeRoles(['one-single-role', 'admin']) || $hasSomeRoles(fiscalJefe.value) || $hasSomeRoles(fiscal.value)
+        /* visible: () => $hasSomeRoles(['one-single-role', 'admin']) || $hasSomeRoles(fiscalJefe.value) || $hasSomeRoles(fiscal.value) */
       },
       {
         key: 'CddBandejaOficinaPartes',
         label: 'Bandeja Of. de Partes',
         icon: 'pi pi-fw pi-inbox',
         to: { name: 'CddBandejaOficinaPartes' },
-        visible: () => $hasSomeRoles(['one-single-role', 'admin']) || $hasSomeRoles(funcionarioOfPartes.value)
+      /*   visible: () => $hasSomeRoles(['one-single-role', 'admin']) || $hasSomeRoles(funcionarioOfPartes.value) */
       },
       {
         key: 'CddBandejaEncargadoBodega',
         label: 'Bandeja Encargado de Bodega',
         icon: 'pi pi-fw pi-inbox',
         to: { name: 'CddBandejaEncargadoBodega' },
-        visible: () => $hasSomeRoles(['one-single-role', 'admin'])
+       /*  visible: () => $hasSomeRoles(['one-single-role', 'admin']) */
       }
     ]
   },
   {
     key: 'gestion-solicitudes',
     label: 'Gestión de Solicitudes',
-    visible: () => $hasSomeRoles(['zona_2_fiscalia_901_apaf_GDS', 'zona_2_fiscalia_901_equipo_juridico_GDS', 'zona_2_fiscalia_901_ejecutor_mismafiscalia_GDS', 'zona_2_fiscalia_901_fiscal_GDS']),
+    /* visible: () => $hasSomeRoles(['zona_2_fiscalia_901_apaf_GDS', 'zona_2_fiscalia_901_equipo_juridico_GDS', 'zona_2_fiscalia_901_ejecutor_mismafiscalia_GDS', 'zona_2_fiscalia_901_fiscal_GDS']), */
 
     items: [
       {
@@ -274,28 +274,28 @@ const menuItems = ref([
         label: 'Bandeja Gestor',
         icon: 'pi pi-fw pi-inbox',
         to: '/gestion-solicitudes/gestor',
-        visible: () => $hasSomeRoles(['zona_2_fiscalia_901_equipo_juridico_GDS', 'zona_2_fiscalia_901_ejecutor_mismafiscalia_GDS'])
+        /* visible: () => $hasSomeRoles(['zona_2_fiscalia_901_equipo_juridico_GDS', 'zona_2_fiscalia_901_ejecutor_mismafiscalia_GDS']) */
       },
       {
         key: 'bandeja_ejecutor',
         label: 'Bandeja Ejecutor',
         icon: 'pi pi-fw pi-inbox',
         to: '/gestion-solicitudes/ejecutor',
-        visible: () => $hasSomeRoles(['zona_2_fiscalia_901_equipo_juridico_GDS', 'zona_2_fiscalia_901_ejecutor_mismafiscalia_GDS'])
+        /* visible: () => $hasSomeRoles(['zona_2_fiscalia_901_equipo_juridico_GDS', 'zona_2_fiscalia_901_ejecutor_mismafiscalia_GDS']) */
       },
       {
         key: 'bandeja_fiscal',
         label: 'Bandeja Fiscal',
         icon: 'pi pi-fw pi-inbox',
         to: '/gestion-solicitudes/fiscal',
-        visible: () => $hasSomeRoles(['zona_2_fiscalia_901_fiscal_GDS', 'zona_2_fiscalia_901_apaf_GDS'])
+       /*  visible: () => $hasSomeRoles(['zona_2_fiscalia_901_fiscal_GDS', 'zona_2_fiscalia_901_apaf_GDS']) */
       }
     ]
   },
   {
     key: 'tramitar-audiencia',
     label: 'Tramitar Audiencia',
-    visible: () => $hasSomeRoles(['one-single-role', 'admin']),
+    /* visible: () => $hasSomeRoles(['one-single-role', 'admin']), */
     items: [
       {
         key: 'bandeja_fiscal',
@@ -308,7 +308,7 @@ const menuItems = ref([
   {
     key: 'gestionar-consulta-fr',
     label: 'Gestionar Consultas',
-    visible: () => $hasSomeRoles(['one-single-role', 'admin']),
+    /* visible: () => $hasSomeRoles(['one-single-role', 'admin']), */
     items: [
       {
         key: 'bandeja_administrativo',

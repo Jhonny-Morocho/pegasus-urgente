@@ -93,7 +93,7 @@ router.beforeEach((to, from, next) => {
   if (to.path === '/') {
     const firstRoute = router.getRoutes().find(route => route.path && route.path !== '/' && route.path !== '/:catchAll(.*)*');
     if (firstRoute) {
-      return next(firstRoute.path);
+      /* return next(firstRoute.path); */
     }
   }
   next();

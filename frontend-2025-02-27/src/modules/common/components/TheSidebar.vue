@@ -57,13 +57,13 @@ const { flujoOrigen } = useFichaCausa()
 const { origenCausa } = useFichaCausaStore()
 
 // USUARIOS AMBIENTES CAPA Y QA
-const atendedorJuridico = computed(() => perfiles?.value[0]?.atendedor_juridico)
+/* const atendedorJuridico = computed(() => perfiles?.value[0]?.atendedor_juridico) */
 const fiscalJefe = computed(() => perfiles?.value[1]?.fiscal_jefe)
 const policiaTurno = computed(() => perfiles?.value[5]?.policia_turno)
 const fiscalTurno = computed(() => perfiles?.value[6]?.fiscal_turno)
 const funcionarioOfPartes = computed(() => perfiles?.value[2]?.funcionario_oficina_partes)
 const preclasificador = computed(() => perfiles?.value[3]?.preclasificador)
-const digitador = computed(() => perfiles?.value[4]?.digitador)
+/* const digitador = computed(() => perfiles?.value[4]?.digitador) */
 const fiscal = computed(() => perfiles?.value[7]?.fiscal)
 const route = useRoute()
 // USUARIOS AMBIENTES RGP2
@@ -83,56 +83,56 @@ const menuItems = ref([
         label: 'Equipo Turno',
         icon: 'pi pi-fw pi-inbox',
         to: '/flagrancia',
-        visible: () => $hasSomeRoles([`zona_2_fiscalia_${$userFiscaliaActual.value.fiscalia}_equipo_turnoif_TIN`])
+        /* visible: () => $hasSomeRoles([`zona_2_fiscalia_${$userFiscaliaActual.value.fiscalia}_equipo_turnoif_TIN`]) */
       },
       {
         key: 'flagrancia_bandeja_fiscal',
         label: 'Fiscal Turno',
         icon: 'pi pi-fw pi-inbox',
         to: '/flagrancia',
-        visible: () => $hasSomeRoles([`zona_2_fiscalia_${$userFiscaliaActual.value.fiscalia}_fiscal_turno_TIN`]) || $hasSomeRoles(fiscalTurno.value)
+        /* visible: () => $hasSomeRoles([`zona_2_fiscalia_${$userFiscaliaActual.value.fiscalia}_fiscal_turno_TIN`]) || $hasSomeRoles(fiscalTurno.value) */
       }
     ]
   },
   {
     key: 'ingreso',
     label: 'Ingreso',
-    visible: () => $hasSomeRoles(atendedorJuridico.value) || $hasSomeRoles(funcionarioOfPartes.value) || $hasSomeRoles(digitador.value) || $hasSomeRoles(fiscalJefe.value) || $hasSomeRoles(fiscal.value),
+    /* visible: () => $hasSomeRoles(atendedorJuridico.value) || $hasSomeRoles(funcionarioOfPartes.value) || $hasSomeRoles(digitador.value) || $hasSomeRoles(fiscalJefe.value) || $hasSomeRoles(fiscal.value), */
     items: [
       {
         key: 'ingreso_bandeja_dd',
         label: 'Denuncia Directa',
         icon: 'pi pi-fw pi-inbox',
         to: '/ingreso/denuncia-directa',
-        visible: () => $hasSomeRoles(atendedorJuridico.value)
+        /* visible: () => $hasSomeRoles(atendedorJuridico.value) */
       },
       {
         key: 'ingreso_bandeja_do',
         label: 'Denuncia Oficio',
         icon: 'pi pi-fw pi-inbox',
         to: '/ingreso/denuncia-oficio',
-        visible: () => $hasSomeRoles(fiscalJefe.value)
+        /* visible: () => $hasSomeRoles(fiscalJefe.value) */
       },
       {
         key: 'ingreso_bandeja_dfe',
         label: 'Denuncia Física / Electrónica',
         icon: 'pi pi-fw pi-inbox',
         to: '/ingreso/denuncia-fisica',
-        visible: () => $hasSomeRoles(digitador.value)
+        /* visible: () => $hasSomeRoles(digitador.value) */
       },
       {
         key: 'ingreso_of_parte_solicitar',
         label: 'Bandeja Of. de Partes',
         icon: 'pi pi-fw pi-inbox',
         to: '/ingreso/solicitar-documentacion',
-        visible: () => $hasSomeRoles(funcionarioOfPartes.value)
+        /* visible: () => $hasSomeRoles(funcionarioOfPartes.value) */
       },
       {
         key: 'ingreso_of_parte',
         label: 'Ingreso parte denuncia',
         icon: 'pi pi-fw pi-inbox',
         to: '/ingreso/registrar-parte/registro',
-        visible: () => $hasSomeRoles(funcionarioOfPartes.value)
+        /* visible: () => $hasSomeRoles(funcionarioOfPartes.value) */
       }
     ]
   },

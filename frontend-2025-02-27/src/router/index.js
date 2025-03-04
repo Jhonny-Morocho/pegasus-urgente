@@ -1,20 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import flagranciaRoutes from '@/modules/flagrancia/routes'
-import preclasificadorRoutes from '@/modules/preclasificador/routes'
-import ingresoRoutes from '@/modules/ingreso/routes'
-import custodioRoutes from '@/modules/recepcion-especies-dinero/routes/index.js'
+
 import asignacionRoutes from '@/modules/asignacion/routes'
-import dirigirInvestigacionRoutes from '@/modules/dirigir-investigacion/routes'
 import catalogoDocumentalDigitalRoutes from '@/modules/catalogo-documental-digital/routes'
-import terminoPosterminoRoutes from '@/modules/termino-postermino/routes'
-// import globlalRoutes from '@/modules/global/routes'
-import tramitarAudienciaRoutes from '@/modules/tramitar-audiencia/routes'
-import gestionSolicitudesRoutes from '@/modules/gestion-solicitudes/routes'
+import custodioRoutes from '@/modules/recepcion-especies-dinero/routes/index.js'
+import dirigirInvestigacionRoutes from '@/modules/dirigir-investigacion/routes'
 import fichaCausaRoutes from '@/modules/ficha-causa/routes'
+import flagranciaRoutes from '@/modules/flagrancia/routes'
+import gestionSolicitudesRoutes from '@/modules/gestion-solicitudes/routes'
+import ingresoRoutes from '@/modules/ingreso/routes'
+import preclasificadorRoutes from '@/modules/preclasificador/routes'
 import solicitudesRoutes from '@/modules/solicitudes/routes'
+import terminoPosterminoRoutes from '@/modules/termino-postermino/routes'
+import tramitarAudienciaRoutes from '@/modules/tramitar-audiencia/routes'
 
-import { requireRolesGuard } from './guards'
-
+/* import { requireRolesGuard } from './guards' */
+// import globlalRoutes from '@/modules/global/routes'
 const routes = [
   {
     path: '/',
@@ -88,6 +88,17 @@ const router = createRouter({
   routes
 })
 
-router.beforeEach(requireRolesGuard)
+console.log(router.getRoutes().map(route => route.path))
+router.beforeEach((to, from, next) => {
+  if (to.path === '/') {
+    const firstRoute = router.getRoutes().find(route => route.path && route.path !== '/' && route.path !== '/:catchAll(.*)*');
+    if (firstRoute) {
+      return next(firstRoute.path);
+    }
+  }
+  next();
+});
+
+/* router.beforeEach(requireRolesGuard) */
 
 export default router
